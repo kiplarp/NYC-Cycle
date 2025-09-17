@@ -17,7 +17,8 @@ The goal: **Provide insights that will help convert casual riders into annual me
 ---
 
 ## 2️⃣ Prepare – Data Sources
-- **Source:** [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)  
+- **Source:** [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- **Usage License:**[Data License Agreement] (https://divvybikes.com/data-license-agreement)
 - **Timeframe:** Last 12 months  
 - **Format:** CSV files  
 - **Credibility:** Published by Motivate International Inc. (reliable, public).  
