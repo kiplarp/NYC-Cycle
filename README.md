@@ -3,9 +3,9 @@
 
 
 <h2>Description</h2>
-Business Task: Identify how annual members and casual riders use Cyclistic bikes differently.
-Importance: This insight will guide marketing strategy to convert casual riders into members.
-Stakeholders: Marketing director, marketing analytics team, Cyclistic executive team.
+Business Task: Identify how annual members and casual riders use Cyclistic bikes differently.<br />
+Importance: This insight will guide marketing strategy to convert casual riders into members.<br />
+Stakeholders: Marketing director, marketing analytics team, Cyclistic executive team.<br />
 <br />
 
 
