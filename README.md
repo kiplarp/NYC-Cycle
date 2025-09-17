@@ -1,9 +1,11 @@
-# NYC-Cycle
-<h1>JWipe - Disk Sanitization</h1>
+# NYC-Cyclistic Case Scenario
+<h1>Data Life Cycle Business Task</h1>
 
 
 <h2>Description</h2>
-Using sheets. 
+Business Task: Identify how annual members and casual riders use Cyclistic bikes differently.
+Importance: This insight will guide marketing strategy to convert casual riders into members.
+Stakeholders: Marketing director, marketing analytics team, Cyclistic executive team.
 <br />
 
 
