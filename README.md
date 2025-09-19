@@ -19,7 +19,7 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 - **Source:** [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 - **Divvy_Trips_2019_Q1.csv** – raw 2019 trip data  
 - **Divvy_Trips_2020_Q1.csv** – raw 2020 trip data  
-- **Usage License:**[Data License Agreement] (https://divvybikes.com/data-license-agreement)
+- **Usage License:** [Data License Agreement](https://divvybikes.com/data-license-agreement)
 - **Timeframe:** Last 12 months  
 - **Format:** CSV files  
 - **Credibility:** Published by Motivate International Inc. (reliable, public).  
