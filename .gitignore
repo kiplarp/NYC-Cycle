@@ -1,0 +1,26 @@
+# Large data files and raw data
+*.csv
+*.xlsx
+*.xls
+data/*.csv
+data/raw_data/
+
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.Rproj
+.Rproj.user/
+
+# Temporary files
+*~
+*.tmp
+*.temp
