@@ -1,7 +1,7 @@
 # Cyclistic Case Study – Understanding Rider Behavior
 
-**Author:** Your Name  
-**Date:** YYYY-MM-DD  
+**Author:** Kip Larpenter 
+**Date:** 2025-9-18
 
 ---
 
