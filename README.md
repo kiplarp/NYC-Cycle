@@ -1,23 +1,24 @@
-# 🚲 Cyclistic Bike-Share Case Study
+# Cyclistic Case Study – Understanding Rider Behavior
 
-## 📌 About the Project
-This case study explores **how annual members and casual riders use Cyclistic bikes differently**, using real-world Divvy bike-share data.  
-The goal: **Provide insights that will help convert casual riders into annual members**.
-
----
-
-## 1️⃣ Ask – Business Task
-- **Business Question:** How do annual members and casual riders use Cyclistic bikes differently?  
-- **Why it matters:** Annual members are more profitable. Understanding usage patterns can guide marketing strategies.  
-- **Stakeholders:**  
-  - Lily Moreno (Marketing Director)  
-  - Cyclistic Marketing Analytics Team  
-  - Cyclistic Executive Team  
+**Author:** Your Name  
+**Date:** YYYY-MM-DD  
 
 ---
 
-## 2️⃣ Prepare – Data Sources
+## Overview
+
+This project analyzes Divvy bike share trip data from 2019 and 2020 to answer the question:  
+
+**How do annual members and casual riders use Cyclistic bikes differently?**  
+
+By combining the two datasets, cleaning the data, and creating visualizations, we can draw actionable insights for marketing and operational decisions.
+
+---
+
+## Data Source
 - **Source:** [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- **Divvy_Trips_2019_Q1.csv** – raw 2019 trip data  
+- **Divvy_Trips_2020_Q1.csv** – raw 2020 trip data  
 - **Usage License:**[Data License Agreement] (https://divvybikes.com/data-license-agreement)
 - **Timeframe:** Last 12 months  
 - **Format:** CSV files  
@@ -26,58 +27,63 @@ The goal: **Provide insights that will help convert casual riders into annual me
   - Anonymized data (no demographics).  
   - Cannot link casual riders across trips.  
 
----
 
-## 3️⃣ Process – Data Cleaning
-Steps taken:  
-✔️ Combined 12 monthly CSVs into one dataset.  
-✔️ Standardized column names.  
-✔️ Removed duplicates, null values, and outliers (negative/24h+ ride times).  
-✔️ Created new columns:  
-- `ride_length` = `ended_at - started_at`  
-- `day_of_week` = weekday of `started_at`  
+**Data Preparation Steps:**
 
----
-
-## 4️⃣ Analyze – Findings
-Key insights:  
-- 📏 **Ride Length:** Casual riders’ trips are longer on average.  
-- 📅 **Day of Week:**  
-  - Members: consistent weekday rides (commuting).  
-  - Casuals: peak on weekends (leisure).  
-- 🌞 **Seasonality:** Casual usage spikes in summer.  
-- 🕒 **Time of Day:** Members ride during rush hours; casuals spread throughout the day.  
+1. Loaded both raw CSVs into R.  
+2. Combined datasets into a single dataframe.  
+3. Standardized rider types:  
+   - `Subscriber` → `member`  
+   - `Customer` → `casual`  
+4. Removed columns not present in both datasets (`start_lat`, `start_lng`, `end_lat`, `end_lng`, `birthyear`, `gender`, `tripduration`).  
+5. Saved cleaned dataset as `clean.csv` for analysis.
 
 ---
 
-## 5️⃣ Share – Visualizations
-Visualizations created:  
-- **Rides by User Type and Day of Week**  
-- **Monthly Ride Trends**  
-- **Ride Length Distributions**  
-- **Hourly Ride Patterns**  
+## Analysis & Visualizations
 
-👉 Example:  
-![Rides by Day](visualizations/rides_by_day.png)  
+### 1. Ride Counts by Rider Type
 
----
+- Members ride more frequently than casual riders.  
+- Casual riders represent fewer rides overall.
 
-## 6️⃣ Act – Recommendations
-Based on findings:  
-1. 🎯 **Target Weekend Leisure Riders**  
-   - Promote annual memberships to casual riders who ride mostly on weekends.  
-2. 🚴 **Highlight Commuter Benefits**  
-   - Market reliability & cost savings for weekday commuters.  
-3. 🌱 **Seasonal Campaigns**  
-   - Launch spring promos to capture casual riders before summer surge.  
+![Ride Counts](visuals/ride_count.png)
 
 ---
 
-## 📂 Project Structure
-```bash
-cyclistic-case-study/
-├── data/              # raw and cleaned datasets (samples only)
-├── scripts/           # Python/Excel/R scripts for cleaning & analysis
-├── visualizations/    # charts & graphs
-├── outputs/           # summary tables, pivot results
-└── README.md          # full case study (this file)
+### 2. Ride Length Distribution
+
+- Casual riders tend to take longer rides.  
+- Members take shorter, more frequent rides, especially on weekdays.  
+
+![Ride Length Distribution](visuals/ride_length_distribution.png)
+
+---
+
+### Key Findings
+
+- **Members**: Predominantly weekday commuters, shorter trips.  
+- **Casual riders**: Weekend/longer leisure trips.  
+- Rider behavior patterns are clear and can guide marketing, promotions, and retention strategies.
+
+---
+
+### Recommendations
+
+1. **Promote weekend deals for casual riders** → encourage conversion to annual memberships.  
+2. **Highlight commuting benefits** → build loyalty among existing members.  
+3. **Target marketing by ride length** → suggest membership perks for casual riders taking long trips.
+
+---
+
+## Conclusion
+
+By analyzing combined trip data from 2019 and 2020, we identified distinct usage patterns between members and casual riders.  
+
+This analysis provides actionable insights for Cyclistic to improve customer acquisition, retention, and operational planning.
+
+---
+
+## Repository Structure
+
+
