@@ -51,8 +51,8 @@ library(dplyr)
 library(lubridate)
 
 # Load the raw CSV files
-df1 <- read.csv("file1.csv")
-df2 <- read.csv("file2.csv")
+df1 <- read.csv("Divvy_Trips_2019_Q1).csv")
+df2 <- read.csv("Divvy_Trips_2020_Q1.csv")
 
 # Combine datasets into a single dataframe
 df <- bind_rows(df1, df2)
