@@ -1,14 +1,11 @@
 # Cyclistic Case Study: Understanding Rider Behavior
-
-**Author:** Kip Larpenter 
+**Author:** Kip Larpenter  
 **Date:** 2025-9-19
 
 ---
 
 ## Overview
-
 This project analyzes Divvy bike share trip data from 2019 and 2020 to answer the question:  
-
 **How do annual members and casual riders use Cyclistic bikes differently?**  
 
 By combining the two datasets, cleaning the data, and creating visualizations, we can draw actionable insights for marketing and operational decisions.
@@ -27,9 +24,7 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
   - Anonymized data (no demographics).  
   - Cannot link casual riders across trips.  
 
-
 **Data Preparation Steps:**
-
 1. Loaded both raw CSVs into R.  
 2. Combined datasets into a single dataframe.  
 3. Standardized rider types:  
@@ -41,7 +36,6 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 ---
 
 ## Analysis & Visualizations
-
 ```r
 # ============================================================
 # Cyclistic Case Study Analysis
@@ -71,10 +65,13 @@ df$ride_length_hms <- seconds_to_period(df$ride_length)
 # Save cleaned dataset as clean.csv for analysis
 write.csv(df, "clean.csv", row.names = FALSE)
 ```
+
+---
+
 ## Visual Analysis
 
 ### Ride Frequency Heatmap by Hour and Day
-![Ride Frequency Heatmap by Hour and Day](HeatMap.png)
+![Ride Frequency Heatmap by Hour and Day](visuals/HeatMap.png)
 
 ```r
 #HeatMap
@@ -106,8 +103,10 @@ ggplot(rides_by_hour_day, aes(x=hour, y=weekday, fill=rides)) +
   theme_minimal()
 ```
 
+---
+
 ### Rides by Day of Week
-![Rides by Day of Week](RidesByWeek.png)
+![Rides by Day of Week](visuals/RidesByWeek.png)
 
 ```r
 #Rides by Week
@@ -130,15 +129,16 @@ ggplot(by_day, aes(x=weekday, y=n, fill=member_casual)) +
   theme_minimal()
 ```
 
+---
+
 ### Rides Over Time per Month
-![Rides per Month](PerMonth.png)
+![Rides per Month](visuals/PerMonth.png)
 
 ```r
 #Rides Over time by user type
 
 library(dplyr)
 df$date <- as.Date(df$started_at)  # Make sure started_at is a valid date
-
 by_month <- df %>%
   mutate(month = format(date, "%Y-%m")) %>%
   group_by(month, member_casual) %>%
@@ -154,8 +154,11 @@ ggplot(by_month, aes(x=month, y=n, color=member_casual, group=member_casual)) +
   theme_minimal()
 ```
 
+---
+
 ### Mean and SD of Ride Length by User Type
-![Mean and SD of Ride Length by User Type](MeanSDMemberType.png)
+![Mean and SD of Ride Length by User Type](visuals/MeanSDMemberType.png)
+
 ```r
 summary_tbl <- df %>%
   group_by(member_casual) %>%
@@ -169,8 +172,11 @@ summary_tbl <- df %>%
   )
 ```
 
+---
+
 ### Ride Length Distribution by User Type
-![Ride Length Distribution by User Type](BoxPlot2.png)
+![Ride Length Distribution by User Type](visuals/BoxPlot2.png)
+
 ```r
 library(ggplot2)
 
@@ -192,7 +198,6 @@ ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
 ---
 
 ### Key Findings
-
 - **Members**: Predominantly weekday commuters, shorter trips.  
 - **Casual riders**: Weekend/longer leisure trips.  
 - Rider behavior patterns are clear and can guide marketing, promotions, and retention strategies.
@@ -200,7 +205,6 @@ ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
 ---
 
 ### Recommendations
-
 1. **Promote weekend deals for casual riders** → encourage conversion to annual memberships.  
 2. **Highlight commuting benefits** → build loyalty among existing members.  
 3. **Target marketing by ride length** → suggest membership perks for casual riders taking long trips.
@@ -208,20 +212,17 @@ ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
 ---
 
 ## Conclusion
-
 By analyzing combined trip data from 2019 and 2020, we identified distinct usage patterns between members and casual riders.  
 This analysis provides actionable insights for Cyclistic to improve customer acquisition, retention, and operational planning.
 
 ---
 
 ## Repository Structure
-
-cyclistic-case-study/
-data/           # sample CSVs for reproducibility
-scripts/        # R scripts for analysis and visualizations
-visuals/        # screenshots of plots and tables
-README.md       # project story, code, insights
-
-
-
-
+```
+NYC-Cycle/
+├── data/         # Raw and small sample datasets (use .gitignore for large/raw data)
+├── scripts/      # R scripts for cleaning, analysis, and visualization
+├── visuals/      # All images and outputs used in README
+├── README.md     # Project story, code, results
+└── .gitignore    # Exclude large raw data and temp files
+```
