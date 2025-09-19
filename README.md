@@ -35,7 +35,7 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 3. Standardized rider types:  
    - `Subscriber` → `member`  
    - `Customer` → `casual`  
-4. Removed columns not present in both datasets (`start_lat`, `start_lng`, `end_lat`, `end_lng`, `birthyear`, `gender`, `tripduration`).  
+4. Removed columns not present in both datasets (`start_lat`, `start_lng`, `end_lat`, `end_lng`, `birthyear`, `gender`).  
 5. Saved cleaned dataset as `divvy_combined_clean.csv` for analysis.
 
 ---
