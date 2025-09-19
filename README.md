@@ -1,7 +1,7 @@
-# Cyclistic Case Study – Understanding Rider Behavior
+# Cyclistic Case Study: Understanding Rider Behavior
 
 **Author:** Kip Larpenter 
-**Date:** 2025-9-18
+**Date:** 2025-9-19
 
 ---
 
@@ -210,7 +210,6 @@ ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
 ## Conclusion
 
 By analyzing combined trip data from 2019 and 2020, we identified distinct usage patterns between members and casual riders.  
-
 This analysis provides actionable insights for Cyclistic to improve customer acquisition, retention, and operational planning.
 
 ---
