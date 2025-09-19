@@ -36,7 +36,7 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
    - `Subscriber` → `member`  
    - `Customer` → `casual`  
 4. Removed columns not present in both datasets (`start_lat`, `start_lng`, `end_lat`, `end_lng`, `birthyear`, `gender`, `tripduration`).  
-5. Saved cleaned dataset as `clean.csv` for analysis.
+5. Saved cleaned dataset as `divvy_combined_clean.csv` for analysis.
 
 ---
 
@@ -46,32 +46,30 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 # ============================================================
 # Cyclistic Case Study Analysis
 # ============================================================
-
-library(tidyverse)
+# Load required libraries
+library(dplyr)
 library(lubridate)
 
-# Step 1: Load raw datasets
-q1_2019 <- read_csv("data/Divvy_Trips_2019_Q1.csv")
-q1_2020 <- read_csv("data/Divvy_Trips_2020_Q1.csv")
+# Load the raw CSV files
+df1 <- read.csv("file1.csv")
+df2 <- read.csv("file2.csv")
 
-# Step 2: Combine & clean
-all_trips <- bind_rows(q1_2019, q1_2020) %>%
-  mutate(member_casual = recode(member_casual,
-                                "Subscriber" = "member",
-                                "Customer"   = "casual")) %>%
-  select(-any_of(c("start_lat", "start_lng", "end_lat", "end_lng",
-                   "birthyear", "gender", "tripduration"))) 
+# Combine datasets into a single dataframe
+df <- bind_rows(df1, df2)
 
-write_csv(all_trips, "data/clean.csv")
+# Standardize rider types
+df$member_casual <- recode(df$usertype, Subscriber = "member", Customer = "casual")
 
-#Add in hh:mm:ss format:
-df$ride_length_hms <- sprintf('%02d:%02d:%02d',
-                              df$ride_length %/% 3600,
-                              (df$ride_length %% 3600) %/% 60,
-                              df$ride_length %% 60)
+# Remove columns not present in both datasets
+cols_to_remove <- c("start_lat", "start_lng", "end_lat", "end_lng", "birthyear", "gender", "tripduration")
+df <- df[ , !(names(df) %in% cols_to_remove)]
 
-# This creates a new column 'ride_length_hms' in my dataframe
-head(df[,c("ride_length", "ride_length_hms")])
+# (Optional) Create ride length in seconds and hh:mm:ss
+df$ride_length <- as.numeric(difftime(df$ended_at, df$started_at, units = "secs"))
+df$ride_length_hms <- seconds_to_period(df$ride_length)
+
+# Save cleaned dataset as clean.csv for analysis
+write.csv(df, "clean.csv", row.names = FALSE)
 ```
 ## Visual Analysis
 
