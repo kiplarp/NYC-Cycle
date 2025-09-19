@@ -63,46 +63,132 @@ all_trips <- bind_rows(q1_2019, q1_2020) %>%
                    "birthyear", "gender", "tripduration"))) 
 
 write_csv(all_trips, "data/clean.csv")
+
+#Add in hh:mm:ss format:
+df$ride_length_hms <- sprintf('%02d:%02d:%02d',
+                              df$ride_length %/% 3600,
+                              (df$ride_length %% 3600) %/% 60,
+                              df$ride_length %% 60)
+
+# This creates a new column 'ride_length_hms' in my dataframe
+head(df[,c("ride_length", "ride_length_hms")])
 ```
+## Visual Analysis
 
-
-### 1. Ride Counts by Rider Type
-
-- Members ride more frequently than casual riders.  
-- Casual riders represent fewer rides overall.
-
-![Ride Counts](visuals/ride_count.png)
+### Ride Frequency Heatmap by Hour and Day
+![Ride Frequency Heatmap by Hour and Day](HeatMap.png)
 
 ```r
-p1 <- all_trips %>%
-  count(member_casual) %>%
-  ggplot(aes(x = member_casual, y = n, fill = member_casual)) +
-  geom_col() +
-  labs(title = "Total Rides by Rider Type",
-       x = "Rider Type", y = "Number of Rides", fill = "Rider Type") +
+#HeatMap
+
+library(dplyr)
+library(ggplot2)
+
+# Extract hour and weekday from your datetime column
+df$hour <- format(as.POSIXct(df$started_at), "%H")
+df$weekday <- weekdays(as.Date(df$started_at))
+df$weekday <- factor(df$weekday, levels = c('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'))
+
+# Summarize total rides by weekday, hour, and user type
+rides_by_hour_day <- df %>%
+  group_by(weekday, hour, member_casual) %>%
+  tally(name = "rides")
+
+# Make the heatmap (separate for each user type)
+ggplot(rides_by_hour_day, aes(x=hour, y=weekday, fill=rides)) +
+  geom_tile(color="white") +
+  facet_wrap(~member_casual) +
+  scale_fill_viridis_c(option = "plasma") +
+  labs(
+    title = "Ride Frequency Heatmap by Hour and Day",
+    x = "Hour of Day",
+    y = "Day of Week",
+    fill = "Number of Rides"
+  ) +
   theme_minimal()
-ggsave("visuals/ride_count.png", p1, width = 6, height = 4)
 ```
 
----
-
-### 2. Ride Length Distribution
-
-- Casual riders tend to take longer rides.  
-- Members take shorter, more frequent rides, especially on weekdays.  
-
-![Ride Length Distribution](visuals/ride_length_distribution.png)
+### Rides by Day of Week
+![Rides by Day of Week](RidesByWeek.png)
 
 ```r
-p2 <- all_trips %>%
-  filter(ride_length <= 7200) %>%
-  mutate(ride_length_min = ride_length / 60) %>%
-  ggplot(aes(x = ride_length_min, fill = member_casual)) +
-  geom_histogram(binwidth = 5, position = "identity", alpha = 0.6) +
-  labs(title = "Ride Length Distribution (up to 2 hours)",
-       x = "Ride Length (minutes)", y = "Count", fill = "Rider Type") +
+#Rides by Week
+df$weekday <- weekdays(as.Date(df$started_at))
+# Ensuring chronological order for weekday labels:
+df$weekday <- factor(df$weekday, 
+                     levels = c('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'))
+
+by_day <- df %>%
+  group_by(weekday, member_casual) %>%
+  tally()
+
+ggplot(by_day, aes(x=weekday, y=n, fill=member_casual)) +
+  geom_col(position='dodge') +
+  labs(
+    title = "Rides by Day of Week", 
+    y = "Number of Rides", 
+    x = "Day of Week"
+  ) +
   theme_minimal()
-ggsave("visuals/ride_length_distribution.png", p2, width = 6, height = 4)
+```
+
+### Rides Over Time per Month
+![Rides per Month](PerMonth.png)
+
+```r
+#Rides Over time by user type
+
+library(dplyr)
+df$date <- as.Date(df$started_at)  # Make sure started_at is a valid date
+
+by_month <- df %>%
+  mutate(month = format(date, "%Y-%m")) %>%
+  group_by(month, member_casual) %>%
+  tally()
+
+ggplot(by_month, aes(x=month, y=n, color=member_casual, group=member_casual)) +
+  geom_line(size=1.2) +
+  theme(axis.text.x = element_text(angle=45, hjust=1)) +
+  labs(
+    title = "Rides per Month",
+    y = "Number of Rides", x = "Month"
+  ) +
+  theme_minimal()
+```
+
+### Mean and SD of Ride Length by User Type
+![Mean and SD of Ride Length by User Type](MeanSDMemberType.png)
+```r
+summary_tbl <- df %>%
+  group_by(member_casual) %>%
+  summarize(mean_length = mean(ride_length, na.rm=TRUE),
+            sd_length = sd(ride_length, na.rm=TRUE)) %>%
+  mutate(
+    mean_length_hms = sprintf('%02d:%02d:%02d',
+                              as.integer(mean_length) %/% 3600,
+                              (as.integer(mean_length) %% 3600) %/% 60,
+                              as.integer(mean_length) %% 60)
+  )
+```
+
+### Ride Length Distribution by User Type
+![Ride Length Distribution by User Type](BoxPlot2.png)
+```r
+library(ggplot2)
+
+ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
+  geom_boxplot(outlier.shape=NA) +
+  coord_cartesian(ylim=c(0, 3600)) + # Up to 1 hour
+  scale_y_continuous(
+    breaks = seq(0, 3600, by = 900),
+    labels = function(x) sprintf('%02d:%02d:%02d', x %/% 3600, (x %% 3600) %/% 60, x %% 60)
+  ) +
+  labs(
+    title = "Ride Length Distribution by User Type", 
+    y = "Ride Length (hh:mm:ss)", 
+    x = "User Type"
+  ) +
+  theme_minimal()
 ```
 
 ---
