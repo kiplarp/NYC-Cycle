@@ -1,4 +1,5 @@
 # Cyclistic Case Study: Understanding Rider Behavior
+
 **Author:** Kip Larpenter  
 **Date:** 2025-9-19
 
@@ -14,57 +15,24 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 
 ## Data Source
 - **Source:** [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
-- **Divvy_Trips_2019_Q1.csv** – raw 2019 trip data  
-- **Divvy_Trips_2020_Q1.csv** – raw 2020 trip data  
-- **Usage License:** [Data License Agreement](https://divvybikes.com/data-license-agreement)
-- **Timeframe:** Last 12 months  
+- **Files:** Divvy_Trips_2019_Q1.csv, Divvy_Trips_2020_Q1.csv  
+- **License:** [Data License Agreement](https://divvybikes.com/data-license-agreement)
 - **Format:** CSV files  
-- **Credibility:** Published by Motivate International Inc. (reliable, public).  
-- **Limitations:**  
-  - Anonymized data (no demographics).  
-  - Cannot link casual riders across trips.  
-
-**Data Preparation Steps:**
-1. Loaded both raw CSVs into R.  
-2. Combined datasets into a single dataframe.  
-3. Standardized rider types:  
-   - `Subscriber` → `member`  
-   - `Customer` → `casual`  
-4. Removed columns not present in both datasets (`start_lat`, `start_lng`, `end_lat`, `end_lng`, `birthyear`, `gender`).  
-5. Saved cleaned dataset as `divvy_combined_clean.csv` for analysis.
+- **Limitations:** Anonymized data (no demographics), cannot link casual riders across trips
 
 ---
 
-## Analysis & Visualizations
+## Data Preparation
 ```r
-# ============================================================
-# Cyclistic Case Study Analysis
-# ============================================================
-# Load required libraries
-library(dplyr)
-library(lubridate)
-
-# Load the raw CSV files
-df1 <- read.csv("Divvy_Trips_2019_Q1).csv")
+# Load and combine datasets
+df1 <- read.csv("Divvy_Trips_2019_Q1.csv")
 df2 <- read.csv("Divvy_Trips_2020_Q1.csv")
-
-# Combine datasets into a single dataframe
 df <- bind_rows(df1, df2)
 
 # Standardize rider types
 df$member_casual <- recode(df$usertype, Subscriber = "member", Customer = "casual")
-
-# Remove columns not present in both datasets
-cols_to_remove <- c("start_lat", "start_lng", "end_lat", "end_lng", "birthyear", "gender", "tripduration")
-df <- df[ , !(names(df) %in% cols_to_remove)]
-
-# (Optional) Create ride length in seconds and hh:mm:ss
-df$ride_length <- as.numeric(difftime(df$ended_at, df$started_at, units = "secs"))
-df$ride_length_hms <- seconds_to_period(df$ride_length)
-
-# Save cleaned dataset as clean.csv for analysis
-write.csv(df, "clean.csv", row.names = FALSE)
 ```
+[See full script here.](scripts/data_cleaning.R)
 
 ---
 
@@ -74,155 +42,95 @@ write.csv(df, "clean.csv", row.names = FALSE)
 ![Ride Frequency Heatmap by Hour and Day](visuals/HeatMap.png)
 
 ```r
-#HeatMap
-
-library(dplyr)
-library(ggplot2)
-
-# Extract hour and weekday from your datetime column
-df$hour <- format(as.POSIXct(df$started_at), "%H")
-df$weekday <- weekdays(as.Date(df$started_at))
-df$weekday <- factor(df$weekday, levels = c('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'))
-
-# Summarize total rides by weekday, hour, and user type
+# Create heatmap data
 rides_by_hour_day <- df %>%
   group_by(weekday, hour, member_casual) %>%
   tally(name = "rides")
 
-# Make the heatmap (separate for each user type)
+# Generate heatmap
 ggplot(rides_by_hour_day, aes(x=hour, y=weekday, fill=rides)) +
   geom_tile(color="white") +
-  facet_wrap(~member_casual) +
-  scale_fill_viridis_c(option = "plasma") +
-  labs(
-    title = "Ride Frequency Heatmap by Hour and Day",
-    x = "Hour of Day",
-    y = "Day of Week",
-    fill = "Number of Rides"
-  ) +
-  theme_minimal()
+  facet_wrap(~member_casual)
 ```
-
----
+[See full script here.](scripts/visualization.R)
 
 ### Rides by Day of Week
 ![Rides by Day of Week](visuals/RidesByWeek.png)
 
 ```r
-#Rides by Week
-df$weekday <- weekdays(as.Date(df$started_at))
-# Ensuring chronological order for weekday labels:
-df$weekday <- factor(df$weekday, 
-                     levels = c('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'))
-
+# Rides by day analysis
 by_day <- df %>%
   group_by(weekday, member_casual) %>%
   tally()
 
 ggplot(by_day, aes(x=weekday, y=n, fill=member_casual)) +
-  geom_col(position='dodge') +
-  labs(
-    title = "Rides by Day of Week", 
-    y = "Number of Rides", 
-    x = "Day of Week"
-  ) +
-  theme_minimal()
+  geom_col(position='dodge')
 ```
-
----
+[See full script here.](scripts/visualization.R)
 
 ### Rides Over Time per Month
 ![Rides per Month](visuals/PerMonth.png)
 
 ```r
-#Rides Over time by user type
-
-library(dplyr)
-df$date <- as.Date(df$started_at)  # Make sure started_at is a valid date
+# Monthly trend analysis
 by_month <- df %>%
   mutate(month = format(date, "%Y-%m")) %>%
   group_by(month, member_casual) %>%
   tally()
 
 ggplot(by_month, aes(x=month, y=n, color=member_casual, group=member_casual)) +
-  geom_line(size=1.2) +
-  theme(axis.text.x = element_text(angle=45, hjust=1)) +
-  labs(
-    title = "Rides per Month",
-    y = "Number of Rides", x = "Month"
-  ) +
-  theme_minimal()
+  geom_line(size=1.2)
 ```
-
----
+[See full script here.](scripts/visualization.R)
 
 ### Mean and SD of Ride Length by User Type
 ![Mean and SD of Ride Length by User Type](visuals/MeanSDMemberType.png)
 
 ```r
+# Calculate summary statistics
 summary_tbl <- df %>%
   group_by(member_casual) %>%
   summarize(mean_length = mean(ride_length, na.rm=TRUE),
-            sd_length = sd(ride_length, na.rm=TRUE)) %>%
-  mutate(
-    mean_length_hms = sprintf('%02d:%02d:%02d',
-                              as.integer(mean_length) %/% 3600,
-                              (as.integer(mean_length) %% 3600) %/% 60,
-                              as.integer(mean_length) %% 60)
-  )
+            sd_length = sd(ride_length, na.rm=TRUE))
 ```
-
----
+[See full script here.](scripts/analysis.R)
 
 ### Ride Length Distribution by User Type
 ![Ride Length Distribution by User Type](visuals/BoxPlot2.png)
 
 ```r
-library(ggplot2)
-
+# Box plot for ride length distribution
 ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
   geom_boxplot(outlier.shape=NA) +
-  coord_cartesian(ylim=c(0, 3600)) + # Up to 1 hour
-  scale_y_continuous(
-    breaks = seq(0, 3600, by = 900),
-    labels = function(x) sprintf('%02d:%02d:%02d', x %/% 3600, (x %% 3600) %/% 60, x %% 60)
-  ) +
-  labs(
-    title = "Ride Length Distribution by User Type", 
-    y = "Ride Length (hh:mm:ss)", 
-    x = "User Type"
-  ) +
-  theme_minimal()
+  coord_cartesian(ylim=c(0, 3600))
 ```
+[See full script here.](scripts/visualization.R)
 
 ---
 
-### Key Findings
-- **Members**: Predominantly weekday commuters, shorter trips.  
-- **Casual riders**: Weekend/longer leisure trips.  
-- Rider behavior patterns are clear and can guide marketing, promotions, and retention strategies.
+## Key Findings
+- **Members:** Predominantly weekday commuters, shorter trips
+- **Casual riders:** Weekend/longer leisure trips
+- Rider behavior patterns are clear and can guide marketing, promotions, and retention strategies
 
----
-
-### Recommendations
-1. **Promote weekend deals for casual riders** → encourage conversion to annual memberships.  
-2. **Highlight commuting benefits** → build loyalty among existing members.  
-3. **Target marketing by ride length** → suggest membership perks for casual riders taking long trips.
+## Recommendations
+1. Promote weekend deals for casual riders → encourage conversion to annual memberships
+2. Highlight commuting benefits → build loyalty among existing members  
+3. Target marketing by ride length → suggest membership perks for casual riders taking long trips
 
 ---
 
 ## Conclusion
-By analyzing combined trip data from 2019 and 2020, we identified distinct usage patterns between members and casual riders.  
-This analysis provides actionable insights for Cyclistic to improve customer acquisition, retention, and operational planning.
+By analyzing combined trip data from 2019 and 2020, we identified distinct usage patterns between members and casual riders. This analysis provides actionable insights for Cyclistic to improve customer acquisition, retention, and operational planning.
 
 ---
 
 ## Repository Structure
 ```
 NYC-Cycle/
-├── data/         # Raw and small sample datasets (use .gitignore for large/raw data)
+├── data/         # Raw and sample datasets
 ├── scripts/      # R scripts for cleaning, analysis, and visualization
 ├── visuals/      # All images and outputs used in README
-├── README.md     # Project story, code, results
+├── README.md     # Project overview and results
 └── .gitignore    # Exclude large raw data and temp files
 ```
