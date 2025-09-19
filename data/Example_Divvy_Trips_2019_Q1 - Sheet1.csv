@@ -1,0 +1,1000 @@
+trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear
+21742443,2019-01-01 0:04:37,2019-01-01 0:11:07,2167,390,199,Wabash Ave & Grand Ave,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1989
+21742444,2019-01-01 0:08:13,2019-01-01 0:15:34,4386,441,44,State St & Randolph St,624,Dearborn St & Van Buren St (*),Subscriber,Female,1990
+21742445,2019-01-01 0:13:23,2019-01-01 0:27:12,1524,829,15,Racine Ave & 18th St,644,Western Ave & Fillmore St (*),Subscriber,Female,1994
+21742446,2019-01-01 0:13:45,2019-01-01 0:43:28,252,"1,783.00",123,California Ave & Milwaukee Ave,176,Clark St & Elm St,Subscriber,Male,1993
+21742447,2019-01-01 0:14:52,2019-01-01 0:20:56,1170,364,173,Mies van der Rohe Way & Chicago Ave,35,Streeter Dr & Grand Ave,Subscriber,Male,1994
+21742448,2019-01-01 0:15:33,2019-01-01 0:19:09,2437,216,98,LaSalle St & Washington St,49,Dearborn St & Monroe St,Subscriber,Female,1983
+21742449,2019-01-01 0:16:06,2019-01-01 0:19:03,2708,177,98,LaSalle St & Washington St,49,Dearborn St & Monroe St,Subscriber,Male,1984
+21742450,2019-01-01 0:18:41,2019-01-01 0:20:21,2796,100,211,St. Clair St & Erie St,142,McClurg Ct & Erie St,Subscriber,Male,1990
+21742451,2019-01-01 0:18:43,2019-01-01 0:47:30,6205,"1,727.00",150,Fort Dearborn Dr & 31st St,148,State St & 33rd St,Subscriber,Male,1995
+21742452,2019-01-01 0:19:18,2019-01-01 0:24:54,3939,336,268,Lake Shore Dr & North Blvd,141,Clark St & Lincoln Ave,Subscriber,Male,1996
+21742453,2019-01-01 0:20:34,2019-01-01 0:35:20,6243,886,299,Halsted St & Roscoe St,295,Broadway & Argyle St,Subscriber,Male,1994
+21742454,2019-01-01 0:21:52,2019-01-01 0:32:45,6300,653,204,Prairie Ave & Garfield Blvd,420,Ellis Ave & 55th St,Subscriber,Female,1994
+21742455,2019-01-01 0:23:04,2019-01-01 0:33:05,3029,601,90,Millennium Park,255,Indiana Ave & Roosevelt Rd,Subscriber,Male,1986
+21742456,2019-01-01 0:23:43,2019-01-01 0:33:05,84,562,90,Millennium Park,255,Indiana Ave & Roosevelt Rd,Customer,Female,1990
+21742457,2019-01-01 0:23:54,2019-01-01 0:39:00,5019,906,289,Wells St & Concord Ln,324,Stockton Dr & Wrightwood Ave,Subscriber,Female,1989
+21742458,2019-01-01 0:24:08,2019-01-01 0:39:00,5526,892,289,Wells St & Concord Ln,324,Stockton Dr & Wrightwood Ave,Subscriber,Female,1989
+21742459,2019-01-01 0:24:13,2019-01-01 0:31:00,3373,407,152,Lincoln Ave & Diversey Pkwy,166,Ashland Ave & Wrightwood Ave,Subscriber,Male,1967
+21742460,2019-01-01 0:24:27,2019-01-01 0:47:03,5777,"1,356.00",268,Lake Shore Dr & North Blvd,319,Greenview Ave & Diversey Pkwy,Customer,Female,1990
+21742461,2019-01-01 0:25:28,2019-01-01 0:27:10,3940,102,35,Streeter Dr & Grand Ave,35,Streeter Dr & Grand Ave,Subscriber,Male,1985
+21742463,2019-01-01 0:29:19,2019-01-01 1:08:12,3914,"2,333.00",35,Streeter Dr & Grand Ave,39,Wabash Ave & Adams St,Customer,,
+21742464,2019-01-01 0:29:21,2019-01-01 0:45:21,140,960,47,State St & Kinzie St,111,Sedgwick St & Huron St,Subscriber,Male,1957
+21742465,2019-01-01 0:29:28,2019-01-01 1:07:49,3355,"2,301.00",35,Streeter Dr & Grand Ave,39,Wabash Ave & Adams St,Customer,,
+21742466,2019-01-01 0:29:47,2019-01-01 0:49:15,5026,"1,168.00",85,Michigan Ave & Oak St,329,Lake Shore Dr & Diversey Pkwy,Subscriber,Male,1959
+21742467,2019-01-01 0:30:48,2019-01-01 0:38:42,1998,474,289,Wells St & Concord Ln,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Male,1994
+21742468,2019-01-01 0:33:09,2019-01-01 0:50:25,2630,"1,036.00",13,Wilton Ave & Diversey Pkwy,61,Wood St & Milwaukee Ave,Subscriber,Male,1991
+21742469,2019-01-01 0:34:35,2019-01-01 0:38:25,3722,230,520,Greenview Ave & Jarvis Ave,523,Eastlake Ter & Rogers Ave,Subscriber,Male,1961
+21742471,2019-01-01 0:38:11,2019-01-01 0:50:38,1166,747,256,Broadway & Sheridan Rd,297,Paulina St & Montrose Ave,Subscriber,Male,1968
+21742472,2019-01-01 0:38:47,2019-01-01 0:50:38,1704,711,256,Broadway & Sheridan Rd,297,Paulina St & Montrose Ave,Subscriber,Male,1964
+21742473,2019-01-01 0:40:16,2019-01-01 0:49:29,1476,553,254,Pine Grove Ave & Irving Park Rd,465,Marine Dr & Ainslie St,Subscriber,Male,1990
+21742474,2019-01-01 0:41:46,2019-01-01 0:50:27,4614,521,66,Clinton St & Lake St,52,Michigan Ave & Lake St,Subscriber,Male,1994
+21742475,2019-01-01 0:45:37,2019-01-01 1:17:51,5583,"1,934.00",464,Damen Ave & Foster Ave,30,Ashland Ave & Augusta Blvd,Subscriber,Male,1991
+21742476,2019-01-01 0:45:45,2019-01-01 0:50:00,1158,255,418,Ellis Ave & 53rd St,121,Blackstone Ave & Hyde Park Blvd,Subscriber,Male,1988
+21742477,2019-01-01 0:46:19,2019-01-01 0:51:26,2314,307,144,Larrabee St & Webster Ave,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Female,1961
+21742478,2019-01-01 0:47:49,2019-01-01 0:54:56,1411,427,253,Winthrop Ave & Lawrence Ave,463,Clark St & Berwyn Ave,Subscriber,Male,1984
+21742479,2019-01-01 0:48:44,2019-01-01 0:59:39,6336,655,304,Broadway & Waveland Ave,332,Burling St (Halsted) & Diversey Pkwy (Temp),Subscriber,Male,1988
+21742480,2019-01-01 0:51:55,2019-01-01 0:54:49,5629,174,206,Halsted St & Archer Ave,135,Halsted St & 21st St,Subscriber,Male,1989
+21742481,2019-01-01 0:55:35,2019-01-01 0:57:35,5248,120,522,Bosworth Ave & Howard St,520,Greenview Ave & Jarvis Ave,Subscriber,Male,1976
+21742483,2019-01-01 0:58:09,2019-01-01 1:15:33,5875,"1,044.00",144,Larrabee St & Webster Ave,185,Stave St & Armitage Ave,Subscriber,Male,1989
+21742484,2019-01-01 0:58:33,2019-01-01 1:05:17,6312,404,193,State St & 29th St,120,Wentworth Ave & Cermak Rd (Temp),Subscriber,Male,1992
+21742485,2019-01-01 0:58:44,2019-01-01 1:07:45,781,541,260,Kedzie Ave & Milwaukee Ave,507,Humboldt Blvd & Armitage Ave,Subscriber,Male,1988
+21742486,2019-01-01 0:58:55,2019-01-01 1:07:50,2448,535,260,Kedzie Ave & Milwaukee Ave,507,Humboldt Blvd & Armitage Ave,Subscriber,Female,1988
+21742487,2019-01-01 1:02:54,2019-01-01 1:22:01,368,"1,147.00",636,Orleans St & Hubbard St (*),214,Damen Ave & Grand Ave,Customer,Male,1988
+21742488,2019-01-01 1:03:57,2019-01-01 1:08:35,1170,278,35,Streeter Dr & Grand Ave,173,Mies van der Rohe Way & Chicago Ave,Subscriber,Male,1994
+21742489,2019-01-01 1:04:24,2019-01-01 1:19:33,297,909,240,Sheridan Rd & Irving Park Rd,465,Marine Dr & Ainslie St,Subscriber,Male,1993
+21742490,2019-01-01 1:04:29,2019-01-01 1:10:52,1998,383,313,Lakeview Ave & Fullerton Pkwy,127,Lincoln Ave & Fullerton Ave,Subscriber,Female,1993
+21742491,2019-01-01 1:04:33,2019-01-01 1:22:12,3942,"1,059.00",636,Orleans St & Hubbard St (*),214,Damen Ave & Grand Ave,Customer,Female,1989
+21742492,2019-01-01 1:06:14,2019-01-01 1:19:47,1018,813,240,Sheridan Rd & Irving Park Rd,465,Marine Dr & Ainslie St,Subscriber,Female,1991
+21742493,2019-01-01 1:09:04,2019-01-01 1:16:50,3183,466,253,Winthrop Ave & Lawrence Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1988
+21742494,2019-01-01 1:10:48,2019-01-01 1:32:28,2517,"1,300.00",290,Kedzie Ave & Palmer Ct,476,Kedzie Ave & Leland Ave,Customer,,
+21742495,2019-01-01 1:12:42,2019-01-01 1:20:55,166,493,460,Clark St & Bryn Mawr Ave,457,Clark St & Elmdale Ave,Subscriber,Male,1988
+21742496,2019-01-01 1:14:12,2019-01-01 1:32:34,5896,"1,102.00",236,Sedgwick St & Schiller St,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1985
+21742497,2019-01-01 1:14:25,2019-01-01 1:22:15,2993,470,194,Wabash Ave & Wacker Pl,133,Kingsbury St & Kinzie St,Subscriber,Male,1979
+21742498,2019-01-01 1:17:23,2019-01-01 1:33:30,374,967,367,Racine Ave & 35th St,9,Leavitt St & Archer Ave,Customer,,
+21742499,2019-01-01 1:17:33,2019-01-01 1:33:51,1776,978,367,Racine Ave & 35th St,9,Leavitt St & Archer Ave,Customer,,
+21742500,2019-01-01 1:17:59,2019-01-01 1:40:45,341,"1,366.00",316,Damen Ave & Sunnyside Ave,457,Clark St & Elmdale Ave,Customer,,
+21742501,2019-01-01 1:18:17,2019-01-01 1:41:01,4507,"1,364.00",316,Damen Ave & Sunnyside Ave,457,Clark St & Elmdale Ave,Customer,,
+21742502,2019-01-01 1:20:55,2019-01-01 1:24:37,1850,222,152,Lincoln Ave & Diversey Pkwy,332,Burling St (Halsted) & Diversey Pkwy (Temp),Subscriber,Male,1984
+21742504,2019-01-01 1:22:05,2019-01-01 1:31:12,24,547,359,Larrabee St & Division St,141,Clark St & Lincoln Ave,Subscriber,Male,1985
+21742505,2019-01-01 1:23:13,2019-01-01 2:07:47,628,"2,674.00",260,Kedzie Ave & Milwaukee Ave,240,Sheridan Rd & Irving Park Rd,Customer,,
+21742506,2019-01-01 1:24:19,2019-01-01 1:31:22,2833,423,71,Morgan St & Lake St,22,May St & Taylor St,Subscriber,Male,1993
+21742507,2019-01-01 1:25:01,2019-01-01 2:04:22,3238,"2,361.00",199,Wabash Ave & Grand Ave,106,State St & Pearson St,Subscriber,Male,1992
+21742508,2019-01-01 1:26:27,2019-01-01 1:45:56,4105,"1,169.00",29,Noble St & Milwaukee Ave,137,Morgan Ave & 14th Pl,Subscriber,Female,1952
+21742509,2019-01-01 1:27:25,2019-01-01 1:41:38,2262,853,230,Lincoln Ave & Roscoe St,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1989
+21742510,2019-01-01 1:28:47,2019-01-01 1:45:04,3046,977,199,Wabash Ave & Grand Ave,338,Calumet Ave & 18th St,Subscriber,Male,1980
+21742511,2019-01-01 1:29:16,2019-01-01 1:32:07,4317,171,77,Clinton St & Madison St,66,Clinton St & Lake St,Subscriber,Male,1974
+21742512,2019-01-01 1:30:28,2019-01-01 1:35:51,5080,323,94,Clark St & Armitage Ave,126,Clark St & North Ave,Subscriber,Male,1994
+21742513,2019-01-01 1:31:29,2019-01-01 1:40:31,610,542,113,Bissell St & Armitage Ave,340,Clark St & Wrightwood Ave,Subscriber,Male,1995
+21742514,2019-01-01 1:34:22,2019-01-01 1:48:40,5356,858,168,Michigan Ave & 14th St,129,Blue Island Ave & 18th St,Subscriber,Male,1985
+21742515,2019-01-01 1:35:13,2019-01-01 1:39:29,1268,256,86,Eckhart Park,637,Wood St & Chicago Ave (*),Subscriber,Male,1988
+21742516,2019-01-01 1:36:23,2019-01-01 1:47:22,5939,659,85,Michigan Ave & Oak St,38,Clark St & Lake St,Subscriber,Male,1990
+21742517,2019-01-01 1:37:42,2019-01-01 1:45:00,1330,438,128,Damen Ave & Chicago Ave,54,Ogden Ave & Chicago Ave,Subscriber,Male,1990
+21742518,2019-01-01 1:38:29,2019-01-01 1:46:58,5157,509,87,Racine Ave & Fullerton Ave,332,Burling St (Halsted) & Diversey Pkwy (Temp),Subscriber,Female,1977
+21742519,2019-01-01 1:40:08,2019-01-01 1:46:44,2371,396,114,Sheffield Ave & Waveland Ave,347,Ashland Ave & Grace St,Subscriber,Female,1986
+21742520,2019-01-01 1:40:12,2019-01-01 1:46:44,4812,392,114,Sheffield Ave & Waveland Ave,347,Ashland Ave & Grace St,Subscriber,Male,1986
+21742521,2019-01-01 1:45:23,2019-01-01 2:00:46,476,923,239,Western Ave & Leland Ave,227,Southport Ave & Waveland Ave,Subscriber,Female,1995
+21742522,2019-01-01 1:45:56,2019-01-01 1:53:29,5441,453,117,Wilton Ave & Belmont Ave,303,Broadway & Cornelia Ave,Subscriber,Female,1992
+21742523,2019-01-01 1:46:02,2019-01-01 1:53:29,4522,447,117,Wilton Ave & Belmont Ave,303,Broadway & Cornelia Ave,Subscriber,Male,1994
+21742524,2019-01-01 1:46:09,2019-01-01 2:07:32,4333,"1,283.00",35,Streeter Dr & Grand Ave,37,Dearborn St & Adams St,Customer,,
+21742525,2019-01-01 1:46:14,2019-01-01 2:07:13,3077,"1,259.00",35,Streeter Dr & Grand Ave,37,Dearborn St & Adams St,Customer,,
+21742526,2019-01-01 1:47:05,2019-01-01 1:57:32,5903,627,318,Southport Ave & Irving Park Rd,229,Southport Ave & Roscoe St,Customer,,
+21742528,2019-01-01 1:47:35,2019-01-01 1:56:19,435,524,291,Wells St & Evergreen Ave,212,Wells St & Hubbard St,Subscriber,Male,1995
+21742529,2019-01-01 1:47:57,2019-01-01 2:21:15,2326,"1,998.00",197,Michigan Ave & Madison St,123,California Ave & Milwaukee Ave,Subscriber,Male,1971
+21742530,2019-01-01 1:49:30,2019-01-01 1:57:47,4041,497,47,State St & Kinzie St,195,Columbus Dr & Randolph St,Subscriber,Female,1989
+21742531,2019-01-01 1:49:30,2019-01-01 1:57:40,4598,490,47,State St & Kinzie St,195,Columbus Dr & Randolph St,Subscriber,Male,1989
+21742532,2019-01-01 1:49:47,2019-01-01 1:58:48,2872,541,331,Halsted St & Clybourn Ave (*),58,Marshfield Ave & Cortland St,Subscriber,Male,1987
+21742533,2019-01-01 1:52:40,2019-01-01 2:20:55,4940,"1,695.00",289,Wells St & Concord Ln,273,Michigan Ave & 18th St,Subscriber,Male,1987
+21742534,2019-01-01 1:52:49,2019-01-01 1:55:46,4732,177,46,Wells St & Walton St,23,Orleans St & Elm St (*),Subscriber,Female,1976
+21742535,2019-01-01 1:54:11,2019-01-01 1:59:13,59,302,115,Sheffield Ave & Wellington Ave,153,Southport Ave & Wellington Ave,Subscriber,Male,1989
+21742536,2019-01-01 1:56:43,2019-01-01 2:00:31,3691,228,254,Pine Grove Ave & Irving Park Rd,232,Pine Grove Ave & Waveland Ave,Subscriber,Female,1984
+21742537,2019-01-01 2:00:36,2019-01-01 2:16:44,1830,968,16,Paulina Ave & North Ave,131,Lincoln Ave & Belmont Ave,Subscriber,Male,1987
+21742538,2019-01-01 2:03:24,2019-01-01 2:07:24,3119,240,44,State St & Randolph St,195,Columbus Dr & Randolph St,Subscriber,Male,1993
+21742539,2019-01-01 2:03:52,2019-01-01 2:09:07,1328,315,113,Bissell St & Armitage Ave,127,Lincoln Ave & Fullerton Ave,Subscriber,Male,1994
+21742540,2019-01-01 2:04:36,2019-01-01 2:43:04,3238,"2,308.00",106,State St & Pearson St,198,Green St & Madison St,Subscriber,Male,1992
+21742541,2019-01-01 2:05:36,2019-01-01 2:08:32,654,176,152,Lincoln Ave & Diversey Pkwy,87,Racine Ave & Fullerton Ave,Subscriber,Male,1993
+21742542,2019-01-01 2:06:02,2019-01-01 2:15:21,2097,559,231,Sheridan Rd & Montrose Ave,295,Broadway & Argyle St,Subscriber,Male,1981
+21742543,2019-01-01 2:07:11,2019-01-01 2:12:50,2563,339,226,Racine Ave & Belmont Ave,230,Lincoln Ave & Roscoe St,Subscriber,Male,1983
+21742544,2019-01-01 2:11:14,2019-01-01 2:32:56,3426,"1,302.00",229,Southport Ave & Roscoe St,289,Wells St & Concord Ln,Subscriber,Male,1989
+21742545,2019-01-01 2:16:09,2019-01-01 2:26:48,6449,639,72,Wabash Ave & 16th St,193,State St & 29th St,Subscriber,Male,1982
+21742546,2019-01-01 2:16:16,2019-01-01 2:21:40,1494,324,117,Wilton Ave & Belmont Ave,334,Lake Shore Dr & Belmont Ave,Subscriber,Male,1983
+21742548,2019-01-01 2:20:14,2019-01-01 2:34:37,111,863,24,Fairbanks Ct & Grand Ave,21,Aberdeen St & Jackson Blvd,Subscriber,Male,1993
+21742549,2019-01-01 2:21:04,2019-01-02 9:35:30,2048,"112,466.00",69,Damen Ave & Pierce Ave,67,Sheffield Ave & Fullerton Ave,Customer,Male,1994
+21742550,2019-01-01 2:23:21,2019-01-01 2:28:28,2739,307,273,Michigan Ave & 18th St,168,Michigan Ave & 14th St,Subscriber,Male,1982
+21742551,2019-01-01 2:23:37,2019-01-01 2:25:30,332,113,217,Racine Ave (May St) & Fulton St,654,Racine Ave & Washington Blvd (*),Subscriber,Male,1989
+21742552,2019-01-01 2:24:37,2019-01-01 2:53:59,4246,"1,762.00",35,Streeter Dr & Grand Ave,282,Halsted St & Maxwell St,Customer,,
+21742553,2019-01-01 2:26:16,2019-01-01 2:56:54,5071,"1,838.00",323,Sheridan Rd & Lawrence Ave,299,Halsted St & Roscoe St,Subscriber,Male,1984
+21742554,2019-01-01 2:27:52,2019-01-01 2:30:52,4885,180,220,Clark St & Drummond Pl,349,Halsted St & Wrightwood Ave,Subscriber,Male,1993
+21742555,2019-01-01 2:27:58,2019-01-01 2:41:17,4692,799,482,Campbell Ave & Montrose Ave,293,Broadway & Wilson Ave,Subscriber,Male,1990
+21742556,2019-01-01 2:30:39,2019-01-01 2:36:36,127,357,145,Mies van der Rohe Way & Chestnut St,110,Dearborn St & Erie St,Subscriber,Female,1969
+21742558,2019-01-01 2:30:52,2019-01-01 2:36:17,5051,325,504,Campbell Ave & Fullerton Ave,123,California Ave & Milwaukee Ave,Subscriber,Male,1985
+21742559,2019-01-01 2:31:26,2019-01-01 2:42:48,2437,682,49,Dearborn St & Monroe St,74,Kingsbury St & Erie St,Subscriber,Male,1962
+21742560,2019-01-01 2:32:38,2019-01-01 2:43:30,5707,652,161,Rush St & Superior St,133,Kingsbury St & Kinzie St,Subscriber,Male,1989
+21742561,2019-01-01 2:33:22,2019-01-01 2:39:11,1447,349,497,Kimball Ave & Belmont Ave,497,Kimball Ave & Belmont Ave,Subscriber,Male,1984
+21742562,2019-01-01 2:33:26,2019-01-01 2:36:53,4466,207,497,Kimball Ave & Belmont Ave,497,Kimball Ave & Belmont Ave,Subscriber,Female,1986
+21742563,2019-01-01 2:33:55,2019-01-01 2:37:29,5213,214,72,Wabash Ave & 16th St,338,Calumet Ave & 18th St,Subscriber,Male,1983
+21742564,2019-01-01 2:35:00,2019-01-01 2:44:21,2517,561,476,Kedzie Ave & Leland Ave,485,Sawyer Ave & Irving Park Rd,Customer,Male,1975
+21742565,2019-01-01 2:36:43,2019-01-01 2:38:39,6271,116,321,Wabash Ave & 9th St,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1993
+21742566,2019-01-01 2:37:26,2019-01-01 2:55:03,3426,"1,057.00",289,Wells St & Concord Ln,142,McClurg Ct & Erie St,Subscriber,Male,1988
+21742567,2019-01-01 2:41:44,2019-01-01 3:07:22,4751,"1,538.00",509,Troy St & North Ave,166,Ashland Ave & Wrightwood Ave,Subscriber,Male,1982
+21742568,2019-01-01 2:43:12,2019-01-01 3:18:32,3238,"2,120.00",198,Green St & Madison St,627,LaSalle Dr & Huron St (*),Subscriber,Male,1992
+21742569,2019-01-01 2:47:31,2019-01-01 3:08:51,2947,"1,280.00",224,Halsted St & Willow St,175,Wells St & Polk St,Subscriber,Male,1989
+21742570,2019-01-01 2:50:35,2019-01-01 2:53:00,6271,145,59,Wabash Ave & Roosevelt Rd,321,Wabash Ave & 9th St,Subscriber,Male,1993
+21742571,2019-01-01 2:51:20,2019-01-01 3:36:56,544,"2,736.00",318,Southport Ave & Irving Park Rd,119,Ashland Ave & Lake St (Temp),Subscriber,Male,1954
+21742572,2019-01-01 2:51:41,2019-01-01 2:58:42,444,421,128,Damen Ave & Chicago Ave,69,Damen Ave & Pierce Ave,Subscriber,Male,1984
+21742573,2019-01-01 2:52:49,2019-01-01 2:58:41,5157,352,332,Burling St (Halsted) & Diversey Pkwy (Temp),226,Racine Ave & Belmont Ave,Subscriber,Male,1984
+21742574,2019-01-01 2:52:29,2019-01-01 2:57:11,5707,282,133,Kingsbury St & Kinzie St,133,Kingsbury St & Kinzie St,Subscriber,Male,1990
+21742575,2019-01-01 2:58:08,2019-01-01 3:04:45,4997,397,230,Lincoln Ave & Roscoe St,298,Lincoln Ave & Belle Plaine Ave,Subscriber,Male,1991
+21742576,2019-01-01 3:00:46,2019-01-01 3:24:31,1247,"1,425.00",106,State St & Pearson St,128,Damen Ave & Chicago Ave,Subscriber,Male,1972
+21742577,2019-01-01 3:00:49,2019-01-01 3:10:52,3892,603,100,Orleans St & Merchandise Mart Plaza,287,Franklin St & Monroe St,Customer,,
+21742578,2019-01-01 3:02:52,2019-01-01 3:13:44,5846,652,117,Wilton Ave & Belmont Ave,257,Lincoln Ave & Waveland Ave,Customer,,
+21742579,2019-01-01 3:04:34,2019-01-01 3:08:01,2513,207,238,Wolcott (Ravenswood) Ave & Montrose Ave (*),314,Ravenswood Ave & Berteau Ave,Subscriber,Female,1987
+21742580,2019-01-01 3:09:28,2019-01-01 3:14:56,770,328,419,Lake Park Ave & 53rd St,322,Kimbark Ave & 53rd St,Subscriber,Male,1991
+21742582,2019-01-01 3:16:06,2019-01-01 3:33:43,507,"1,057.00",260,Kedzie Ave & Milwaukee Ave,86,Eckhart Park,Subscriber,Male,1989
+21742583,2019-01-01 3:18:42,2019-01-01 4:03:11,3238,"2,669.00",627,LaSalle Dr & Huron St (*),627,LaSalle Dr & Huron St (*),Subscriber,Male,1992
+21742585,2019-01-01 3:21:21,2019-01-01 3:32:37,3535,676,306,Sheridan Rd & Buena Ave,326,Clark St & Leland Ave,Customer,,
+21742586,2019-01-01 3:25:42,2019-01-01 3:27:46,3389,124,145,Mies van der Rohe Way & Chestnut St,145,Mies van der Rohe Way & Chestnut St,Customer,,
+21742587,2019-01-01 3:29:04,2019-01-01 3:31:35,2773,151,632,Clark St & Newport St,114,Sheffield Ave & Waveland Ave,Subscriber,Male,1994
+21742588,2019-01-01 3:30:29,2019-01-01 3:40:19,1237,590,210,Ashland Ave & Division St,216,California Ave & Division St,Subscriber,Male,1997
+21742589,2019-01-01 3:30:37,2019-01-01 4:09:39,223,"2,342.00",145,Mies van der Rohe Way & Chestnut St,260,Kedzie Ave & Milwaukee Ave,Customer,,
+21742590,2019-01-01 3:35:18,2019-01-01 3:44:29,3500,551,116,Western Ave & Winnebago Ave,506,Spaulding Ave & Armitage Ave,Subscriber,Male,1994
+21742591,2019-01-01 3:35:34,2019-01-01 3:38:20,5202,166,81,Daley Center Plaza,37,Dearborn St & Adams St,Subscriber,Male,1990
+21742592,2019-01-01 3:37:04,2019-01-01 4:12:01,5752,"2,097.00",464,Damen Ave & Foster Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1987
+21742593,2019-01-01 3:54:28,2019-01-01 4:02:53,2586,505,67,Sheffield Ave & Fullerton Ave,343,Racine Ave & Wrightwood Ave,Subscriber,Male,1991
+21742594,2019-01-01 3:57:29,2019-01-01 4:02:01,976,272,181,LaSalle St & Illinois St,140,Dearborn Pkwy & Delaware Pl,Subscriber,Male,1982
+21742595,2019-01-01 4:04:44,2019-01-01 4:12:03,3922,439,350,Ashland Ave & Chicago Ave,61,Wood St & Milwaukee Ave,Subscriber,Male,1972
+21742596,2019-01-01 4:05:03,2019-01-01 4:09:30,218,267,514,Ridge Blvd & Howard St,515,Paulina St & Howard St,Subscriber,Male,1951
+21742597,2019-01-01 4:07:10,2019-01-02 6:37:40,3500,"95,430.00",506,Spaulding Ave & Armitage Ave,506,Spaulding Ave & Armitage Ave,Customer,,
+21742598,2019-01-01 4:07:36,2019-01-01 4:32:00,126,"1,464.00",506,Spaulding Ave & Armitage Ave,506,Spaulding Ave & Armitage Ave,Customer,,
+21742599,2019-01-01 4:08:51,2019-01-01 4:12:58,2109,247,67,Sheffield Ave & Fullerton Ave,343,Racine Ave & Wrightwood Ave,Subscriber,Female,1989
+21742600,2019-01-01 4:09:11,2019-01-01 4:13:03,1343,232,67,Sheffield Ave & Fullerton Ave,343,Racine Ave & Wrightwood Ave,Subscriber,Male,1988
+21742601,2019-01-01 4:10:27,2019-01-01 4:14:41,5839,254,483,Avondale Ave & Irving Park Rd,591,Kilbourn Ave & Milwaukee Ave,Subscriber,Male,1986
+21742602,2019-01-01 4:14:49,2019-01-01 4:18:45,5752,236,13,Wilton Ave & Diversey Pkwy,220,Clark St & Drummond Pl,Subscriber,Male,1987
+21742603,2019-01-01 4:54:14,2019-01-01 4:57:15,1848,181,405,Wentworth Ave & 35th St,278,Wallace St & 35th St,Subscriber,Male,1985
+21742604,2019-01-01 4:56:30,2019-01-01 4:59:06,1602,156,59,Wabash Ave & Roosevelt Rd,72,Wabash Ave & 16th St,Subscriber,Male,1996
+21742605,2019-01-01 5:00:49,2019-01-01 5:08:07,1105,438,572,State St & 76th St,570,Evans Ave & 75th St,Subscriber,Male,1964
+21742606,2019-01-01 5:10:22,2019-01-01 5:20:22,3265,600,471,Francisco Ave & Foster Ave,474,Christiana Ave & Lawrence Ave,Customer,,
+21742607,2019-01-01 5:25:00,2019-01-01 5:47:22,107,"1,342.00",163,Damen Ave & Clybourn Ave,211,St. Clair St & Erie St,Subscriber,Male,1990
+21742608,2019-01-01 5:33:55,2019-01-01 5:40:09,4390,374,7,Field Blvd & South Water St,211,St. Clair St & Erie St,Subscriber,Male,1987
+21742609,2019-01-01 5:41:29,2019-01-01 5:51:41,1045,612,7,Field Blvd & South Water St,635,Fairbanks St & Superior St (*),Subscriber,Male,1987
+21742610,2019-01-01 5:46:14,2019-01-01 5:49:21,5996,187,257,Lincoln Ave & Waveland Ave,230,Lincoln Ave & Roscoe St,Subscriber,Male,1981
+21742611,2019-01-01 5:46:56,2019-01-01 5:49:25,6307,149,52,Michigan Ave & Lake St,38,Clark St & Lake St,Subscriber,Male,1998
+21742612,2019-01-01 6:01:13,2019-01-01 6:09:11,5398,478,394,Clark St & 9th St (AMLI),81,Daley Center Plaza,Subscriber,Male,1965
+21742613,2019-01-01 6:01:59,2019-01-01 6:12:59,5344,660,134,Peoria St & Jackson Blvd,261,Hermitage Ave & Polk St,Subscriber,Female,1992
+21742614,2019-01-01 6:09:14,2019-01-01 6:12:33,4521,199,49,Dearborn St & Monroe St,191,Canal St & Monroe St (*),Subscriber,Male,1993
+21742615,2019-01-01 6:11:00,2019-01-01 6:16:29,2636,329,499,Kosciuszko Park,260,Kedzie Ave & Milwaukee Ave,Subscriber,Male,1986
+21742616,2019-01-01 6:17:33,2019-01-01 6:25:38,1503,485,533,Central Park Blvd & 5th Ave,377,Kedzie Ave & Lake St,Subscriber,Male,1975
+21742617,2019-01-01 6:20:44,2019-01-01 6:45:56,3250,"1,512.00",238,Wolcott (Ravenswood) Ave & Montrose Ave (*),93,Sheffield Ave & Willow St,Subscriber,Female,1988
+21742618,2019-01-01 6:40:45,2019-01-01 6:51:48,5341,663,56,Desplaines St & Kinzie St,173,Mies van der Rohe Way & Chicago Ave,Subscriber,Female,1976
+21742619,2019-01-01 6:42:13,2019-01-01 6:50:15,5782,482,339,Emerald Ave & 31st St,403,Wentworth Ave & 33rd St,Subscriber,Female,1947
+21742620,2019-01-01 6:47:04,2019-01-01 6:52:37,4686,333,111,Sedgwick St & Huron St,182,Wells St & Elm St,Subscriber,Male,1976
+21742621,2019-01-01 6:52:55,2019-01-01 7:14:00,585,"1,265.00",174,Canal St & Madison St,3,Shedd Aquarium,Subscriber,Female,1982
+21742622,2019-01-01 6:52:57,2019-01-01 6:58:35,5910,338,59,Wabash Ave & Roosevelt Rd,97,Field Museum,Customer,,
+21742623,2019-01-01 6:53:01,2019-01-01 7:14:16,1468,"1,275.00",174,Canal St & Madison St,3,Shedd Aquarium,Subscriber,Female,1986
+21742624,2019-01-01 6:55:15,2019-01-01 7:04:12,503,537,43,Michigan Ave & Washington St,96,Desplaines St & Randolph St,Subscriber,Male,1988
+21742625,2019-01-01 7:03:17,2019-01-01 7:10:08,3639,411,57,Clinton St & Roosevelt Rd,321,Wabash Ave & 9th St,Subscriber,Male,1982
+21742626,2019-01-01 7:08:47,2019-01-01 7:16:53,5100,486,76,Lake Shore Dr & Monroe St,90,Millennium Park,Subscriber,Male,1965
+21742627,2019-01-01 7:10:58,2019-01-01 7:13:02,885,124,320,Loomis St & Lexington St,19,Loomis St & Taylor St (*),Subscriber,Male,1975
+21742628,2019-01-01 7:15:10,2019-01-01 7:23:23,885,493,19,Loomis St & Taylor St (*),346,Ada St & Washington Blvd,Subscriber,Male,1975
+21742629,2019-01-01 7:16:55,2019-01-01 7:27:44,1321,649,275,Ashland Ave & 13th St,437,Washtenaw Ave & Ogden Ave (*),Subscriber,Male,1986
+21742630,2019-01-01 7:26:27,2019-01-01 7:36:07,5585,580,31,Franklin St & Chicago Ave,283,LaSalle St & Jackson Blvd,Subscriber,Male,1974
+21742631,2019-01-01 7:27:40,2019-01-01 7:37:47,3757,607,383,Paulina St & Flournoy St,73,Jefferson St & Monroe St,Subscriber,Male,1992
+21742632,2019-01-01 7:31:18,2019-01-01 7:51:38,5711,"1,220.00",72,Wabash Ave & 16th St,133,Kingsbury St & Kinzie St,Subscriber,Male,1946
+21742633,2019-01-01 7:31:23,2019-01-01 7:45:01,3417,818,291,Wells St & Evergreen Ave,142,McClurg Ct & Erie St,Subscriber,Female,1992
+21742634,2019-01-01 7:32:02,2019-01-01 7:44:42,5341,760,173,Mies van der Rohe Way & Chicago Ave,27,Larrabee St & North Ave,Subscriber,Female,1990
+21742635,2019-01-01 7:33:07,2019-01-01 8:01:46,806,"1,719.00",6,Dusable Harbor,6,Dusable Harbor,Subscriber,Male,1966
+21742636,2019-01-01 7:33:41,2019-01-01 7:38:02,1170,261,173,Mies van der Rohe Way & Chicago Ave,35,Streeter Dr & Grand Ave,Subscriber,Male,1994
+21742637,2019-01-01 7:34:48,2019-01-01 7:49:42,5244,894,223,Clifton Ave & Armitage Ave,110,Dearborn St & Erie St,Subscriber,Male,1997
+21742638,2019-01-01 7:38:03,2019-01-01 8:15:13,1485,"2,230.00",341,Adler Planetarium,77,Clinton St & Madison St,Subscriber,Female,1986
+21742640,2019-01-01 7:39:24,2019-01-01 7:44:28,3617,304,247,Shore Dr & 55th St,417,Cornell Ave & Hyde Park Blvd,Subscriber,Female,1991
+21742641,2019-01-01 7:39:33,2019-01-01 7:52:59,1071,806,659,Leavitt St & Chicago Ave,434,Ogden Ave & Roosevelt Rd,Subscriber,Male,1977
+21742642,2019-01-01 7:39:46,2019-01-01 8:15:05,3150,"2,119.00",341,Adler Planetarium,77,Clinton St & Madison St,Subscriber,Female,1982
+21742643,2019-01-01 7:48:25,2019-01-01 8:04:02,111,937,21,Aberdeen St & Jackson Blvd,224,Halsted St & Willow St,Subscriber,Male,1993
+21742644,2019-01-01 7:53:40,2019-01-01 7:56:59,1464,199,303,Broadway & Cornelia Ave,632,Clark St & Newport St,Subscriber,Male,1984
+21742645,2019-01-01 7:54:16,2019-01-01 8:39:13,6017,"2,697.00",230,Lincoln Ave & Roscoe St,249,Montrose Harbor,Subscriber,Male,1956
+21742646,2019-01-01 7:55:14,2019-01-01 8:01:04,3183,350,344,Ravenswood Ave & Lawrence Ave,243,Lincoln Ave & Sunnyside Ave,Subscriber,Male,1974
+21742647,2019-01-01 8:01:13,2019-01-01 8:33:10,2561,"1,917.00",180,Ritchie Ct & Banks St,166,Ashland Ave & Wrightwood Ave,Subscriber,Female,1998
+21742648,2019-01-01 8:03:38,2019-01-01 8:10:57,5376,439,418,Ellis Ave & 53rd St,328,Ellis Ave & 58th St,Subscriber,Female,1959
+21742649,2019-01-01 8:03:51,2019-01-01 8:10:25,3183,394,243,Lincoln Ave & Sunnyside Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1974
+21742650,2019-01-01 8:04:36,2019-01-01 8:09:19,2754,283,620,Orleans St & Chestnut St (NEXT Apts),110,Dearborn St & Erie St,Subscriber,Male,1995
+21742651,2019-01-01 8:04:52,2019-01-01 8:07:26,5282,154,254,Pine Grove Ave & Irving Park Rd,232,Pine Grove Ave & Waveland Ave,Subscriber,Female,1956
+21742652,2019-01-01 8:06:00,2019-01-01 8:19:31,2648,811,331,Halsted St & Clybourn Ave (*),621,Aberdeen St & Randolph St,Subscriber,Female,1994
+21742653,2019-01-01 8:10:16,2019-01-01 8:21:35,1494,679,334,Lake Shore Dr & Belmont Ave,334,Lake Shore Dr & Belmont Ave,Subscriber,Male,1987
+21742654,2019-01-01 8:11:25,2019-01-01 8:26:33,3714,908,15,Racine Ave & 18th St,57,Clinton St & Roosevelt Rd,Customer,Male,1987
+21742655,2019-01-01 8:11:48,2019-01-01 8:19:01,3547,433,334,Lake Shore Dr & Belmont Ave,177,Theater on the Lake,Subscriber,Male,1989
+21742656,2019-01-01 8:12:41,2019-01-01 8:17:31,4831,290,240,Sheridan Rd & Irving Park Rd,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1962
+21742657,2019-01-01 8:14:59,2019-01-01 8:52:18,5939,"2,239.00",38,Clark St & Lake St,44,State St & Randolph St,Subscriber,,
+21742658,2019-01-01 8:19:15,2019-01-01 8:30:56,3547,701,177,Theater on the Lake,85,Michigan Ave & Oak St,Subscriber,Male,1989
+21742660,2019-01-01 8:31:04,2019-01-01 8:53:28,3547,"1,344.00",85,Michigan Ave & Oak St,177,Theater on the Lake,Subscriber,Male,1989
+21742661,2019-01-01 8:31:28,2019-01-01 8:51:01,3922,"1,173.00",61,Wood St & Milwaukee Ave,119,Ashland Ave & Lake St (Temp),Subscriber,Male,1994
+21742662,2019-01-01 8:33:27,2019-01-01 8:38:18,5853,291,140,Dearborn Pkwy & Delaware Pl,31,Franklin St & Chicago Ave,Subscriber,Male,1986
+21742663,2019-01-01 8:36:18,2019-01-01 8:49:11,1616,773,220,Clark St & Drummond Pl,331,Halsted St & Clybourn Ave (*),Subscriber,Female,1977
+21742664,2019-01-01 8:39:10,2019-01-01 8:43:38,628,268,240,Sheridan Rd & Irving Park Rd,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1974
+21742665,2019-01-01 8:42:01,2019-01-01 8:50:32,5926,511,344,Ravenswood Ave & Lawrence Ave,460,Clark St & Bryn Mawr Ave,Subscriber,Male,1964
+21742666,2019-01-01 8:44:24,2019-01-01 8:48:06,3577,222,7,Field Blvd & South Water St,6,Dusable Harbor,Subscriber,Female,1978
+21742667,2019-01-01 8:48:27,2019-01-01 8:50:20,5327,113,279,Halsted St & 35th St (*),262,Halsted St & 37th St,Subscriber,Male,1989
+21742668,2019-01-01 8:51:19,2019-01-01 8:54:09,658,170,340,Clark St & Wrightwood Ave,349,Halsted St & Wrightwood Ave,Subscriber,Female,1995
+21742669,2019-01-01 8:53:06,2019-01-01 9:04:22,4775,676,44,State St & Randolph St,33,State St & Van Buren St,Subscriber,,
+21742670,2019-01-01 8:53:33,2019-01-01 9:07:31,3547,838,177,Theater on the Lake,334,Lake Shore Dr & Belmont Ave,Subscriber,Male,1989
+21742671,2019-01-01 8:53:38,2019-01-01 8:58:19,3551,281,477,Manor Ave & Leland Ave,239,Western Ave & Leland Ave,Subscriber,Male,1985
+21742672,2019-01-01 8:53:51,2019-01-01 9:03:33,4841,582,99,Lake Shore Dr & Ohio St,180,Ritchie Ct & Banks St,Subscriber,Female,1978
+21742673,2019-01-01 8:54:18,2019-01-01 8:59:21,1370,303,118,Sedgwick St & North Ave,268,Lake Shore Dr & North Blvd,Subscriber,Female,1984
+21742674,2019-01-01 8:54:46,2019-01-01 8:59:31,1191,285,56,Desplaines St & Kinzie St,88,Racine Ave & Randolph St,Subscriber,Male,1989
+21742675,2019-01-01 8:55:47,2019-01-01 9:01:28,5244,341,110,Dearborn St & Erie St,133,Kingsbury St & Kinzie St,Subscriber,Male,1973
+21742676,2019-01-01 8:59:17,2019-01-01 9:08:46,5465,569,196,Cityfront Plaza Dr & Pioneer Ct,161,Rush St & Superior St,Subscriber,Female,1989
+21742677,2019-01-01 9:00:51,2019-01-01 9:13:34,6027,763,514,Ridge Blvd & Howard St,467,Western Ave & Lunt Ave,Customer,Male,1976
+21742678,2019-01-01 9:02:45,2019-01-01 9:08:55,6130,370,128,Damen Ave & Chicago Ave,119,Ashland Ave & Lake St (Temp),Subscriber,Male,1988
+21742679,2019-01-01 9:03:28,2019-01-01 9:08:46,1013,318,196,Cityfront Plaza Dr & Pioneer Ct,161,Rush St & Superior St,Customer,,
+21742680,2019-01-01 9:06:13,2019-01-01 9:11:49,303,336,240,Sheridan Rd & Irving Park Rd,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1974
+21742681,2019-01-01 9:06:22,2019-01-01 9:13:11,1435,409,42,Wabash Ave & Cermak Rd,237,MLK Jr Dr & 29th St,Customer,Male,1988
+21742682,2019-01-01 9:06:24,2019-01-01 9:10:40,4976,256,324,Stockton Dr & Wrightwood Ave,349,Halsted St & Wrightwood Ave,Subscriber,Male,1995
+21742683,2019-01-01 9:06:33,2019-01-01 10:07:51,1076,"3,678.00",454,Broadway & Granville Ave,454,Broadway & Granville Ave,Customer,Male,1986
+21742684,2019-01-01 9:06:43,2019-01-01 9:45:36,3474,"2,333.00",150,Fort Dearborn Dr & 31st St,150,Fort Dearborn Dr & 31st St,Subscriber,Male,1950
+21742685,2019-01-01 9:07:37,2019-01-01 9:10:21,3368,164,210,Ashland Ave & Division St,130,Damen Ave & Division St,Subscriber,Male,1992
+21742686,2019-01-01 9:08:57,2019-01-01 9:13:09,5877,252,125,Rush St & Hubbard St,211,St. Clair St & Erie St,Subscriber,Male,1960
+21742687,2019-01-01 9:10:59,2019-01-01 9:18:40,610,461,340,Clark St & Wrightwood Ave,188,Greenview Ave & Fullerton Ave,Subscriber,Male,1994
+21742688,2019-01-01 9:11:58,2019-01-01 9:15:46,590,228,134,Peoria St & Jackson Blvd,192,Canal St & Adams St,Subscriber,Male,1991
+21742689,2019-01-01 9:13:10,2019-01-01 9:18:17,932,307,316,Damen Ave & Sunnyside Ave,239,Western Ave & Leland Ave,Subscriber,Male,1974
+21742690,2019-01-01 9:13:38,2019-01-01 9:30:33,3728,"1,015.00",118,Sedgwick St & North Ave,133,Kingsbury St & Kinzie St,Subscriber,Male,1950
+21742692,2019-01-01 9:19:47,2019-01-01 9:34:54,6393,907,42,Wabash Ave & Cermak Rd,41,Federal St & Polk St,Subscriber,Female,1994
+21742693,2019-01-01 9:20:00,2019-01-01 9:31:39,2330,699,342,Wolcott Ave & Polk St,241,Morgan St & Polk St,Subscriber,Male,1981
+21742695,2019-01-01 9:22:02,2019-01-01 9:27:08,1489,306,493,Western Ave & Roscoe St,230,Lincoln Ave & Roscoe St,Subscriber,Female,1994
+21742696,2019-01-01 9:23:43,2019-01-01 9:26:29,2427,166,143,Sedgwick St & Webster Ave,94,Clark St & Armitage Ave,Subscriber,Male,1986
+21742697,2019-01-01 9:24:42,2019-01-01 9:32:10,4717,448,303,Broadway & Cornelia Ave,240,Sheridan Rd & Irving Park Rd,Subscriber,Male,1984
+21742698,2019-01-01 9:24:49,2019-01-01 9:34:53,6464,604,364,Larrabee St & Oak St,635,Fairbanks St & Superior St (*),Subscriber,Male,1983
+21742699,2019-01-01 9:25:11,2019-01-01 9:28:03,5926,172,460,Clark St & Bryn Mawr Ave,461,Broadway & Ridge Ave,Subscriber,Male,1991
+21742700,2019-01-01 9:25:21,2019-01-01 9:33:12,965,471,195,Columbus Dr & Randolph St,133,Kingsbury St & Kinzie St,Subscriber,Male,1978
+21742701,2019-01-01 9:25:50,2019-01-01 9:55:36,6443,"1,786.00",312,Clarendon Ave & Gordon Ter,77,Clinton St & Madison St,Subscriber,Male,1975
+21742702,2019-01-01 9:27:22,2019-01-01 9:28:35,2205,73,59,Wabash Ave & Roosevelt Rd,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1965
+21742703,2019-01-01 9:27:31,2019-01-01 9:35:30,4418,479,196,Cityfront Plaza Dr & Pioneer Ct,49,Dearborn St & Monroe St,Subscriber,Male,1955
+21742704,2019-01-01 9:27:52,2019-01-01 9:46:50,6311,"1,138.00",85,Michigan Ave & Oak St,113,Bissell St & Armitage Ave,Subscriber,Male,1981
+21742705,2019-01-01 9:27:53,2019-01-01 9:39:56,6271,723,321,Wabash Ave & 9th St,198,Green St & Madison St,Subscriber,Male,1982
+21742707,2019-01-01 9:28:23,2019-01-01 9:34:02,5282,339,232,Pine Grove Ave & Waveland Ave,306,Sheridan Rd & Buena Ave,Subscriber,Male,1962
+21742713,2019-01-01 9:29:19,2019-01-01 9:55:38,6118,"1,579.00",59,Wabash Ave & Roosevelt Rd,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1965
+21742716,2019-01-01 9:30:36,2019-01-01 10:03:01,224,"1,945.00",467,Western Ave & Lunt Ave,601,Central St Metra,Subscriber,Male,1971
+21742717,2019-01-01 9:30:39,2019-01-01 9:32:31,5327,112,262,Halsted St & 37th St,279,Halsted St & 35th St (*),Subscriber,Male,1989
+21742718,2019-01-01 9:33:23,2019-01-01 10:09:38,4332,"2,175.00",117,Wilton Ave & Belmont Ave,226,Racine Ave & Belmont Ave,Subscriber,,
+21742719,2019-01-01 9:35:05,2019-01-01 9:39:59,1115,294,32,Racine Ave & Congress Pkwy,21,Aberdeen St & Jackson Blvd,Subscriber,Female,1951
+21742720,2019-01-01 9:36:20,2019-01-01 9:52:35,5996,975,230,Lincoln Ave & Roscoe St,177,Theater on the Lake,Subscriber,Female,1990
+21742721,2019-01-01 9:38:15,2019-01-01 9:41:45,3713,210,84,Milwaukee Ave & Grand Ave,133,Kingsbury St & Kinzie St,Subscriber,Male,1984
+21742722,2019-01-01 9:38:29,2019-01-01 9:41:45,5216,196,238,Wolcott (Ravenswood) Ave & Montrose Ave (*),244,Ravenswood Ave & Irving Park Rd,Subscriber,Male,1981
+21742723,2019-01-01 9:39:20,2019-01-01 9:41:50,5865,150,463,Clark St & Berwyn Ave,294,Broadway & Berwyn Ave,Subscriber,Male,1979
+21742724,2019-01-01 9:40:07,2019-01-01 9:51:30,3394,683,16,Paulina Ave & North Ave,505,Winchester Ave & Elston Ave,Subscriber,Female,1989
+21742725,2019-01-01 9:42:57,2019-01-01 9:58:15,6271,918,198,Green St & Madison St,41,Federal St & Polk St,Subscriber,Female,1992
+21742726,2019-01-01 9:43:10,2019-01-01 9:47:15,4069,245,303,Broadway & Cornelia Ave,300,Broadway & Barry Ave,Subscriber,Male,1990
+21742727,2019-01-01 9:43:46,2019-01-01 9:52:56,1711,550,320,Loomis St & Lexington St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1997
+21742728,2019-01-01 9:45:42,2019-01-01 9:50:10,1115,268,21,Aberdeen St & Jackson Blvd,73,Jefferson St & Monroe St,Subscriber,Male,1992
+21742729,2019-01-01 9:46:11,2019-01-01 9:55:14,2264,543,182,Wells St & Elm St,111,Sedgwick St & Huron St,Subscriber,Female,1991
+21742730,2019-01-01 9:47:10,2019-01-01 10:06:17,5245,"1,147.00",80,Aberdeen St & Monroe St,283,LaSalle St & Jackson Blvd,Subscriber,Male,1993
+21742731,2019-01-01 9:47:41,2019-01-01 9:57:57,460,616,182,Wells St & Elm St,52,Michigan Ave & Lake St,Subscriber,Male,1990
+21742732,2019-01-01 9:47:47,2019-01-01 10:08:13,3387,"1,226.00",209,Normal Ave & Archer Ave,107,Desplaines St & Jackson Blvd,Subscriber,Male,1989
+21742733,2019-01-01 9:48:06,2019-01-01 9:56:27,5065,501,301,Clark St & Schiller St,110,Dearborn St & Erie St,Subscriber,Male,1954
+21742734,2019-01-01 9:48:13,2019-01-01 9:50:54,2732,161,99,Lake Shore Dr & Ohio St,24,Fairbanks Ct & Grand Ave,Subscriber,Male,1976
+21742735,2019-01-01 9:48:30,2019-01-01 9:54:58,1981,388,68,Clinton St & Tilden St,98,LaSalle St & Washington St,Subscriber,Male,1979
+21742736,2019-01-01 9:50:12,2019-01-01 9:57:28,481,436,98,LaSalle St & Washington St,7,Field Blvd & South Water St,Subscriber,Male,1979
+21742737,2019-01-01 9:51:54,2019-01-01 9:58:01,1191,367,88,Racine Ave & Randolph St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1989
+21742738,2019-01-01 9:53:04,2019-01-01 10:04:07,4019,663,296,Broadway & Belmont Ave,177,Theater on the Lake,Subscriber,Male,1989
+21742739,2019-01-01 9:53:10,2019-01-01 10:00:59,3228,469,364,Larrabee St & Oak St,140,Dearborn Pkwy & Delaware Pl,Subscriber,Male,1966
+21742740,2019-01-01 9:55:04,2019-01-01 10:08:33,4793,809,81,Daley Center Plaza,72,Wabash Ave & 16th St,Subscriber,Male,1991
+21742741,2019-01-01 9:55:09,2019-01-01 10:08:20,1616,791,331,Halsted St & Clybourn Ave (*),324,Stockton Dr & Wrightwood Ave,Subscriber,Male,1989
+21742742,2019-01-01 9:55:27,2019-01-01 10:00:13,259,286,13,Wilton Ave & Diversey Pkwy,220,Clark St & Drummond Pl,Subscriber,Male,1992
+21742743,2019-01-01 9:55:52,2019-01-01 10:05:17,5286,565,658,Leavitt St & Division St (*),29,Noble St & Milwaukee Ave,Subscriber,Male,1991
+21742744,2019-01-01 9:56:48,2019-01-01 10:07:35,4239,647,21,Aberdeen St & Jackson Blvd,320,Loomis St & Lexington St,Subscriber,Female,1951
+21742745,2019-01-01 9:57:44,2019-01-01 10:07:51,1164,607,172,Rush St & Cedar St,43,Michigan Ave & Washington St,Subscriber,Male,1958
+21742746,2019-01-01 9:58:48,2019-01-01 10:02:50,5877,242,211,St. Clair St & Erie St,125,Rush St & Hubbard St,Subscriber,Male,1960
+21742747,2019-01-01 9:59:34,2019-01-01 10:04:56,1895,322,254,Pine Grove Ave & Irving Park Rd,165,Clark St & Grace St,Subscriber,Female,1983
+21742748,2019-01-01 10:00:31,2019-01-01 10:24:11,110,"1,420.00",205,Paulina St & 18th St,17,Honore St & Division St,Subscriber,Male,1986
+21742749,2019-01-01 10:00:39,2019-01-01 10:04:42,6417,243,6,Dusable Harbor,26,McClurg Ct & Illinois St,Subscriber,Male,1964
+21742750,2019-01-01 10:01:18,2019-01-01 10:11:31,4717,613,240,Sheridan Rd & Irving Park Rd,303,Broadway & Cornelia Ave,Subscriber,Male,1984
+21742751,2019-01-01 10:01:56,2019-01-01 10:08:03,4236,367,174,Canal St & Madison St,49,Dearborn St & Monroe St,Subscriber,Female,1988
+21742752,2019-01-01 10:02:52,2019-01-01 10:10:03,2419,431,192,Canal St & Adams St,43,Michigan Ave & Washington St,Subscriber,Female,1989
+21742753,2019-01-01 10:03:17,2019-01-01 10:05:13,2152,116,327,Sheffield Ave & Webster Ave,113,Bissell St & Armitage Ave,Subscriber,Male,1983
+21742754,2019-01-01 10:03:20,2019-01-01 10:40:49,5748,"2,249.00",157,Lake Shore Dr & Wellington Ave,127,Lincoln Ave & Fullerton Ave,Subscriber,Female,1993
+21742755,2019-01-01 10:07:36,2019-01-01 10:17:54,3757,618,73,Jefferson St & Monroe St,71,Morgan St & Lake St,Subscriber,Male,1990
+21742756,2019-01-01 10:07:43,2019-01-01 10:17:47,1115,604,73,Jefferson St & Monroe St,71,Morgan St & Lake St,Subscriber,Female,1991
+21742757,2019-01-01 10:07:53,2019-01-01 10:22:10,3728,857,133,Kingsbury St & Kinzie St,289,Wells St & Concord Ln,Subscriber,Female,1984
+21742758,2019-01-01 10:08:32,2019-01-01 10:10:44,6311,132,113,Bissell St & Armitage Ave,327,Sheffield Ave & Webster Ave,Subscriber,Male,1983
+21742760,2019-01-01 10:09:21,2019-01-01 10:20:34,3978,673,190,Southport Ave & Wrightwood Ave,308,Seeley Ave & Roscoe St,Subscriber,Male,1988
+21742761,2019-01-01 10:09:38,2019-01-01 10:16:34,1844,416,255,Indiana Ave & Roosevelt Rd,624,Dearborn St & Van Buren St (*),Subscriber,Male,1955
+21742762,2019-01-01 10:09:42,2019-01-01 10:25:57,4616,975,250,Ashland Ave & Wellington Ave,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1981
+21742763,2019-01-01 10:10:19,2019-01-01 10:13:16,3260,177,251,Clarendon Ave & Leland Ave,465,Marine Dr & Ainslie St,Subscriber,Male,1993
+21742764,2019-01-01 10:10:44,2019-01-01 10:44:03,1312,"1,999.00",226,Racine Ave & Belmont Ave,296,Broadway & Belmont Ave,Subscriber,,
+21742765,2019-01-01 10:11:08,2019-01-01 12:29:19,1076,"8,291.00",454,Broadway & Granville Ave,344,Ravenswood Ave & Lawrence Ave,Customer,,
+21742767,2019-01-01 10:12:16,2019-01-01 10:19:26,6363,430,571,Vernon Ave & 75th St,569,Woodlawn Ave & 75th St,Customer,Male,1999
+21742768,2019-01-01 10:13:26,2019-01-01 10:15:23,5784,117,152,Lincoln Ave & Diversey Pkwy,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1994
+21742769,2019-01-01 10:13:43,2019-01-01 10:22:37,5221,534,50,Clark St & Ida B Wells Dr,50,Clark St & Ida B Wells Dr,Subscriber,Male,1957
+21742770,2019-01-01 10:14:13,2019-01-01 10:17:07,475,174,145,Mies van der Rohe Way & Chestnut St,161,Rush St & Superior St,Subscriber,Male,1990
+21742771,2019-01-01 10:14:32,2019-01-01 10:20:27,4951,355,51,Clark St & Randolph St,627,LaSalle Dr & Huron St (*),Subscriber,Male,1954
+21742772,2019-01-01 10:15:16,2019-01-01 10:26:21,689,665,331,Halsted St & Clybourn Ave (*),110,Dearborn St & Erie St,Subscriber,Male,1993
+21742773,2019-01-01 10:16:14,2019-01-01 10:23:41,3943,447,374,Western Ave & Walton St,61,Wood St & Milwaukee Ave,Subscriber,Female,1992
+21742774,2019-01-01 10:17:01,2019-01-01 10:20:59,5439,238,220,Clark St & Drummond Pl,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1992
+21742775,2019-01-01 10:18:18,2019-01-01 10:38:12,4320,"1,194.00",145,Mies van der Rohe Way & Chestnut St,145,Mies van der Rohe Way & Chestnut St,Subscriber,Male,1976
+21742782,2019-01-01 10:22:20,2019-01-01 10:39:14,1938,"1,014.00",26,McClurg Ct & Illinois St,217,Racine Ave (May St) & Fulton St,Subscriber,Male,1989
+21742783,2019-01-01 10:22:26,2019-01-02 10:08:20,1164,"85,554.00",43,Michigan Ave & Washington St,43,Michigan Ave & Washington St,Subscriber,Male,1977
+21742784,2019-01-01 10:22:35,2019-01-01 10:27:24,4161,289,38,Clark St & Lake St,197,Michigan Ave & Madison St,Subscriber,,1964
+21742785,2019-01-01 10:23:26,2019-01-01 10:29:09,1895,343,165,Clark St & Grace St,254,Pine Grove Ave & Irving Park Rd,Subscriber,Female,1983
+21742786,2019-01-01 10:24:31,2019-01-01 10:37:46,1225,795,346,Ada St & Washington Blvd,210,Ashland Ave & Division St,Subscriber,Male,1994
+21742787,2019-01-01 10:25:04,2019-01-01 10:28:19,4418,195,49,Dearborn St & Monroe St,50,Clark St & Ida B Wells Dr,Subscriber,Male,1984
+21742788,2019-01-01 10:25:14,2019-01-01 10:35:49,3149,635,213,Leavitt St & North Ave,376,Artesian Ave & Hubbard St,Subscriber,Male,1983
+21742789,2019-01-01 10:25:20,2019-01-01 10:31:52,4447,392,339,Emerald Ave & 31st St,206,Halsted St & Archer Ave,Subscriber,Male,1962
+21742790,2019-01-01 10:25:35,2019-01-01 10:28:32,4236,177,49,Dearborn St & Monroe St,50,Clark St & Ida B Wells Dr,Subscriber,Female,1983
+21742791,2019-01-01 10:25:42,2019-01-01 10:41:53,2331,971,160,Campbell Ave & North Ave,60,Dayton St & North Ave,Subscriber,Female,1986
+21742792,2019-01-01 10:26:07,2019-01-01 10:30:14,4592,247,54,Ogden Ave & Chicago Ave,350,Ashland Ave & Chicago Ave,Subscriber,Male,1986
+21742793,2019-01-01 10:26:22,2019-01-01 10:31:24,6231,302,73,Jefferson St & Monroe St,56,Desplaines St & Kinzie St,Subscriber,Female,1976
+21742794,2019-01-01 10:26:23,2019-01-01 10:36:26,2727,603,178,State St & 19th St,57,Clinton St & Roosevelt Rd,Subscriber,Male,1983
+21742795,2019-01-01 10:27:38,2019-01-01 10:35:22,1350,464,118,Sedgwick St & North Ave,113,Bissell St & Armitage Ave,Subscriber,Male,1979
+21742796,2019-01-01 10:28:43,2019-01-01 10:41:00,6289,737,247,Shore Dr & 55th St,328,Ellis Ave & 58th St,Subscriber,Male,1989
+21742797,2019-01-01 10:29:02,2019-01-01 10:33:59,4441,297,32,Racine Ave & Congress Pkwy,80,Aberdeen St & Monroe St,Subscriber,Male,1993
+21742798,2019-01-01 10:29:06,2019-01-01 10:41:52,4012,766,182,Wells St & Elm St,225,Halsted St & Dickens Ave,Subscriber,Female,1990
+21742802,2019-01-01 10:30:59,2019-01-01 10:36:55,24,356,141,Clark St & Lincoln Ave,176,Clark St & Elm St,Subscriber,Male,1958
+21742803,2019-01-01 10:31:42,2019-01-01 11:01:37,4814,"1,795.00",277,Ashland Ave & Grand Ave,51,Clark St & Randolph St,Customer,Male,1991
+21742806,2019-01-01 10:32:34,2019-01-01 10:40:50,610,496,188,Greenview Ave & Fullerton Ave,340,Clark St & Wrightwood Ave,Subscriber,Male,1994
+21742807,2019-01-01 10:32:58,2019-01-01 11:01:27,3923,"1,709.00",277,Ashland Ave & Grand Ave,51,Clark St & Randolph St,Customer,Female,1986
+21742808,2019-01-01 10:33:02,2019-01-01 10:42:00,1895,538,254,Pine Grove Ave & Irving Park Rd,296,Broadway & Belmont Ave,Subscriber,Female,1992
+21742809,2019-01-01 10:35:19,2019-01-01 10:44:21,3766,542,21,Aberdeen St & Jackson Blvd,119,Ashland Ave & Lake St (Temp),Subscriber,Male,1988
+21742812,2019-01-01 10:36:40,2019-01-01 10:48:27,3607,707,47,State St & Kinzie St,182,Wells St & Elm St,Subscriber,Female,1990
+21742813,2019-01-01 10:37:15,2019-01-01 10:50:47,6393,812,41,Federal St & Polk St,42,Wabash Ave & Cermak Rd,Subscriber,Female,1994
+21742816,2019-01-01 10:38:08,2019-01-01 10:55:54,6271,"1,066.00",41,Federal St & Polk St,84,Milwaukee Ave & Grand Ave,Subscriber,Female,1983
+21742819,2019-01-01 10:38:54,2019-01-01 10:53:46,3118,892,16,Paulina Ave & North Ave,31,Franklin St & Chicago Ave,Subscriber,Male,1982
+21742820,2019-01-01 10:41:03,2019-01-01 10:44:59,3277,236,250,Ashland Ave & Wellington Ave,153,Southport Ave & Wellington Ave,Subscriber,Male,1974
+21742821,2019-01-01 10:41:05,2019-01-01 11:07:12,4189,"1,567.00",324,Stockton Dr & Wrightwood Ave,49,Dearborn St & Monroe St,Subscriber,Male,1954
+21742822,2019-01-01 10:41:32,2019-01-01 10:47:17,4278,345,156,Clark St & Wellington Ave,226,Racine Ave & Belmont Ave,Subscriber,Male,1970
+21742825,2019-01-01 10:44:00,2019-01-01 10:53:43,5748,583,127,Lincoln Ave & Fullerton Ave,153,Southport Ave & Wellington Ave,Subscriber,Female,1993
+21742826,2019-01-01 10:44:16,2019-01-01 10:53:20,2933,544,80,Aberdeen St & Monroe St,133,Kingsbury St & Kinzie St,Subscriber,Male,1982
+21742827,2019-01-01 10:44:34,2019-01-01 11:02:56,3438,"1,102.00",296,Broadway & Belmont Ave,117,Wilton Ave & Belmont Ave,Subscriber,,
+21742831,2019-01-01 10:45:50,2019-01-01 10:54:46,5931,536,240,Sheridan Rd & Irving Park Rd,300,Broadway & Barry Ave,Subscriber,Male,1993
+21742832,2019-01-01 10:47:32,2019-01-01 10:49:35,3368,123,130,Damen Ave & Division St,17,Honore St & Division St,Subscriber,Male,1990
+21742833,2019-01-01 10:48:35,2019-01-01 10:55:16,69,401,138,Clybourn Ave & Division St,289,Wells St & Concord Ln,Subscriber,Male,1972
+21742834,2019-01-01 10:50:39,2019-01-01 11:00:52,24,613,176,Clark St & Elm St,636,Orleans St & Hubbard St (*),Subscriber,Male,1958
+21742837,2019-01-01 10:52:00,2019-01-01 11:08:09,2254,969,66,Clinton St & Lake St,35,Streeter Dr & Grand Ave,Subscriber,Male,1965
+21742838,2019-01-01 10:52:43,2019-01-01 11:08:00,1562,917,66,Clinton St & Lake St,35,Streeter Dr & Grand Ave,Subscriber,Female,1965
+21742839,2019-01-01 10:53:08,2019-01-01 11:14:44,2549,"1,296.00",337,Clark St & Chicago Ave,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Male,1984
+21742840,2019-01-01 10:53:20,2019-01-01 11:04:04,1742,644,506,Spaulding Ave & Armitage Ave,216,California Ave & Division St,Subscriber,Male,1987
+21742841,2019-01-01 10:53:23,2019-01-01 11:01:36,5447,493,292,Southport Ave & Clark St,304,Broadway & Waveland Ave,Subscriber,Female,1959
+21742842,2019-01-01 10:53:49,2019-01-01 11:10:15,4153,986,174,Canal St & Madison St,199,Wabash Ave & Grand Ave,Subscriber,Female,1982
+21742843,2019-01-01 10:53:55,2019-01-01 10:55:25,5016,90,161,Rush St & Superior St,161,Rush St & Superior St,Subscriber,Female,1989
+21742844,2019-01-01 10:54:08,2019-01-01 10:58:52,1633,284,114,Sheffield Ave & Waveland Ave,231,Sheridan Rd & Montrose Ave,Subscriber,Male,1988
+21742845,2019-01-01 10:54:13,2019-01-01 11:10:22,495,969,174,Canal St & Madison St,199,Wabash Ave & Grand Ave,Subscriber,Female,1986
+21742846,2019-01-01 10:57:19,2019-01-01 11:04:29,3489,430,161,Rush St & Superior St,196,Cityfront Plaza Dr & Pioneer Ct,Subscriber,Male,1987
+21742847,2019-01-01 10:57:28,2019-01-01 11:04:38,5016,430,161,Rush St & Superior St,196,Cityfront Plaza Dr & Pioneer Ct,Subscriber,Female,1989
+21742848,2019-01-01 10:58:58,2019-01-01 11:03:51,6231,293,56,Desplaines St & Kinzie St,107,Desplaines St & Jackson Blvd,Subscriber,Female,1976
+21742849,2019-01-01 10:59:39,2019-01-01 11:03:38,4941,239,107,Desplaines St & Jackson Blvd,56,Desplaines St & Kinzie St,Subscriber,Male,1989
+21742850,2019-01-01 11:00:11,2019-01-01 11:04:01,5216,230,244,Ravenswood Ave & Irving Park Rd,238,Wolcott (Ravenswood) Ave & Montrose Ave (*),Subscriber,Male,1981
+21742851,2019-01-01 11:00:53,2019-01-01 11:15:03,2097,850,295,Broadway & Argyle St,472,Lincoln Ave & Winona St,Subscriber,Male,1993
+21742854,2019-01-01 11:01:57,2019-01-01 11:09:25,715,448,53,Wells St & Huron St,26,McClurg Ct & Illinois St,Subscriber,Male,1972
+21742857,2019-01-01 11:03:16,2019-01-01 11:05:44,2732,148,24,Fairbanks Ct & Grand Ave,199,Wabash Ave & Grand Ave,Subscriber,Male,1987
+21742860,2019-01-01 11:04:09,2019-01-01 11:06:50,4556,161,24,Fairbanks Ct & Grand Ave,99,Lake Shore Dr & Ohio St,Subscriber,Male,1976
+21742864,2019-01-01 11:04:53,2019-01-01 11:11:42,3146,409,272,Indiana Ave & 31st St,403,Wentworth Ave & 33rd St,Subscriber,Female,1989
+21742867,2019-01-01 11:06:45,2019-01-01 11:12:09,5877,324,125,Rush St & Hubbard St,211,St. Clair St & Erie St,Subscriber,Male,1960
+21742868,2019-01-01 11:06:47,2019-01-01 11:14:23,1176,456,144,Larrabee St & Webster Ave,156,Clark St & Wellington Ave,Subscriber,Male,1995
+21742869,2019-01-01 11:07:11,2019-01-01 11:15:14,610,483,340,Clark St & Wrightwood Ave,153,Southport Ave & Wellington Ave,Subscriber,Male,1993
+21742872,2019-01-01 11:08:08,2019-01-01 11:34:01,224,"1,553.00",601,Central St Metra,467,Western Ave & Lunt Ave,Subscriber,Male,1971
+21742874,2019-01-01 11:09:23,2019-01-01 11:13:44,1251,261,453,Clark St & Schreiber Ave,451,Sheridan Rd & Loyola Ave,Subscriber,Male,1990
+21742877,2019-01-01 11:10:00,2019-01-01 11:14:56,4119,296,125,Rush St & Hubbard St,627,LaSalle Dr & Huron St (*),Subscriber,Male,1992
+21742884,2019-01-01 11:13:27,2019-01-01 11:32:15,3228,"1,128.00",140,Dearborn Pkwy & Delaware Pl,217,Racine Ave (May St) & Fulton St,Subscriber,Female,1983
+21742885,2019-01-01 11:13:32,2019-01-01 11:19:06,4269,334,349,Halsted St & Wrightwood Ave,87,Racine Ave & Fullerton Ave,Subscriber,Male,1992
+21742886,2019-01-01 11:14:07,2019-01-01 11:19:29,740,322,111,Sedgwick St & Huron St,46,Wells St & Walton St,Subscriber,Male,1990
+21742887,2019-01-01 11:14:23,2019-01-01 11:19:12,5434,289,89,Financial Pl & Ida B Wells Dr (Temp),414,Canal St & Taylor St,Subscriber,Female,1991
+21742888,2019-01-01 11:14:32,2019-01-01 11:19:12,985,280,89,Financial Pl & Ida B Wells Dr (Temp),414,Canal St & Taylor St,Subscriber,Male,1992
+21742889,2019-01-01 11:15:13,2019-01-01 11:36:20,3379,"1,267.00",254,Pine Grove Ave & Irving Park Rd,325,Clark St & Winnemac Ave,Subscriber,Male,1952
+21742890,2019-01-01 11:15:14,2019-01-01 11:19:46,2405,272,312,Clarendon Ave & Gordon Ter,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1981
+21742891,2019-01-01 11:15:18,2019-01-01 11:26:55,24,697,636,Orleans St & Hubbard St (*),289,Wells St & Concord Ln,Subscriber,Male,1958
+21742892,2019-01-01 11:15:43,2019-01-01 11:20:31,303,288,232,Pine Grove Ave & Waveland Ave,240,Sheridan Rd & Irving Park Rd,Subscriber,Male,1974
+21742893,2019-01-01 11:16:03,2019-01-01 11:24:59,5302,536,168,Michigan Ave & 14th St,414,Canal St & Taylor St,Subscriber,Male,1987
+21742895,2019-01-01 11:18:11,2019-01-01 11:22:52,5461,281,340,Clark St & Wrightwood Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Female,1991
+21742896,2019-01-01 11:20:29,2019-01-01 11:27:40,261,431,188,Greenview Ave & Fullerton Ave,310,Damen Ave & Charleston St,Subscriber,Male,1967
+21742897,2019-01-01 11:20:46,2019-01-01 11:58:53,4332,"2,287.00",226,Racine Ave & Belmont Ave,226,Racine Ave & Belmont Ave,Customer,Male,1988
+21742898,2019-01-01 11:21:11,2019-01-01 11:58:28,4829,"2,237.00",106,State St & Pearson St,337,Clark St & Chicago Ave,Subscriber,,
+21742900,2019-01-01 11:21:20,2019-01-01 11:52:42,4161,"1,882.00",197,Michigan Ave & Madison St,3,Shedd Aquarium,Customer,,
+21742901,2019-01-01 11:21:48,2019-01-01 11:27:34,5877,346,211,St. Clair St & Erie St,125,Rush St & Hubbard St,Subscriber,Male,1960
+21742902,2019-01-01 11:22:01,2019-01-01 11:29:13,5512,432,154,Southport Ave & Belmont Ave,299,Halsted St & Roscoe St,Subscriber,Male,1993
+21742903,2019-01-01 11:22:08,2019-01-01 11:53:30,2094,"1,882.00",197,Michigan Ave & Madison St,3,Shedd Aquarium,Customer,,
+21742905,2019-01-01 11:22:29,2019-01-01 11:53:03,3608,"1,834.00",197,Michigan Ave & Madison St,3,Shedd Aquarium,Customer,,
+21742906,2019-01-01 11:22:38,2019-01-01 13:28:00,3703,"7,522.00",354,Sheridan Rd & Greenleaf Ave,523,Eastlake Ter & Rogers Ave,Customer,,
+21742907,2019-01-01 11:22:48,2019-01-01 11:53:23,1595,"1,835.00",197,Michigan Ave & Madison St,3,Shedd Aquarium,Customer,,
+21742908,2019-01-01 11:23:15,2019-01-01 13:18:12,2732,"6,897.00",199,Wabash Ave & Grand Ave,199,Wabash Ave & Grand Ave,Customer,,
+21742909,2019-01-01 11:23:53,2019-01-01 11:26:46,4841,173,180,Ritchie Ct & Banks St,176,Clark St & Elm St,Subscriber,Male,1992
+21742910,2019-01-01 11:24:54,2019-01-01 11:34:22,5540,568,254,Pine Grove Ave & Irving Park Rd,465,Marine Dr & Ainslie St,Subscriber,Male,1960
+21742911,2019-01-01 11:25:27,2019-01-01 11:28:46,3426,199,142,McClurg Ct & Erie St,24,Fairbanks Ct & Grand Ave,Subscriber,Male,1978
+21742912,2019-01-01 11:26:37,2019-01-01 11:48:47,1793,"1,330.00",47,State St & Kinzie St,305,Western Ave & Division St,Subscriber,Female,1988
+21742913,2019-01-01 11:27:11,2019-01-01 11:33:33,6415,382,77,Clinton St & Madison St,21,Aberdeen St & Jackson Blvd,Subscriber,Male,1992
+21742914,2019-01-01 11:28:33,2019-01-01 11:36:28,391,475,291,Wells St & Evergreen Ave,291,Wells St & Evergreen Ave,Subscriber,Male,1984
+21742917,2019-01-01 11:30:04,2019-01-01 11:37:25,200,441,54,Ogden Ave & Chicago Ave,359,Larrabee St & Division St,Subscriber,Female,1993
+21742918,2019-01-01 11:30:04,2019-01-01 11:38:55,3943,531,61,Wood St & Milwaukee Ave,223,Clifton Ave & Armitage Ave,Subscriber,Female,1991
+21742919,2019-01-01 11:31:39,2019-01-01 11:41:50,6417,611,26,McClurg Ct & Illinois St,140,Dearborn Pkwy & Delaware Pl,Subscriber,Female,1972
+21742920,2019-01-01 11:31:59,2019-01-01 11:34:17,3207,138,106,State St & Pearson St,110,Dearborn St & Erie St,Subscriber,Male,1982
+21742921,2019-01-01 11:32:19,2019-01-01 11:50:41,3394,"1,102.00",505,Winchester Ave & Elston Ave,130,Damen Ave & Division St,Subscriber,Female,1989
+21742928,2019-01-01 11:33:18,2019-01-01 11:41:22,5341,484,27,Larrabee St & North Ave,29,Noble St & Milwaukee Ave,Subscriber,Male,1993
+21742936,2019-01-01 11:34:16,2019-01-01 11:44:33,6071,617,232,Pine Grove Ave & Waveland Ave,240,Sheridan Rd & Irving Park Rd,Subscriber,Male,1974
+21742940,2019-01-01 11:34:37,2019-01-01 12:01:24,4202,"1,607.00",374,Western Ave & Walton St,319,Greenview Ave & Diversey Pkwy,Subscriber,Female,1983
+21742941,2019-01-01 11:34:51,2019-01-01 11:39:48,441,297,121,Blackstone Ave & Hyde Park Blvd,418,Ellis Ave & 53rd St,Subscriber,Female,1991
+21742945,2019-01-01 11:37:16,2019-01-01 12:05:39,4031,"1,703.00",93,Sheffield Ave & Willow St,238,Wolcott (Ravenswood) Ave & Montrose Ave (*),Subscriber,Female,1988
+21742946,2019-01-01 11:38:19,2019-01-01 11:52:33,3639,854,321,Wabash Ave & 9th St,212,Wells St & Hubbard St,Subscriber,Female,1992
+21742949,2019-01-01 11:39:18,2019-01-01 11:46:31,4188,433,228,Damen Ave & Melrose Ave,257,Lincoln Ave & Waveland Ave,Subscriber,Female,1984
+21742951,2019-01-01 11:40:09,2019-01-01 11:51:28,1516,679,460,Clark St & Bryn Mawr Ave,242,Damen Ave & Leland Ave,Subscriber,Male,1964
+21742952,2019-01-01 11:40:24,2019-01-01 11:50:51,5456,627,293,Broadway & Wilson Ave,463,Clark St & Berwyn Ave,Subscriber,Male,1993
+21742955,2019-01-01 11:41:08,2019-01-01 11:43:49,2340,161,176,Clark St & Elm St,301,Clark St & Schiller St,Subscriber,Male,1982
+21742956,2019-01-01 11:41:17,2019-01-01 11:44:10,4941,173,56,Desplaines St & Kinzie St,133,Kingsbury St & Kinzie St,Subscriber,Male,1979
+21742957,2019-01-01 11:41:19,2019-01-01 11:53:04,1802,705,277,Ashland Ave & Grand Ave,71,Morgan St & Lake St,Subscriber,Female,1989
+21742960,2019-01-01 11:42:07,2019-01-01 11:45:35,6458,208,314,Ravenswood Ave & Berteau Ave,298,Lincoln Ave & Belle Plaine Ave,Subscriber,Female,1991
+21742963,2019-01-01 11:42:32,2019-01-01 12:01:24,81,"1,132.00",232,Pine Grove Ave & Waveland Ave,329,Lake Shore Dr & Diversey Pkwy,Subscriber,Female,1989
+21742965,2019-01-01 11:42:45,2019-01-01 11:55:45,6269,780,324,Stockton Dr & Wrightwood Ave,113,Bissell St & Armitage Ave,Subscriber,Female,1995
+21742966,2019-01-01 11:43:07,2019-01-01 11:58:50,3728,943,289,Wells St & Concord Ln,133,Kingsbury St & Kinzie St,Subscriber,Female,1984
+21742971,2019-01-01 11:44:44,2019-01-01 12:04:56,5643,"1,212.00",301,Clark St & Schiller St,304,Broadway & Waveland Ave,Subscriber,Male,1982
+21742972,2019-01-01 11:45:22,2019-01-01 11:53:26,221,484,188,Greenview Ave & Fullerton Ave,340,Clark St & Wrightwood Ave,Subscriber,Male,1994
+21742974,2019-01-01 11:46:02,2019-01-01 11:50:30,2696,268,53,Wells St & Huron St,211,St. Clair St & Erie St,Subscriber,Male,1971
+21742977,2019-01-01 11:47:20,2019-01-01 11:50:06,689,166,110,Dearborn St & Erie St,106,State St & Pearson St,Subscriber,Male,1982
+21742978,2019-01-01 11:47:25,2019-01-01 11:52:06,5140,281,114,Sheffield Ave & Waveland Ave,227,Southport Ave & Waveland Ave,Subscriber,Female,1989
+21742979,2019-01-01 11:47:30,2019-01-01 11:53:20,4814,350,51,Clark St & Randolph St,56,Desplaines St & Kinzie St,Subscriber,Male,1988
+21742980,2019-01-01 11:47:34,2019-01-01 12:17:26,5877,"1,792.00",125,Rush St & Hubbard St,300,Broadway & Barry Ave,Subscriber,Female,1989
+21742981,2019-01-01 11:47:44,2019-01-01 12:11:56,6289,"1,452.00",328,Ellis Ave & 58th St,179,MLK Jr Dr & Pershing Rd,Subscriber,Male,1989
+21742983,2019-01-01 11:47:52,2019-01-01 12:24:17,736,"2,185.00",159,Claremont Ave & Hirsch St,120,Wentworth Ave & Cermak Rd (Temp),Subscriber,Male,1990
+21742986,2019-01-01 11:49:12,2019-01-01 11:54:57,3142,345,225,Halsted St & Dickens Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Male,1979
+21742988,2019-01-01 11:49:25,2019-01-01 11:53:42,6331,257,118,Sedgwick St & North Ave,224,Halsted St & Willow St,Subscriber,Male,1987
+21742989,2019-01-01 11:50:44,2019-01-01 12:04:46,5676,842,76,Lake Shore Dr & Monroe St,85,Michigan Ave & Oak St,Subscriber,Female,1981
+21742990,2019-01-01 11:50:57,2019-01-01 12:09:31,1830,"1,114.00",131,Lincoln Ave & Belmont Ave,157,Lake Shore Dr & Wellington Ave,Subscriber,Female,1993
+21742991,2019-01-01 11:51:03,2019-01-01 12:02:53,482,710,198,Green St & Madison St,320,Loomis St & Lexington St,Subscriber,Male,1964
+21742992,2019-01-01 11:52:01,2019-01-01 11:58:11,4621,370,41,Federal St & Polk St,37,Dearborn St & Adams St,Subscriber,Male,1957
+21742993,2019-01-01 11:52:28,2019-01-01 12:05:06,5576,758,328,Ellis Ave & 58th St,416,Dorchester Ave & 49th St,Subscriber,Male,1980
+21742995,2019-01-01 11:53:37,2019-01-01 12:07:18,1688,821,26,McClurg Ct & Illinois St,33,State St & Van Buren St,Subscriber,Male,1993
+21742997,2019-01-01 11:54:21,2019-01-01 12:01:41,4470,440,36,Franklin St & Jackson Blvd,31,Franklin St & Chicago Ave,Subscriber,Male,1980
+21742998,2019-01-01 11:54:44,2019-01-01 12:15:46,3418,"1,262.00",163,Damen Ave & Clybourn Ave,329,Lake Shore Dr & Diversey Pkwy,Subscriber,Female,1989
+21742999,2019-01-01 11:55:20,2019-01-01 12:24:44,6374,"1,764.00",25,Michigan Ave & Pearson St,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1980
+21743000,2019-01-01 11:55:20,2019-01-01 12:24:44,6433,"1,764.00",25,Michigan Ave & Pearson St,232,Pine Grove Ave & Waveland Ave,Subscriber,Male,1984
+21743001,2019-01-01 11:56:03,2019-01-01 12:14:54,4841,"1,131.00",176,Clark St & Elm St,80,Aberdeen St & Monroe St,Subscriber,Female,1991
+21743002,2019-01-01 11:57:16,2019-01-01 12:09:51,910,755,43,Michigan Ave & Washington St,96,Desplaines St & Randolph St,Subscriber,Female,1983
+21743003,2019-01-01 11:57:26,2019-01-01 11:59:51,5968,145,80,Aberdeen St & Monroe St,621,Aberdeen St & Randolph St,Subscriber,Male,1985
+21743004,2019-01-01 11:57:27,2019-01-01 12:03:29,6324,362,33,State St & Van Buren St,41,Federal St & Polk St,Subscriber,Male,1966
+21743006,2019-01-01 11:58:14,2019-01-01 12:05:07,110,413,17,Honore St & Division St,128,Damen Ave & Chicago Ave,Subscriber,Female,1979
+21743007,2019-01-01 11:58:45,2019-01-01 12:28:27,3807,"1,782.00",337,Clark St & Chicago Ave,176,Clark St & Elm St,Subscriber,,
+21743009,2019-01-01 12:00:12,2019-01-01 12:16:22,1201,970,321,Wabash Ave & 9th St,176,Clark St & Elm St,Subscriber,Male,1990
+21743014,2019-01-01 12:02:25,2019-01-01 12:06:07,6219,222,66,Clinton St & Lake St,133,Kingsbury St & Kinzie St,Subscriber,Female,1962
+21743015,2019-01-01 12:02:38,2019-01-01 12:08:01,3417,323,142,McClurg Ct & Erie St,337,Clark St & Chicago Ave,Subscriber,Male,1996
+21743016,2019-01-01 12:02:53,2019-01-01 14:39:24,441,"9,391.00",418,Ellis Ave & 53rd St,345,Lake Park Ave & 56th St,Customer,,
+21743017,2019-01-01 12:02:59,2019-01-01 12:11:47,568,528,23,Orleans St & Elm St (*),173,Mies van der Rohe Way & Chicago Ave,Subscriber,Female,1990
+21743018,2019-01-01 12:03:23,2019-01-01 12:15:58,3932,755,163,Damen Ave & Clybourn Ave,329,Lake Shore Dr & Diversey Pkwy,Subscriber,Male,1983
+21743019,2019-01-01 12:03:43,2019-01-01 12:11:27,5968,464,621,Aberdeen St & Randolph St,212,Wells St & Hubbard St,Subscriber,Male,1985
+21743022,2019-01-01 12:05:08,2019-01-01 12:27:03,5237,"1,315.00",281,Western Ave & 24th St,368,Ashland Ave & Archer Ave,Subscriber,Male,1974
+21743024,2019-01-01 12:05:24,2019-01-01 12:11:04,6311,340,327,Sheffield Ave & Webster Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Male,1993
+21743027,2019-01-01 12:06:30,2019-01-01 12:14:25,5302,475,414,Canal St & Taylor St,168,Michigan Ave & 14th St,Subscriber,Male,1987
+21743028,2019-01-01 12:06:33,2019-01-01 12:10:26,6440,233,24,Fairbanks Ct & Grand Ave,142,McClurg Ct & Erie St,Subscriber,Male,1978
+21743029,2019-01-01 12:07:31,2019-01-01 12:12:35,2205,304,59,Wabash Ave & Roosevelt Rd,414,Canal St & Taylor St,Subscriber,Male,1987
+21743030,2019-01-01 12:07:31,2019-01-01 12:14:10,5244,399,133,Kingsbury St & Kinzie St,161,Rush St & Superior St,Subscriber,Male,1988
+21743031,2019-01-01 12:07:49,2019-01-01 12:09:35,2135,106,67,Sheffield Ave & Fullerton Ave,87,Racine Ave & Fullerton Ave,Subscriber,Male,1990
+21743033,2019-01-01 12:07:57,2019-01-01 12:14:21,4278,384,226,Racine Ave & Belmont Ave,156,Clark St & Wellington Ave,Subscriber,Male,1970
+21743034,2019-01-01 12:08:15,2019-01-01 12:17:16,5931,541,300,Broadway & Barry Ave,240,Sheridan Rd & Irving Park Rd,Subscriber,Male,1993
+21743035,2019-01-01 12:08:29,2019-01-01 12:25:31,4881,"1,022.00",49,Dearborn St & Monroe St,41,Federal St & Polk St,Subscriber,Male,1957
+21743038,2019-01-01 12:08:44,2019-01-01 12:14:14,5528,330,175,Wells St & Polk St,626,Delano Ct & Roosevelt Rd,Subscriber,Male,1983
+21743039,2019-01-01 12:09:00,2019-01-01 12:22:20,221,800,340,Clark St & Wrightwood Ave,230,Lincoln Ave & Roscoe St,Subscriber,Female,1990
+21743040,2019-01-01 12:09:35,2019-01-01 12:14:48,287,313,218,Wells St & 19th St,218,Wells St & 19th St,Customer,Male,2002
+21743043,2019-01-01 12:10:37,2019-01-01 12:17:20,5456,403,463,Clark St & Berwyn Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1993
+21743046,2019-01-01 12:11:25,2019-01-01 12:16:49,871,324,114,Sheffield Ave & Waveland Ave,156,Clark St & Wellington Ave,Subscriber,Male,1994
+21743050,2019-01-01 12:13:33,2019-01-01 12:32:09,4399,"1,116.00",324,Stockton Dr & Wrightwood Ave,85,Michigan Ave & Oak St,Subscriber,Female,1986
+21743051,2019-01-01 12:13:50,2019-01-01 12:29:43,1219,953,465,Marine Dr & Ainslie St,298,Lincoln Ave & Belle Plaine Ave,Subscriber,Female,1985
+21743052,2019-01-01 12:15:15,2019-01-01 12:20:36,3090,321,220,Clark St & Drummond Pl,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Male,1974
+21743053,2019-01-01 12:15:24,2019-01-01 12:21:50,3969,386,234,Clark St & Montrose Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1987
+21743054,2019-01-01 12:15:25,2019-01-01 12:20:32,715,307,26,McClurg Ct & Illinois St,181,LaSalle St & Illinois St,Subscriber,Male,1972
+21743055,2019-01-01 12:15:39,2019-01-01 12:19:11,4166,212,138,Clybourn Ave & Division St,182,Wells St & Elm St,Subscriber,Female,1990
+21743056,2019-01-01 12:16:12,2019-01-01 12:28:13,200,721,359,Larrabee St & Division St,54,Ogden Ave & Chicago Ave,Subscriber,Female,1993
+21743057,2019-01-01 12:16:18,2019-01-01 12:21:08,4188,290,257,Lincoln Ave & Waveland Ave,308,Seeley Ave & Roscoe St,Subscriber,Female,1986
+21743058,2019-01-01 12:16:21,2019-01-01 12:21:08,1951,287,257,Lincoln Ave & Waveland Ave,308,Seeley Ave & Roscoe St,Subscriber,Male,1986
+21743059,2019-01-01 12:16:28,2019-01-01 12:22:37,1296,369,176,Clark St & Elm St,364,Larrabee St & Oak St,Subscriber,Female,1964
+21743063,2019-01-01 12:19:38,2019-01-01 12:25:39,4793,361,72,Wabash Ave & 16th St,120,Wentworth Ave & Cermak Rd (Temp),Subscriber,Male,1960
+21743065,2019-01-01 12:19:46,2019-01-01 12:39:16,6296,"1,170.00",442,California Ave & 23rd Pl,442,California Ave & 23rd Pl,Subscriber,Male,1948
+21743071,2019-01-01 12:22:07,2019-01-01 12:30:01,6118,474,59,Wabash Ave & Roosevelt Rd,57,Clinton St & Roosevelt Rd,Subscriber,Female,1993
+21743072,2019-01-01 12:22:35,2019-01-01 12:29:56,3875,441,59,Wabash Ave & Roosevelt Rd,57,Clinton St & Roosevelt Rd,Subscriber,Male,1992
+21743073,2019-01-01 12:23:28,2019-01-01 14:22:17,287,"7,129.00",218,Wells St & 19th St,255,Indiana Ave & Roosevelt Rd,Customer,Male,2002
+21743074,2019-01-01 12:23:51,2019-01-01 12:35:48,6269,717,113,Bissell St & Armitage Ave,141,Clark St & Lincoln Ave,Subscriber,Male,1978
+21743075,2019-01-01 12:24:02,2019-01-01 12:28:39,1485,277,77,Clinton St & Madison St,112,Green St & Randolph St,Subscriber,Male,1980
+21743078,2019-01-01 12:25:21,2019-01-01 12:31:59,610,398,153,Southport Ave & Wellington Ave,300,Broadway & Barry Ave,Subscriber,Male,1993
+21743080,2019-01-01 12:25:46,2019-01-01 12:39:22,2648,816,621,Aberdeen St & Randolph St,53,Wells St & Huron St,Subscriber,Female,1958
+21743081,2019-01-01 12:26:28,2019-01-01 12:29:22,6270,174,251,Clarendon Ave & Leland Ave,465,Marine Dr & Ainslie St,Subscriber,Male,1970
+21743085,2019-01-01 12:28:05,2019-01-01 12:44:39,268,994,110,Dearborn St & Erie St,21,Aberdeen St & Jackson Blvd,Subscriber,Male,1993
+21743088,2019-01-01 12:28:23,2019-01-01 12:47:05,5996,"1,122.00",177,Theater on the Lake,232,Pine Grove Ave & Waveland Ave,Subscriber,Female,1964
+21743093,2019-01-01 12:29:29,2019-01-01 12:32:10,672,161,169,Canal St & Harrison St,414,Canal St & Taylor St,Subscriber,Male,1940
+21743094,2019-01-01 12:29:58,2019-01-01 12:33:04,5794,186,56,Desplaines St & Kinzie St,133,Kingsbury St & Kinzie St,Subscriber,Male,1975
+21743096,2019-01-01 12:30:12,2019-01-01 12:51:51,5385,"1,299.00",116,Western Ave & Winnebago Ave,69,Damen Ave & Pierce Ave,Subscriber,Male,1992
+21743099,2019-01-01 12:31:04,2019-01-01 12:39:58,5237,534,368,Ashland Ave & Archer Ave,547,Ashland Ave & Pershing Rd,Subscriber,Male,1974
+21743101,2019-01-01 12:31:11,2019-01-01 12:33:47,5865,156,294,Broadway & Berwyn Ave,463,Clark St & Berwyn Ave,Subscriber,Male,1979
+21743102,2019-01-01 12:31:52,2019-01-01 12:55:56,787,"1,444.00",637,Wood St & Chicago Ave (*),259,California Ave & Francis Pl,Subscriber,Female,1984
+21743103,2019-01-01 12:32:06,2019-01-01 12:55:56,992,"1,430.00",637,Wood St & Chicago Ave (*),259,California Ave & Francis Pl,Subscriber,Male,1982
+21743104,2019-01-01 12:32:39,2019-01-01 12:49:25,87,"1,006.00",620,Orleans St & Chestnut St (NEXT Apts),134,Peoria St & Jackson Blvd,Subscriber,Male,1988
+21743105,2019-01-01 12:32:40,2019-01-01 12:41:34,965,534,133,Kingsbury St & Kinzie St,7,Field Blvd & South Water St,Subscriber,Male,1978
+21743106,2019-01-01 12:34:08,2019-01-01 12:38:48,2019,280,273,Michigan Ave & 18th St,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1980
+21743109,2019-01-01 12:35:08,2019-01-01 12:47:52,3426,764,24,Fairbanks Ct & Grand Ave,289,Wells St & Concord Ln,Subscriber,Male,1987
+21743110,2019-01-01 12:35:09,2019-01-01 12:52:37,5794,"1,048.00",133,Kingsbury St & Kinzie St,118,Sedgwick St & North Ave,Subscriber,Male,1950
+21743113,2019-01-01 12:36:09,2019-01-01 12:42:15,4041,366,195,Columbus Dr & Randolph St,49,Dearborn St & Monroe St,Subscriber,Male,1981
+21743114,2019-01-01 12:36:35,2019-01-01 12:53:40,4031,"1,025.00",238,Wolcott (Ravenswood) Ave & Montrose Ave (*),304,Broadway & Waveland Ave,Subscriber,Male,1982
+21743116,2019-01-01 12:37:26,2019-01-01 12:40:07,2140,161,525,Glenwood Ave & Touhy Ave,520,Greenview Ave & Jarvis Ave,Subscriber,Male,1982
+21743118,2019-01-01 12:38:26,2019-01-01 12:46:08,3754,462,152,Lincoln Ave & Diversey Pkwy,296,Broadway & Belmont Ave,Subscriber,Male,1988
+21743119,2019-01-01 12:39:49,2019-01-01 12:45:14,2427,325,94,Clark St & Armitage Ave,225,Halsted St & Dickens Ave,Customer,,
+21743120,2019-01-01 12:39:53,2019-01-01 12:57:06,6129,"1,033.00",659,Leavitt St & Chicago Ave,219,Damen Ave & Cortland St,Subscriber,Female,1987
+21743122,2019-01-01 12:42:02,2019-01-01 12:59:20,3325,"1,038.00",84,Milwaukee Ave & Grand Ave,14,Morgan St & 18th St,Subscriber,Female,1984
+21743123,2019-01-01 12:43:34,2019-01-01 12:53:05,6130,571,119,Ashland Ave & Lake St (Temp),56,Desplaines St & Kinzie St,Subscriber,Male,1988
+21743124,2019-01-01 12:43:49,2019-01-01 12:51:18,246,449,164,Franklin St & Lake St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1956
+21743126,2019-01-01 12:44:12,2019-01-01 13:03:28,5356,"1,156.00",129,Blue Island Ave & 18th St,133,Kingsbury St & Kinzie St,Subscriber,Male,1977
+21743127,2019-01-01 12:44:32,2019-01-01 12:52:08,5782,456,403,Wentworth Ave & 33rd St,401,Shields Ave & 28th Pl,Subscriber,Male,1984
+21743128,2019-01-01 12:44:38,2019-01-01 12:50:10,3875,332,57,Clinton St & Roosevelt Rd,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1992
+21743129,2019-01-01 12:44:38,2019-01-01 12:50:10,6118,332,57,Clinton St & Roosevelt Rd,59,Wabash Ave & Roosevelt Rd,Subscriber,Female,1993
+21743130,2019-01-01 12:44:46,2019-01-02 9:57:16,4676,"76,350.00",174,Canal St & Madison St,49,Dearborn St & Monroe St,Customer,,
+21743131,2019-01-01 12:44:50,2019-01-01 12:48:10,62,200,173,Mies van der Rohe Way & Chicago Ave,142,McClurg Ct & Erie St,Subscriber,Female,1989
+21743132,2019-01-01 12:45:04,2019-01-01 12:54:23,4428,559,374,Western Ave & Walton St,116,Western Ave & Winnebago Ave,Subscriber,Male,1992
+21743133,2019-01-01 12:45:14,2019-01-02 7:15:36,4750,"66,622.00",174,Canal St & Madison St,47,State St & Kinzie St,Customer,,
+21743134,2019-01-01 12:46:10,2019-01-01 12:56:16,3713,606,133,Kingsbury St & Kinzie St,80,Aberdeen St & Monroe St,Subscriber,Male,1982
+21743135,2019-01-01 12:46:59,2019-01-01 12:58:25,2763,686,320,Loomis St & Lexington St,202,Halsted St & 18th St,Subscriber,Female,1995
+21743136,2019-01-01 12:47:38,2019-01-01 12:59:34,1083,716,59,Wabash Ave & Roosevelt Rd,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1991
+21743137,2019-01-01 12:48:08,2019-01-01 13:01:57,6458,829,298,Lincoln Ave & Belle Plaine Ave,463,Clark St & Berwyn Ave,Subscriber,Female,1985
+21743139,2019-01-01 12:48:37,2019-01-01 12:56:57,1225,500,210,Ashland Ave & Division St,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1991
+21743143,2019-01-01 12:49:47,2019-01-01 13:36:59,2242,"2,832.00",459,Lakefront Trail & Bryn Mawr Ave,177,Theater on the Lake,Customer,,
+21743147,2019-01-01 12:50:39,2019-01-01 13:08:19,5993,"1,060.00",198,Green St & Madison St,289,Wells St & Concord Ln,Subscriber,Male,1989
+21743151,2019-01-01 12:50:52,2019-01-01 12:54:55,6218,243,138,Clybourn Ave & Division St,331,Halsted St & Clybourn Ave (*),Subscriber,Male,1992
+21743153,2019-01-01 12:51:04,2019-01-01 15:44:21,5774,"10,397.00",318,Southport Ave & Irving Park Rd,114,Sheffield Ave & Waveland Ave,Customer,,
+21743155,2019-01-01 12:51:25,2019-01-01 13:00:10,579,525,253,Winthrop Ave & Lawrence Ave,293,Broadway & Wilson Ave,Subscriber,Male,1986
+21743157,2019-01-01 12:51:35,2019-01-01 12:59:04,5265,449,175,Wells St & Polk St,255,Indiana Ave & Roosevelt Rd,Subscriber,Male,1990
+21743160,2019-01-01 12:51:55,2019-01-01 13:07:28,6269,933,141,Clark St & Lincoln Ave,47,State St & Kinzie St,Subscriber,Male,1981
+21743161,2019-01-01 12:52:29,2019-01-01 13:46:50,6198,"3,261.00",181,LaSalle St & Illinois St,52,Michigan Ave & Lake St,Customer,Male,1992
+21743162,2019-01-01 12:52:31,2019-01-01 13:01:29,4905,538,257,Lincoln Ave & Waveland Ave,153,Southport Ave & Wellington Ave,Subscriber,Male,1981
+21743163,2019-01-01 12:52:44,2019-01-01 13:47:15,3161,"3,271.00",181,LaSalle St & Illinois St,52,Michigan Ave & Lake St,Customer,Male,1992
+21743164,2019-01-01 12:52:56,2019-01-01 13:26:06,6289,"1,990.00",179,MLK Jr Dr & Pershing Rd,247,Shore Dr & 55th St,Subscriber,Male,1989
+21743166,2019-01-01 12:53:30,2019-01-01 12:59:36,3969,366,344,Ravenswood Ave & Lawrence Ave,234,Clark St & Montrose Ave,Subscriber,Male,1987
+21743167,2019-01-01 12:54:16,2019-01-01 13:02:51,5375,515,313,Lakeview Ave & Fullerton Pkwy,300,Broadway & Barry Ave,Subscriber,Female,1971
+21743169,2019-01-01 12:54:30,2019-01-01 13:02:12,2205,462,414,Canal St & Taylor St,18,Wacker Dr & Washington St,Subscriber,Male,1983
+21743171,2019-01-01 12:54:50,2019-01-01 13:10:49,5752,959,220,Clark St & Drummond Pl,172,Rush St & Cedar St,Subscriber,Male,1983
+21743173,2019-01-01 12:55:17,2019-01-01 13:02:25,253,428,141,Clark St & Lincoln Ave,138,Clybourn Ave & Division St,Subscriber,Male,1988
+21743174,2019-01-01 12:56:47,2019-01-01 13:19:45,5973,"1,378.00",192,Canal St & Adams St,128,Damen Ave & Chicago Ave,Subscriber,Female,1991
+21743176,2019-01-01 12:57:42,2019-01-01 13:01:03,4041,201,49,Dearborn St & Monroe St,50,Clark St & Ida B Wells Dr,Subscriber,Male,1952
+21743179,2019-01-01 12:58:58,2019-01-01 13:04:05,4320,307,145,Mies van der Rohe Way & Chestnut St,176,Clark St & Elm St,Subscriber,Male,1996
+21743180,2019-01-01 12:59:10,2019-01-01 13:02:15,4521,185,191,Canal St & Monroe St (*),49,Dearborn St & Monroe St,Subscriber,Male,1993
+21743181,2019-01-01 12:59:26,2019-01-01 13:12:53,641,807,126,Clark St & North Ave,327,Sheffield Ave & Webster Ave,Subscriber,Female,1967
+21743182,2019-01-01 12:59:42,2019-01-01 13:25:21,2640,"1,539.00",29,Noble St & Milwaukee Ave,41,Federal St & Polk St,Subscriber,Male,1979
+21743183,2019-01-01 12:59:54,2019-01-01 13:10:45,6331,651,224,Halsted St & Willow St,268,Lake Shore Dr & North Blvd,Subscriber,Female,1989
+21743184,2019-01-01 12:59:55,2019-01-01 13:08:55,910,540,96,Desplaines St & Randolph St,96,Desplaines St & Randolph St,Subscriber,Female,1991
+21743185,2019-01-01 13:00:26,2019-01-01 13:10:54,5585,628,283,LaSalle St & Jackson Blvd,31,Franklin St & Chicago Ave,Subscriber,Male,1974
+21743186,2019-01-01 13:00:46,2019-01-01 13:10:45,111,599,224,Halsted St & Willow St,268,Lake Shore Dr & North Blvd,Subscriber,Male,1988
+21743187,2019-01-01 13:01:19,2019-01-01 13:07:23,290,364,146,Loomis St & Jackson Blvd,621,Aberdeen St & Randolph St,Subscriber,Male,1990
+21743188,2019-01-01 13:01:53,2019-01-01 13:08:04,1616,371,324,Stockton Dr & Wrightwood Ave,300,Broadway & Barry Ave,Subscriber,Male,1966
+21743190,2019-01-01 13:02:48,2019-01-01 13:09:35,408,407,224,Halsted St & Willow St,289,Wells St & Concord Ln,Subscriber,Female,1970
+21743191,2019-01-01 13:02:51,2019-01-01 13:15:14,3226,743,210,Ashland Ave & Division St,350,Ashland Ave & Chicago Ave,Subscriber,Male,1989
+21743192,2019-01-01 13:03:39,2019-01-01 13:20:06,6122,987,255,Indiana Ave & Roosevelt Rd,47,State St & Kinzie St,Subscriber,Male,1983
+21743193,2019-01-01 13:03:49,2019-01-01 13:22:18,2816,"1,109.00",19,Loomis St & Taylor St (*),381,Western Ave & Monroe St,Subscriber,Female,1987
+21743194,2019-01-01 13:04:24,2019-01-01 13:17:04,5852,760,494,Kedzie Ave & Bryn Mawr Ave,472,Lincoln Ave & Winona St,Subscriber,Male,1984
+21743201,2019-01-01 13:06:36,2019-01-01 13:10:02,3811,206,141,Clark St & Lincoln Ave,118,Sedgwick St & North Ave,Subscriber,Male,1999
+21743203,2019-01-01 13:07:27,2019-01-01 13:27:50,5635,"1,223.00",268,Lake Shore Dr & North Blvd,157,Lake Shore Dr & Wellington Ave,Subscriber,Female,1963
+21743204,2019-01-01 13:07:41,2019-01-01 13:16:23,508,522,44,State St & Randolph St,44,State St & Randolph St,Subscriber,,
+21743205,2019-01-01 13:08:54,2019-01-01 13:13:25,6201,271,638,Clinton St & Jackson Blvd (*),103,Clinton St & Polk St (*),Subscriber,Male,1975
+21743207,2019-01-01 13:09:40,2019-01-01 13:16:39,2796,419,142,McClurg Ct & Erie St,199,Wabash Ave & Grand Ave,Subscriber,Male,1990
+21743208,2019-01-01 13:10:02,2019-01-01 13:20:49,3628,647,639,Lakefront Trail & Wilson Ave,459,Lakefront Trail & Bryn Mawr Ave,Subscriber,Male,1987
+21743209,2019-01-01 13:11:14,2019-01-01 13:17:27,2202,373,359,Larrabee St & Division St,133,Kingsbury St & Kinzie St,Subscriber,Male,1986
+21743210,2019-01-01 13:11:18,2019-01-01 13:19:37,3604,499,48,Larrabee St & Kingsbury St,96,Desplaines St & Randolph St,Subscriber,Male,1991
+21743211,2019-01-01 13:11:52,2019-01-01 13:19:13,5846,441,257,Lincoln Ave & Waveland Ave,228,Damen Ave & Melrose Ave,Subscriber,Female,1984
+21743212,2019-01-01 13:12:00,2019-01-01 13:25:02,3639,782,212,Wells St & Hubbard St,321,Wabash Ave & 9th St,Subscriber,Female,1992
+21743215,2019-01-01 13:14:16,2019-01-01 13:20:54,568,398,173,Mies van der Rohe Way & Chicago Ave,173,Mies van der Rohe Way & Chicago Ave,Customer,,
+21743217,2019-01-01 13:14:53,2019-01-01 14:11:33,5717,"3,400.00",213,Leavitt St & North Ave,339,Emerald Ave & 31st St,Customer,,
+21743218,2019-01-01 13:15:12,2019-01-01 13:21:02,6262,350,442,California Ave & 23rd Pl,203,Western Ave & 21st St,Subscriber,Male,1989
+21743219,2019-01-01 13:15:36,2019-01-01 13:19:11,5099,215,302,Sheffield Ave & Wrightwood Ave,327,Sheffield Ave & Webster Ave,Subscriber,Male,1992
+21743220,2019-01-01 13:15:48,2019-01-01 13:22:49,3728,421,133,Kingsbury St & Kinzie St,47,State St & Kinzie St,Subscriber,Male,1966
+21743223,2019-01-01 13:16:45,2019-01-01 13:23:25,5997,400,93,Sheffield Ave & Willow St,289,Wells St & Concord Ln,Subscriber,Male,1991
+21743224,2019-01-01 13:16:56,2019-01-01 13:20:34,3226,218,350,Ashland Ave & Chicago Ave,86,Eckhart Park,Subscriber,Male,1989
+21743229,2019-01-01 13:18:01,2019-01-01 13:32:32,426,871,73,Jefferson St & Monroe St,261,Hermitage Ave & Polk St,Subscriber,Male,1970
+21743232,2019-01-01 13:18:47,2019-01-01 13:27:18,5752,511,172,Rush St & Cedar St,141,Clark St & Lincoln Ave,Subscriber,Male,1989
+21743235,2019-01-01 13:19:00,2019-01-01 13:31:06,295,726,33,State St & Van Buren St,26,McClurg Ct & Illinois St,Subscriber,Male,1993
+21743238,2019-01-01 13:20:24,2019-01-01 13:28:14,5973,470,128,Damen Ave & Chicago Ave,186,Ogden Ave & Race Ave,Subscriber,Male,1990
+21743239,2019-01-01 13:20:38,2019-01-01 13:37:00,4732,982,23,Orleans St & Elm St (*),144,Larrabee St & Webster Ave,Subscriber,Female,1986
+21743240,2019-01-01 13:21:33,2019-01-01 13:43:01,4556,"1,288.00",99,Lake Shore Dr & Ohio St,225,Halsted St & Dickens Ave,Subscriber,Male,1989
+21743241,2019-01-01 13:22:00,2019-01-01 13:43:36,6441,"1,296.00",4,Burnham Harbor,198,Green St & Madison St,Subscriber,Male,1984
+21743242,2019-01-01 13:22:15,2019-01-01 13:30:26,469,491,26,McClurg Ct & Illinois St,7,Field Blvd & South Water St,Subscriber,Male,1964
+21743243,2019-01-01 13:22:16,2019-01-01 13:38:41,3813,985,313,Lakeview Ave & Fullerton Pkwy,85,Michigan Ave & Oak St,Subscriber,Male,1954
+21743244,2019-01-01 13:23:29,2019-01-01 13:29:22,6311,353,20,Sheffield Ave & Kingsbury St,289,Wells St & Concord Ln,Subscriber,Male,1988
+21743245,2019-01-01 13:23:43,2019-01-01 13:53:59,5356,"1,816.00",133,Kingsbury St & Kinzie St,72,Wabash Ave & 16th St,Subscriber,Male,1946
+21743246,2019-01-01 13:24:04,2019-01-01 13:33:43,2787,579,283,LaSalle St & Jackson Blvd,23,Orleans St & Elm St (*),Subscriber,Male,1988
+21743247,2019-01-01 13:24:04,2019-01-01 13:33:54,3090,590,313,Lakeview Ave & Fullerton Pkwy,176,Clark St & Elm St,Subscriber,Male,1967
+21743248,2019-01-01 13:24:19,2019-01-01 13:30:20,3142,361,20,Sheffield Ave & Kingsbury St,225,Halsted St & Dickens Ave,Subscriber,Male,1979
+21743249,2019-01-01 13:24:42,2019-01-01 13:32:10,344,448,141,Clark St & Lincoln Ave,268,Lake Shore Dr & North Blvd,Customer,,
+21743250,2019-01-01 13:25:12,2019-01-01 13:32:10,3164,418,141,Clark St & Lincoln Ave,268,Lake Shore Dr & North Blvd,Customer,,
+21743252,2019-01-01 13:26:52,2019-01-01 13:33:28,495,396,199,Wabash Ave & Grand Ave,53,Wells St & Huron St,Subscriber,Male,1990
+21743255,2019-01-01 13:29:14,2019-01-01 13:40:01,2585,647,185,Stave St & Armitage Ave,162,Damen Ave & Wellington Ave,Subscriber,Male,1989
+21743256,2019-01-01 13:29:19,2019-01-01 13:49:50,4879,"1,231.00",320,Loomis St & Lexington St,54,Ogden Ave & Chicago Ave,Subscriber,Female,1973
+21743258,2019-01-01 13:30:14,2019-01-01 13:34:32,6218,258,331,Halsted St & Clybourn Ave (*),138,Clybourn Ave & Division St,Subscriber,Male,1992
+21743259,2019-01-01 13:31:54,2019-01-01 13:55:37,2877,"1,423.00",144,Larrabee St & Webster Ave,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Male,1995
+21743260,2019-01-01 13:33:15,2019-01-01 13:36:58,3633,223,299,Halsted St & Roscoe St,156,Clark St & Wellington Ave,Subscriber,Male,1987
+21743261,2019-01-01 13:34:40,2019-01-01 13:38:23,2933,223,133,Kingsbury St & Kinzie St,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1984
+21743262,2019-01-01 13:34:54,2019-01-01 13:50:38,3551,944,239,Western Ave & Leland Ave,242,Damen Ave & Leland Ave,Subscriber,Male,1984
+21743263,2019-01-01 13:36:09,2019-01-01 13:51:30,4418,921,50,Clark St & Ida B Wells Dr,53,Wells St & Huron St,Customer,Male,1988
+21743264,2019-01-01 13:36:11,2019-01-01 13:47:55,5587,704,493,Western Ave & Roscoe St,299,Halsted St & Roscoe St,Subscriber,Male,1994
+21743265,2019-01-01 13:36:27,2019-01-01 13:41:36,2549,309,313,Lakeview Ave & Fullerton Pkwy,67,Sheffield Ave & Fullerton Ave,Subscriber,Male,1987
+21743266,2019-01-01 13:36:46,2019-01-01 14:05:05,3979,"1,699.00",172,Rush St & Cedar St,106,State St & Pearson St,Customer,,
+21743267,2019-01-01 13:38:35,2019-01-01 14:04:47,5892,"1,572.00",520,Greenview Ave & Jarvis Ave,523,Eastlake Ter & Rogers Ave,Subscriber,Female,1955
+21743268,2019-01-01 13:38:54,2019-01-01 13:47:26,2352,512,74,Kingsbury St & Erie St,176,Clark St & Elm St,Subscriber,Male,1986
+21743269,2019-01-01 13:39:10,2019-01-01 15:51:47,6339,"7,957.00",283,LaSalle St & Jackson Blvd,337,Clark St & Chicago Ave,Subscriber,Male,1992
+21743270,2019-01-01 13:39:14,2019-01-01 14:06:43,24,"1,649.00",289,Wells St & Concord Ln,303,Broadway & Cornelia Ave,Subscriber,Male,1988
+21743272,2019-01-01 13:39:52,2019-01-01 13:45:06,5456,314,344,Ravenswood Ave & Lawrence Ave,326,Clark St & Leland Ave,Subscriber,Male,1993
+21743273,2019-01-01 13:40:29,2019-01-01 13:50:07,2006,578,166,Ashland Ave & Wrightwood Ave,93,Sheffield Ave & Willow St,Subscriber,Female,1989
+21743274,2019-01-01 13:40:29,2019-01-01 13:50:07,2561,578,166,Ashland Ave & Wrightwood Ave,93,Sheffield Ave & Willow St,Subscriber,Male,1990
+21743279,2019-01-01 13:41:41,2019-01-01 14:06:43,6311,"1,502.00",289,Wells St & Concord Ln,303,Broadway & Cornelia Ave,Subscriber,Female,1988
+21743283,2019-01-01 13:42:06,2019-01-01 13:46:30,508,264,44,State St & Randolph St,110,Dearborn St & Erie St,Subscriber,Male,1989
+21743285,2019-01-01 13:42:36,2019-01-01 13:48:19,1616,343,300,Broadway & Barry Ave,324,Stockton Dr & Wrightwood Ave,Subscriber,Male,1966
+21743286,2019-01-01 13:42:44,2019-01-01 13:51:24,2932,520,93,Sheffield Ave & Willow St,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1993
+21743290,2019-01-01 13:44:23,2019-01-01 13:57:33,69,790,289,Wells St & Concord Ln,331,Halsted St & Clybourn Ave (*),Subscriber,Male,1993
+21743291,2019-01-01 13:44:31,2019-01-01 13:57:33,6252,782,289,Wells St & Concord Ln,331,Halsted St & Clybourn Ave (*),Subscriber,Female,1993
+21743292,2019-01-01 13:44:41,2019-01-01 13:53:53,2740,552,280,Morgan St & 31st St,403,Wentworth Ave & 33rd St,Subscriber,Male,1984
+21743298,2019-01-01 13:47:25,2019-01-01 14:01:20,5026,835,329,Lake Shore Dr & Diversey Pkwy,163,Damen Ave & Clybourn Ave,Subscriber,Female,1989
+21743299,2019-01-01 13:47:29,2019-01-01 13:51:17,5427,228,28,Larrabee St & Menomonee St,289,Wells St & Concord Ln,Subscriber,Male,1982
+21743303,2019-01-01 13:48:27,2019-01-01 13:49:45,5384,78,115,Sheffield Ave & Wellington Ave,115,Sheffield Ave & Wellington Ave,Subscriber,Male,1990
+21743304,2019-01-01 13:48:27,2019-01-01 14:14:33,5019,"1,566.00",324,Stockton Dr & Wrightwood Ave,256,Broadway & Sheridan Rd,Subscriber,Male,1993
+21743305,2019-01-01 13:49:46,2019-01-01 14:02:58,2135,792,87,Racine Ave & Fullerton Ave,299,Halsted St & Roscoe St,Subscriber,Male,1992
+21743306,2019-01-01 13:49:59,2019-01-01 13:56:27,4887,388,115,Sheffield Ave & Wellington Ave,157,Lake Shore Dr & Wellington Ave,Subscriber,Female,1991
+21743307,2019-01-01 13:50:17,2019-01-01 13:56:22,2691,365,115,Sheffield Ave & Wellington Ave,157,Lake Shore Dr & Wellington Ave,Subscriber,Male,1990
+21743308,2019-01-01 13:50:37,2019-01-01 14:01:52,408,675,289,Wells St & Concord Ln,53,Wells St & Huron St,Subscriber,Female,1988
+21743309,2019-01-01 13:50:40,2019-01-01 13:57:28,1503,408,377,Kedzie Ave & Lake St,533,Central Park Blvd & 5th Ave,Subscriber,Male,1975
+21743310,2019-01-01 13:50:54,2019-01-01 14:01:52,5993,658,289,Wells St & Concord Ln,53,Wells St & Huron St,Subscriber,Male,1990
+21743311,2019-01-01 13:51:04,2019-01-01 13:56:44,5707,340,133,Kingsbury St & Kinzie St,81,Daley Center Plaza,Subscriber,Male,1975
+21743313,2019-01-01 13:51:30,2019-01-01 14:00:48,3551,558,242,Damen Ave & Leland Ave,326,Clark St & Leland Ave,Subscriber,Male,1984
+21743314,2019-01-01 13:52:14,2019-01-01 13:54:38,1765,144,331,Halsted St & Clybourn Ave (*),93,Sheffield Ave & Willow St,Subscriber,Male,1982
+21743315,2019-01-01 13:52:25,2019-01-01 14:04:26,562,721,69,Damen Ave & Pierce Ave,659,Leavitt St & Chicago Ave,Subscriber,Female,1987
+21743317,2019-01-01 13:52:35,2019-01-01 14:00:40,5877,485,300,Broadway & Barry Ave,332,Burling St (Halsted) & Diversey Pkwy (Temp),Subscriber,Male,1981
+21743318,2019-01-01 13:53:12,2019-01-01 14:05:10,6162,718,295,Broadway & Argyle St,314,Ravenswood Ave & Berteau Ave,Subscriber,Male,1992
+21743319,2019-01-01 13:53:36,2019-01-01 18:28:46,4829,"16,510.00",337,Clark St & Chicago Ave,620,Orleans St & Chestnut St (NEXT Apts),Customer,,
+21743325,2019-01-01 13:55:25,2019-01-01 14:15:37,2884,"1,212.00",94,Clark St & Armitage Ave,71,Morgan St & Lake St,Subscriber,Male,1993
+21743330,2019-01-01 13:57:18,2019-01-01 14:15:04,5461,"1,066.00",13,Wilton Ave & Diversey Pkwy,293,Broadway & Wilson Ave,Subscriber,Male,1986
+21743331,2019-01-01 13:57:59,2019-01-01 14:11:13,134,794,254,Pine Grove Ave & Irving Park Rd,115,Sheffield Ave & Wellington Ave,Subscriber,Male,1953
+21743332,2019-01-01 13:58:27,2019-01-01 14:14:16,4686,949,182,Wells St & Elm St,112,Green St & Randolph St,Subscriber,Male,1976
+21743333,2019-01-01 13:58:35,2019-01-01 14:09:07,1654,632,620,Orleans St & Chestnut St (NEXT Apts),125,Rush St & Hubbard St,Customer,,
+21743334,2019-01-01 13:56:34,2019-01-01 14:05:53,5643,559,304,Broadway & Waveland Ave,334,Lake Shore Dr & Belmont Ave,Subscriber,Male,1989
+21743335,2019-01-01 13:59:52,2019-01-01 14:05:15,1633,323,231,Sheridan Rd & Montrose Ave,254,Pine Grove Ave & Irving Park Rd,Subscriber,Male,1980
+21743336,2019-01-01 13:59:56,2019-01-01 14:04:23,1350,267,113,Bissell St & Armitage Ave,94,Clark St & Armitage Ave,Subscriber,Male,1990
+21743339,2019-01-01 14:01:13,2019-01-01 14:14:06,4476,773,48,Larrabee St & Kingsbury St,47,State St & Kinzie St,Subscriber,Female,1964
+21743353,2019-01-01 14:04:13,2019-01-01 14:16:05,246,712,107,Desplaines St & Jackson Blvd,74,Kingsbury St & Erie St,Subscriber,Male,1956
+21743355,2019-01-01 14:05:18,2019-01-01 14:23:17,2842,"1,079.00",171,May St & Cullerton St,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1987
+21743356,2019-01-01 14:05:33,2019-01-01 14:18:51,2694,798,26,McClurg Ct & Illinois St,191,Canal St & Monroe St (*),Subscriber,Male,1970
+21743357,2019-01-01 14:06:20,2019-01-01 14:15:42,2549,562,67,Sheffield Ave & Fullerton Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Male,1987
+21743358,2019-01-01 14:06:40,2019-01-01 14:12:52,6256,372,114,Sheffield Ave & Waveland Ave,303,Broadway & Cornelia Ave,Subscriber,Male,1983
+21743359,2019-01-01 14:07:27,2019-01-01 14:21:15,4418,828,53,Wells St & Huron St,43,Michigan Ave & Washington St,Customer,Male,1988
+21743360,2019-01-01 14:07:31,2019-01-01 14:12:58,2442,327,114,Sheffield Ave & Waveland Ave,303,Broadway & Cornelia Ave,Subscriber,Female,1984
+21743361,2019-01-01 14:07:45,2019-01-01 14:24:07,5965,982,46,Wells St & Walton St,289,Wells St & Concord Ln,Customer,Male,1995
+21743363,2019-01-01 14:10:07,2019-01-01 14:32:38,2083,"1,351.00",61,Wood St & Milwaukee Ave,174,Canal St & Madison St,Subscriber,Male,1991
+21743364,2019-01-01 14:10:41,2019-01-01 14:17:03,5246,382,20,Sheffield Ave & Kingsbury St,365,Halsted St & North Branch St,Subscriber,Male,1993
+21743365,2019-01-01 14:11:19,2019-01-01 14:15:39,6271,260,84,Milwaukee Ave & Grand Ave,112,Green St & Randolph St,Subscriber,Male,1991
+21743366,2019-01-01 14:12:11,2019-01-01 14:27:54,6208,943,144,Larrabee St & Webster Ave,310,Damen Ave & Charleston St,Subscriber,Male,1989
+21743367,2019-01-01 14:13:46,2019-01-01 14:23:48,4738,602,255,Indiana Ave & Roosevelt Rd,192,Canal St & Adams St,Subscriber,Male,1991
+21743368,2019-01-01 14:14:10,2019-01-01 14:29:10,3149,900,376,Artesian Ave & Hubbard St,217,Racine Ave (May St) & Fulton St,Subscriber,Male,1959
+21743370,2019-01-01 14:14:40,2019-01-01 14:36:53,1186,"1,333.00",381,Western Ave & Monroe St,19,Loomis St & Taylor St (*),Subscriber,Female,1987
+21743371,2019-01-01 14:14:44,2019-01-01 14:21:30,4849,406,365,Halsted St & North Branch St,224,Halsted St & Willow St,Subscriber,Male,1991
+21743372,2019-01-01 14:14:56,2019-01-01 14:25:02,3834,606,86,Eckhart Park,112,Green St & Randolph St,Subscriber,Male,1981
+21743373,2019-01-01 14:15:18,2019-01-01 14:30:11,2684,893,172,Rush St & Cedar St,329,Lake Shore Dr & Diversey Pkwy,Subscriber,Male,1983
+21743374,2019-01-01 14:15:26,2019-01-01 14:23:54,5968,508,212,Wells St & Hubbard St,80,Aberdeen St & Monroe St,Subscriber,Male,1985
+21743375,2019-01-01 14:15:25,2019-01-01 14:23:50,6417,505,140,Dearborn Pkwy & Delaware Pl,44,State St & Randolph St,Subscriber,Male,1988
+21743376,2019-01-01 14:15:50,2019-01-01 14:21:05,3978,315,308,Seeley Ave & Roscoe St,298,Lincoln Ave & Belle Plaine Ave,Subscriber,Male,1989
+21743377,2019-01-01 14:16:35,2019-01-01 14:25:42,975,547,425,Harper Ave & 59th St,416,Dorchester Ave & 49th St,Subscriber,Female,1996
+21743378,2019-01-01 14:17:21,2019-01-01 14:27:22,6289,601,247,Shore Dr & 55th St,328,Ellis Ave & 58th St,Subscriber,Male,1989
+21743383,2019-01-01 14:18:06,2019-01-01 14:27:01,92,535,158,Milwaukee Ave & Wabansia Ave,504,Campbell Ave & Fullerton Ave,Subscriber,Male,1972
+21743385,2019-01-01 14:18:18,2019-01-01 14:24:20,5877,362,332,Burling St (Halsted) & Diversey Pkwy (Temp),299,Halsted St & Roscoe St,Subscriber,Male,1981
+21743387,2019-01-01 14:19:06,2019-01-01 14:21:43,2332,157,183,Damen Ave & Thomas St (Augusta Blvd),128,Damen Ave & Chicago Ave,Subscriber,Male,1990
+21743389,2019-01-01 14:19:28,2019-01-01 14:22:12,2833,164,22,May St & Taylor St,241,Morgan St & Polk St,Subscriber,Male,1983
+21743391,2019-01-01 14:20:17,2019-01-01 14:33:20,5993,783,53,Wells St & Huron St,53,Wells St & Huron St,Subscriber,Male,1990
+21743392,2019-01-01 14:22:30,2019-01-01 14:36:57,3604,867,96,Desplaines St & Randolph St,129,Blue Island Ave & 18th St,Subscriber,Male,1983
+21743393,2019-01-01 14:22:44,2019-01-01 14:46:07,507,"1,403.00",86,Eckhart Park,296,Broadway & Belmont Ave,Subscriber,Female,1988
+21743394,2019-01-01 14:23:02,2019-01-01 14:30:38,5385,456,69,Damen Ave & Pierce Ave,116,Western Ave & Winnebago Ave,Subscriber,Male,1992
+21743395,2019-01-01 14:23:22,2019-01-01 14:34:08,3426,646,289,Wells St & Concord Ln,199,Wabash Ave & Grand Ave,Subscriber,Male,1987
+21743396,2019-01-01 14:23:32,2019-01-01 14:42:16,2842,"1,124.00",84,Milwaukee Ave & Grand Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1987
+21743397,2019-01-01 14:24:41,2019-01-01 14:29:26,2006,285,93,Sheffield Ave & Willow St,327,Sheffield Ave & Webster Ave,Subscriber,Male,1993
+21743398,2019-01-01 14:25:09,2019-01-01 14:33:28,2551,499,94,Clark St & Armitage Ave,182,Wells St & Elm St,Subscriber,Male,1992
+21743404,2019-01-01 14:27:19,2019-01-01 14:52:39,3957,"1,520.00",272,Indiana Ave & 31st St,623,Michigan Ave & 8th St,Customer,Male,1995
+21743406,2019-01-01 14:27:49,2019-01-01 14:32:51,6219,302,133,Kingsbury St & Kinzie St,110,Dearborn St & Erie St,Subscriber,Male,1986
+21743408,2019-01-01 14:28:59,2019-01-01 14:34:57,5892,358,523,Eastlake Ter & Rogers Ave,517,Clark St & Jarvis Ave,Subscriber,Female,1955
+21743409,2019-01-01 14:29:24,2019-01-01 14:41:19,1452,715,481,California Ave & Montrose Ave,495,Keystone Ave & Montrose Ave,Subscriber,Male,1980
+21743419,2019-01-01 14:33:22,2019-01-01 14:38:01,610,279,300,Broadway & Barry Ave,299,Halsted St & Roscoe St,Subscriber,Male,1989
+21743421,2019-01-01 14:33:35,2019-01-01 14:43:50,393,615,86,Eckhart Park,69,Damen Ave & Pierce Ave,Subscriber,Male,1992
+21743423,2019-01-01 14:33:41,2019-01-01 14:38:04,6230,263,114,Sheffield Ave & Waveland Ave,303,Broadway & Cornelia Ave,Subscriber,Male,1984
+21743424,2019-01-01 14:34:08,2019-01-01 14:36:30,177,142,283,LaSalle St & Jackson Blvd,49,Dearborn St & Monroe St,Subscriber,Male,1966
+21743427,2019-01-01 14:34:37,2019-01-01 14:37:21,3808,164,67,Sheffield Ave & Fullerton Ave,349,Halsted St & Wrightwood Ave,Subscriber,Male,1990
+21743430,2019-01-01 14:36:53,2019-01-01 14:50:46,6129,833,219,Damen Ave & Cortland St,507,Humboldt Blvd & Armitage Ave,Subscriber,Female,1991
+21743431,2019-01-01 14:36:53,2019-01-01 14:42:48,4903,355,502,California Ave & Altgeld St,258,Logan Blvd & Elston Ave,Subscriber,Male,1975
+21743432,2019-01-01 14:37:13,2019-01-01 14:45:21,5540,488,465,Marine Dr & Ainslie St,254,Pine Grove Ave & Irving Park Rd,Subscriber,Male,1960
+21743433,2019-01-01 14:37:32,2019-01-01 14:46:42,3394,550,130,Damen Ave & Division St,16,Paulina Ave & North Ave,Subscriber,Female,1989
+21743434,2019-01-01 14:38:23,2019-01-01 14:56:24,87,"1,081.00",134,Peoria St & Jackson Blvd,128,Damen Ave & Chicago Ave,Subscriber,Male,1984
+21743438,2019-01-01 14:39:31,2019-01-01 14:59:14,3260,"1,183.00",465,Marine Dr & Ainslie St,300,Broadway & Barry Ave,Subscriber,Male,1990
+21743439,2019-01-01 14:39:42,2019-01-01 14:58:21,3628,"1,119.00",459,Lakefront Trail & Bryn Mawr Ave,294,Broadway & Berwyn Ave,Subscriber,Male,1983
+21743440,2019-01-01 14:39:50,2019-01-01 15:00:14,5447,"1,224.00",304,Broadway & Waveland Ave,176,Clark St & Elm St,Subscriber,Male,1982
+21743442,2019-01-01 14:40:13,2019-01-01 14:43:50,641,217,327,Sheffield Ave & Webster Ave,302,Sheffield Ave & Wrightwood Ave,Subscriber,Male,1992
+21743444,2019-01-01 14:41:10,2019-01-01 15:09:10,1410,"1,680.00",247,Shore Dr & 55th St,179,MLK Jr Dr & Pershing Rd,Subscriber,Female,1995
+21743448,2019-01-01 14:41:58,2019-01-01 14:49:10,6118,432,59,Wabash Ave & Roosevelt Rd,175,Wells St & Polk St,Subscriber,Female,1980
+21743449,2019-01-01 14:42:37,2019-01-01 14:48:50,2202,373,133,Kingsbury St & Kinzie St,194,Wabash Ave & Wacker Pl,Subscriber,Male,1979
+21743450,2019-01-01 14:42:51,2019-01-01 14:50:02,4119,431,627,LaSalle Dr & Huron St (*),51,Clark St & Randolph St,Subscriber,Female,1958
+21743452,2019-01-01 14:43:10,2019-01-01 14:48:48,4911,338,168,Michigan Ave & 14th St,626,Delano Ct & Roosevelt Rd,Subscriber,Male,1978
+21743455,2019-01-01 14:45:10,2019-01-01 15:06:54,1830,"1,304.00",157,Lake Shore Dr & Wellington Ave,268,Lake Shore Dr & North Blvd,Subscriber,Female,1993
+21743457,2019-01-01 14:46:59,2019-01-01 14:56:15,7,556,161,Rush St & Superior St,180,Ritchie Ct & Banks St,Subscriber,Male,1991
+21743458,2019-01-01 14:46:58,2019-01-01 14:50:45,3417,227,337,Clark St & Chicago Ave,182,Wells St & Elm St,Subscriber,Male,1992
+21743459,2019-01-01 14:47:07,2019-01-01 14:49:54,5707,167,81,Daley Center Plaza,37,Dearborn St & Adams St,Subscriber,Male,1965
+21743460,2019-01-01 14:47:23,2019-01-01 14:57:16,2006,593,327,Sheffield Ave & Webster Ave,131,Lincoln Ave & Belmont Ave,Subscriber,Male,1994
+21743466,2019-01-01 14:49:17,2019-01-01 14:55:11,1941,354,659,Leavitt St & Chicago Ave,130,Damen Ave & Division St,Subscriber,Male,1990
+21743467,2019-01-01 14:49:31,2019-01-01 14:53:56,787,265,259,California Ave & Francis Pl,502,California Ave & Altgeld St,Subscriber,Male,1991
+21743468,2019-01-01 14:49:49,2019-01-01 15:09:29,2050,"1,180.00",43,Michigan Ave & Washington St,74,Kingsbury St & Erie St,Subscriber,Female,1968
+21743469,2019-01-01 14:50:24,2019-01-01 14:59:48,2106,564,596,Benson Ave & Church St,597,Chicago Ave & Washington St,Subscriber,Male,1951
+21743470,2019-01-01 14:50:42,2019-01-01 14:55:15,2932,273,13,Wilton Ave & Diversey Pkwy,153,Southport Ave & Wellington Ave,Subscriber,Male,1993
+21743471,2019-01-01 14:51:14,2019-01-01 14:53:12,1688,118,33,State St & Van Buren St,5,State St & Harrison St,Subscriber,Male,1971
+21743475,2019-01-01 14:53:00,2019-01-01 15:12:16,1746,"1,156.00",212,Wells St & Hubbard St,120,Wentworth Ave & Cermak Rd (Temp),Subscriber,Male,1995
+21743477,2019-01-01 14:53:48,2019-01-01 14:57:15,2545,207,231,Sheridan Rd & Montrose Ave,240,Sheridan Rd & Irving Park Rd,Subscriber,Male,1974
+21743480,2019-01-01 14:54:25,2019-01-01 15:16:45,2321,"1,340.00",276,California Ave & North Ave,276,California Ave & North Ave,Customer,,
+21743484,2019-01-01 14:57:47,2019-01-01 15:06:22,3146,515,403,Wentworth Ave & 33rd St,272,Indiana Ave & 31st St,Subscriber,Female,1989
+21743486,2019-01-01 15:00:06,2019-01-01 15:06:26,5384,380,115,Sheffield Ave & Wellington Ave,327,Sheffield Ave & Webster Ave,Subscriber,Male,1991
+21743487,2019-01-01 15:00:19,2019-01-01 15:25:22,393,"1,503.00",69,Damen Ave & Pierce Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1992
+21743488,2019-01-01 15:00:19,2019-01-01 15:05:50,2226,331,212,Wells St & Hubbard St,77,Clinton St & Madison St,Subscriber,Male,1988
+21743489,2019-01-01 15:00:50,2019-01-01 15:14:46,3702,836,231,Sheridan Rd & Montrose Ave,299,Halsted St & Roscoe St,Subscriber,Male,1977
+21743490,2019-01-01 15:00:52,2019-01-01 15:28:19,4521,"1,647.00",49,Dearborn St & Monroe St,25,Michigan Ave & Pearson St,Customer,,
+21743491,2019-01-01 15:00:56,2019-01-01 15:28:24,2708,"1,648.00",49,Dearborn St & Monroe St,25,Michigan Ave & Pearson St,Customer,,
+21743493,2019-01-01 15:01:31,2019-01-01 15:11:44,6427,613,195,Columbus Dr & Randolph St,53,Wells St & Huron St,Subscriber,Male,1988
+21743494,2019-01-01 15:02:22,2019-01-01 15:39:15,14,"2,213.00",284,Michigan Ave & Jackson Blvd,97,Field Museum,Subscriber,Male,1987
+21743495,2019-01-01 15:02:25,2019-01-01 15:14:42,762,737,9,Leavitt St & Archer Ave,9,Leavitt St & Archer Ave,Subscriber,Male,1969
+21743497,2019-01-01 15:02:53,2019-01-01 15:46:36,847,"2,623.00",43,Michigan Ave & Washington St,90,Millennium Park,Customer,,
+21743498,2019-01-01 15:02:58,2019-01-01 15:46:36,2419,"2,618.00",43,Michigan Ave & Washington St,90,Millennium Park,Customer,,
+21743499,2019-01-01 15:02:57,2019-01-01 15:09:25,2427,388,225,Halsted St & Dickens Ave,94,Clark St & Armitage Ave,Customer,,
+21743501,2019-01-01 15:03:21,2019-01-01 15:46:14,424,"2,573.00",199,Wabash Ave & Grand Ave,25,Michigan Ave & Pearson St,Subscriber,,
+21743502,2019-01-01 15:03:31,2019-01-01 15:21:08,405,"1,057.00",300,Broadway & Barry Ave,60,Dayton St & North Ave,Subscriber,Female,1988
+21743504,2019-01-01 15:03:58,2019-01-01 15:21:08,5375,"1,030.00",300,Broadway & Barry Ave,60,Dayton St & North Ave,Subscriber,Male,1988
+21743506,2019-01-01 15:05:49,2019-01-01 15:12:29,5752,400,141,Clark St & Lincoln Ave,176,Clark St & Elm St,Subscriber,Male,1992
+21743509,2019-01-01 15:08:16,2019-01-01 15:17:27,1830,551,268,Lake Shore Dr & North Blvd,85,Michigan Ave & Oak St,Subscriber,Female,1993
+21743510,2019-01-01 15:08:13,2019-01-01 15:13:22,2781,309,45,Michigan Ave & Ida B Wells Dr,255,Indiana Ave & Roosevelt Rd,Subscriber,Male,1993
+21743511,2019-01-01 15:08:21,2019-01-01 15:10:15,288,114,222,Milwaukee Ave & Rockwell St,123,California Ave & Milwaukee Ave,Subscriber,Male,1985
+21743513,2019-01-01 15:09:05,2019-01-01 15:33:15,5202,"1,450.00",7,Field Blvd & South Water St,85,Michigan Ave & Oak St,Customer,,
+21743514,2019-01-01 15:09:15,2019-01-01 15:11:43,271,148,302,Sheffield Ave & Wrightwood Ave,67,Sheffield Ave & Fullerton Ave,Subscriber,Male,1961
+21743515,2019-01-01 15:09:33,2019-01-01 15:13:43,3811,250,118,Sedgwick St & North Ave,141,Clark St & Lincoln Ave,Subscriber,Female,1987
+21743516,2019-01-01 15:09:39,2019-01-01 15:32:50,2087,"1,391.00",7,Field Blvd & South Water St,85,Michigan Ave & Oak St,Customer,,
+21743520,2019-01-01 15:10:10,2019-01-01 15:24:30,539,860,205,Paulina St & 18th St,346,Ada St & Washington Blvd,Subscriber,Male,1989
+21743521,2019-01-01 15:10:21,2019-01-01 15:28:44,6269,"1,103.00",47,State St & Kinzie St,141,Clark St & Lincoln Ave,Subscriber,Male,1981
+21743523,2019-01-01 15:10:40,2019-01-01 15:15:59,3939,319,141,Clark St & Lincoln Ave,113,Bissell St & Armitage Ave,Subscriber,Male,1994
+21743525,2019-01-01 15:11:00,2019-01-01 15:16:38,246,338,74,Kingsbury St & Erie St,164,Franklin St & Lake St,Subscriber,Male,1956
+21743526,2019-01-01 15:11:09,2019-01-01 15:26:14,331,905,198,Green St & Madison St,620,Orleans St & Chestnut St (NEXT Apts),Subscriber,Male,1988
+21743527,2019-01-01 15:11:12,2019-01-01 15:29:48,1370,"1,116.00",268,Lake Shore Dr & North Blvd,299,Halsted St & Roscoe St,Subscriber,Female,1989
+21743529,2019-01-01 15:11:33,2019-01-01 15:13:48,4686,135,112,Green St & Randolph St,71,Morgan St & Lake St,Subscriber,Male,1981
+21743530,2019-01-01 15:11:39,2019-01-01 15:19:51,2842,492,13,Wilton Ave & Diversey Pkwy,163,Damen Ave & Clybourn Ave,Subscriber,Male,1983
+21743531,2019-01-01 15:11:48,2019-01-01 15:15:27,4025,219,523,Eastlake Ter & Rogers Ave,520,Greenview Ave & Jarvis Ave,Subscriber,Female,1990
+21743532,2019-01-01 15:12:24,2019-01-01 15:28:28,2877,964,313,Lakeview Ave & Fullerton Pkwy,268,Lake Shore Dr & North Blvd,Subscriber,Male,1983
+21743533,2019-01-01 15:12:43,2019-01-01 15:19:30,5623,407,140,Dearborn Pkwy & Delaware Pl,364,Larrabee St & Oak St,Subscriber,Male,1966
+21743534,2019-01-01 15:13:02,2019-01-01 15:20:24,2783,442,164,Franklin St & Lake St,52,Michigan Ave & Lake St,Subscriber,Female,1996
+21743535,2019-01-01 15:13:52,2019-01-01 15:18:34,5261,282,277,Ashland Ave & Grand Ave,128,Damen Ave & Chicago Ave,Subscriber,Male,1988
+21743536,2019-01-01 15:15:14,2019-01-01 15:16:24,3150,70,77,Clinton St & Madison St,91,Clinton St & Washington Blvd,Subscriber,Male,1975
+21743537,2019-01-01 15:15:19,2019-01-01 15:27:24,5877,725,299,Halsted St & Roscoe St,117,Wilton Ave & Belmont Ave,Subscriber,Male,1977
+21743538,2019-01-01 15:15:34,2019-01-01 15:26:59,3942,685,214,Damen Ave & Grand Ave,219,Damen Ave & Cortland St,Subscriber,Male,1971
+21743539,2019-01-01 15:16:37,2019-01-01 15:56:12,957,"2,375.00",604,Sheridan Rd & Noyes St (NU),604,Sheridan Rd & Noyes St (NU),Subscriber,Male,1951
+21743540,2019-01-01 15:16:42,2019-01-01 15:28:38,3978,716,298,Lincoln Ave & Belle Plaine Ave,115,Sheffield Ave & Wellington Ave,Subscriber,Male,1991
+21743541,2019-01-01 15:17:06,2019-01-01 15:45:05,3853,"1,679.00",91,Clinton St & Washington Blvd,300,Broadway & Barry Ave,Subscriber,Male,1975
+21743542,2019-01-01 15:18:08,2019-01-01 15:32:01,1562,833,35,Streeter Dr & Grand Ave,66,Clinton St & Lake St,Subscriber,Female,1965
+21743543,2019-01-01 15:18:18,2019-01-01 15:31:45,2254,807,35,Streeter Dr & Grand Ave,66,Clinton St & Lake St,Subscriber,Male,1965
+21743544,2019-01-01 15:18:38,2019-01-01 15:23:39,2673,301,237,MLK Jr Dr & 29th St,149,Calumet Ave & 33rd St,Subscriber,Male,1992
+21743547,2019-01-01 15:19:31,2019-01-01 15:37:08,2549,"1,057.00",20,Sheffield Ave & Kingsbury St,300,Broadway & Barry Ave,Subscriber,Male,1987
+21743548,2019-01-01 15:19:52,2019-01-01 15:38:12,4399,"1,100.00",85,Michigan Ave & Oak St,324,Stockton Dr & Wrightwood Ave,Subscriber,Female,1986
+21743551,2019-01-01 15:21:07,2019-01-01 15:26:13,2545,306,240,Sheridan Rd & Irving Park Rd,231,Sheridan Rd & Montrose Ave,Subscriber,Male,1974
+21743552,2019-01-01 15:21:12,2019-01-01 15:41:00,6128,"1,188.00",322,Kimbark Ave & 53rd St,322,Kimbark Ave & 53rd St,Customer,,
+21743556,2019-01-01 15:22:17,2019-01-01 15:26:43,6130,266,56,Desplaines St & Kinzie St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1996
+21743557,2019-01-01 15:22:18,2019-01-01 15:32:25,3834,607,112,Green St & Randolph St,86,Eckhart Park,Subscriber,Male,1981
+21743559,2019-01-01 15:22:46,2019-01-01 15:31:57,6164,551,447,Glenwood Ave & Morse Ave,523,Eastlake Ter & Rogers Ave,Subscriber,Female,1990
+21743560,2019-01-01 15:23:03,2019-01-01 15:57:56,4717,"2,093.00",303,Broadway & Cornelia Ave,233,Sangamon St & Washington Blvd (*),Subscriber,Male,1983
+21743561,2019-01-01 15:23:26,2019-01-01 15:57:56,2442,"2,070.00",303,Broadway & Cornelia Ave,233,Sangamon St & Washington Blvd (*),Subscriber,Female,1984
+21743562,2019-01-01 15:24:22,2019-01-01 15:28:36,4915,254,260,Kedzie Ave & Milwaukee Ave,501,Richmond St & Diversey Ave,Subscriber,Male,1983
+21743564,2019-01-01 15:27:00,2019-01-01 16:08:40,5717,"2,500.00",339,Emerald Ave & 31st St,419,Lake Park Ave & 53rd St,Customer,Male,1988
+21743565,2019-01-01 15:27:15,2019-01-01 15:29:08,268,113,21,Aberdeen St & Jackson Blvd,134,Peoria St & Jackson Blvd,Subscriber,Male,1985
+21743566,2019-01-01 15:27:41,2019-01-01 15:36:32,2888,531,350,Ashland Ave & Chicago Ave,365,Halsted St & North Branch St,Subscriber,Male,1992
+21743567,2019-01-01 15:27:42,2019-01-01 15:35:04,5105,442,301,Clark St & Schiller St,106,State St & Pearson St,Subscriber,Male,1953
+21743568,2019-01-01 15:27:44,2019-01-01 15:32:59,1057,315,27,Larrabee St & North Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Male,1990
+21743569,2019-01-01 15:28:22,2019-01-01 15:40:11,2340,709,301,Clark St & Schiller St,133,Kingsbury St & Kinzie St,Subscriber,Female,1962
+21743571,2019-01-01 15:28:52,2019-01-01 15:47:14,4999,"1,102.00",35,Streeter Dr & Grand Ave,341,Adler Planetarium,Customer,,
+21743572,2019-01-01 15:29:10,2019-01-01 15:34:03,6415,293,21,Aberdeen St & Jackson Blvd,73,Jefferson St & Monroe St,Subscriber,Male,1992
+21743575,2019-01-01 15:31:28,2019-01-01 15:39:20,2842,472,163,Damen Ave & Clybourn Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1983
+21743576,2019-01-01 15:31:42,2019-01-01 15:36:34,3537,292,176,Clark St & Elm St,53,Wells St & Huron St,Subscriber,Male,1986
+21743577,2019-01-01 15:32:08,2019-01-01 15:41:57,6397,589,5,State St & Harrison St,195,Columbus Dr & Randolph St,Subscriber,Male,1992
+21743578,2019-01-01 15:34:39,2019-01-01 15:55:18,4366,"1,239.00",301,Clark St & Schiller St,41,Federal St & Polk St,Subscriber,Male,1961
+21743579,2019-01-01 15:35:11,2019-01-01 15:40:22,3628,311,294,Broadway & Berwyn Ave,462,Winchester (Ravenswood) Ave & Balmoral Ave,Subscriber,Male,1986
+21743580,2019-01-01 15:35:16,2019-01-01 15:46:55,5709,699,36,Franklin St & Jackson Blvd,59,Wabash Ave & Roosevelt Rd,Subscriber,Male,1958
+21743583,2019-01-01 15:36:42,2019-01-01 16:02:12,87,"1,530.00",128,Damen Ave & Chicago Ave,129,Blue Island Ave & 18th St,Subscriber,Male,1988
+21743584,2019-01-01 15:36:56,2019-01-01 16:02:16,2332,"1,520.00",128,Damen Ave & Chicago Ave,129,Blue Island Ave & 18th St,Subscriber,Female,1992
+21743585,2019-01-01 15:36:56,2019-01-01 16:02:24,110,"1,528.00",128,Damen Ave & Chicago Ave,129,Blue Island Ave & 18th St,Customer,,
+21743586,2019-01-01 15:36:59,2019-01-01 15:59:36,3168,"1,357.00",43,Michigan Ave & Washington St,43,Michigan Ave & Washington St,Customer,,
+21743587,2019-01-01 15:37:00,2019-01-01 16:02:04,5261,"1,504.00",128,Damen Ave & Chicago Ave,129,Blue Island Ave & 18th St,Subscriber,Female,1992
+21743590,2019-01-01 15:38:05,2019-01-01 15:47:11,268,546,134,Peoria St & Jackson Blvd,75,Canal St & Jackson Blvd,Subscriber,Male,1977
+21743592,2019-01-01 15:38:39,2019-01-01 15:48:04,3417,565,182,Wells St & Elm St,25,Michigan Ave & Pearson St,Subscriber,Female,1991
+21743595,2019-01-01 15:38:58,2019-01-01 15:53:43,5877,885,117,Wilton Ave & Belmont Ave,231,Sheridan Rd & Montrose Ave,Subscriber,Male,1977
+21743596,2019-01-01 15:41:14,2019-01-01 15:46:05,3389,291,145,Mies van der Rohe Way & Chestnut St,24,Fairbanks Ct & Grand Ave,Subscriber,Male,1951
+21743597,2019-01-01 15:42:15,2019-01-01 15:47:59,1252,344,322,Kimbark Ave & 53rd St,423,University Ave & 57th St,Subscriber,Male,1982
+21743598,2019-01-01 15:42:15,2019-01-01 15:48:25,2551,370,182,Wells St & Elm St,111,Sedgwick St & Huron St,Subscriber,Male,1982
+21743599,2019-01-01 15:43:14,2019-01-01 15:48:35,2377,321,228,Damen Ave & Melrose Ave,330,Lincoln Ave & Addison St,Subscriber,Male,1979
+21743600,2019-01-01 15:43:54,2019-01-01 16:06:04,4598,"1,330.00",195,Columbus Dr & Randolph St,143,Sedgwick St & Webster Ave,Subscriber,Male,1993
+21743602,2019-01-01 15:45:30,2019-01-01 17:32:53,5774,"6,443.00",114,Sheffield Ave & Waveland Ave,231,Sheridan Rd & Montrose Ave,Customer,,
+21743604,2019-01-01 15:46:03,2019-01-01 15:52:23,5027,380,120,Wentworth Ave & Cermak Rd (Temp),72,Wabash Ave & 16th St,Subscriber,Male,1960
+21743605,2019-01-01 15:46:07,2019-01-01 16:13:00,1410,"1,613.00",179,MLK Jr Dr & Pershing Rd,345,Lake Park Ave & 56th St,Subscriber,Female,1995
+21743606,2019-01-01 15:46:27,2019-01-01 16:02:05,4735,938,329,Lake Shore Dr & Diversey Pkwy,329,Lake Shore Dr & Diversey Pkwy,Customer,,
+21743607,2019-01-01 15:46:39,2019-01-01 16:16:01,2708,"1,762.00",25,Michigan Ave & Pearson St,50,Clark St & Ida B Wells Dr,Subscriber,,
+21743609,2019-01-01 15:47:41,2019-01-01 15:54:54,4088,433,26,McClurg Ct & Illinois St,133,Kingsbury St & Kinzie St,Subscriber,Male,1960
+21743611,2019-01-01 15:48:22,2019-01-01 16:02:16,3269,834,338,Calumet Ave & 18th St,626,Delano Ct & Roosevelt Rd,Subscriber,Male,1955
+21743612,2019-01-01 15:48:37,2019-01-01 15:58:26,3649,589,325,Clark St & Winnemac Ave,293,Broadway & Wilson Ave,Subscriber,Female,1981
+21743613,2019-01-01 15:48:39,2019-01-01 15:54:52,4091,373,306,Sheridan Rd & Buena Ave,304,Broadway & Waveland Ave,Subscriber,Male,1996
+21743614,2019-01-01 15:48:39,2019-01-01 16:02:16,6250,817,338,Calumet Ave & 18th St,626,Delano Ct & Roosevelt Rd,Subscriber,Female,1955
+21743615,2019-01-01 15:48:44,2019-01-01 15:52:05,4097,201,152,Lincoln Ave & Diversey Pkwy,87,Racine Ave & Fullerton Ave,Subscriber,Female,1990
+21743616,2019-01-01 15:48:47,2019-01-01 15:52:59,2901,252,21,Aberdeen St & Jackson Blvd,71,Morgan St & Lake St,Subscriber,Male,1995
+21743617,2019-01-01 15:48:56,2019-01-01 15:52:05,5135,189,152,Lincoln Ave & Diversey Pkwy,87,Racine Ave & Fullerton Ave,Subscriber,Male,1990
+21743619,2019-01-01 15:49:40,2019-01-01 15:56:27,4719,407,181,LaSalle St & Illinois St,291,Wells St & Evergreen Ave,Subscriber,Male,1989
+21743620,2019-01-01 15:49:40,2019-01-01 15:57:15,5623,455,364,Larrabee St & Oak St,133,Kingsbury St & Kinzie St,Subscriber,Female,1974
+21743621,2019-01-01 15:49:42,2019-01-01 15:57:23,3664,461,364,Larrabee St & Oak St,133,Kingsbury St & Kinzie St,Subscriber,Female,1979
+21743623,2019-01-01 15:50:16,2019-01-01 16:18:39,6117,"1,703.00",126,Clark St & North Ave,126,Clark St & North Ave,Customer,,
+21743627,2019-01-01 15:52:30,2019-01-01 16:04:11,3853,701,300,Broadway & Barry Ave,312,Clarendon Ave & Gordon Ter,Subscriber,Male,1975
+21743628,2019-01-01 15:52:33,2019-01-01 16:08:45,611,972,142,McClurg Ct & Erie St,56,Desplaines St & Kinzie St,Subscriber,Female,1976
+21743631,2019-01-01 15:53:34,2019-01-01 16:02:25,5424,531,192,Canal St & Adams St,197,Michigan Ave & Madison St,Subscriber,Male,1950
+21743633,2019-01-01 15:53:45,2019-01-01 16:10:20,3752,995,637,Wood St & Chicago Ave (*),110,Dearborn St & Erie St,Subscriber,Female,1977
+21743634,2019-01-01 15:53:46,2019-01-01 16:23:33,4188,"1,787.00",308,Seeley Ave & Roscoe St,56,Desplaines St & Kinzie St,Subscriber,Male,1985
+21743635,2019-01-01 15:54:06,2019-01-01 16:25:26,1951,"1,880.00",308,Seeley Ave & Roscoe St,96,Desplaines St & Randolph St,Subscriber,Male,1985
+21743636,2019-01-01 15:54:27,2019-01-01 16:05:09,2006,642,131,Lincoln Ave & Belmont Ave,113,Bissell St & Armitage Ave,Subscriber,Male,1994
+21743638,2019-01-01 15:54:53,2019-01-01 16:26:07,4728,"1,874.00",239,Western Ave & Leland Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Female,1985
+21743639,2019-01-01 15:54:54,2019-01-01 16:06:57,5265,723,255,Indiana Ave & Roosevelt Rd,195,Columbus Dr & Randolph St,Subscriber,Female,1980
+21743640,2019-01-01 15:55:12,2019-01-01 16:34:56,770,"2,384.00",322,Kimbark Ave & 53rd St,322,Kimbark Ave & 53rd St,Subscriber,Male,1990
+21743641,2019-01-01 15:55:13,2019-01-01 16:04:16,6339,543,337,Clark St & Chicago Ave,112,Green St & Randolph St,Subscriber,Male,1980
+21743642,2019-01-01 15:55:39,2019-01-01 16:35:09,2392,"2,370.00",322,Kimbark Ave & 53rd St,322,Kimbark Ave & 53rd St,Subscriber,Female,1984
+21743645,2019-01-01 15:56:53,2019-01-01 16:18:19,2290,"1,286.00",123,California Ave & Milwaukee Ave,486,Oakley Ave & Irving Park Rd,Subscriber,Female,1959
+21743646,2019-01-01 15:57:23,2019-01-01 16:08:26,6443,663,77,Clinton St & Madison St,215,Damen Ave & Madison St,Customer,,
+21743647,2019-01-01 15:57:23,2019-01-01 16:00:51,4951,208,627,LaSalle Dr & Huron St (*),212,Wells St & Hubbard St,Subscriber,Female,1987
+21743651,2019-01-01 15:57:59,2019-01-01 16:08:13,5939,614,44,State St & Randolph St,182,Wells St & Elm St,Subscriber,Male,1991
+21743652,2019-01-01 15:58:03,2019-01-01 16:01:42,3537,219,53,Wells St & Huron St,74,Kingsbury St & Erie St,Subscriber,Male,1986
+21743660,2019-01-01 16:00:47,2019-01-01 16:05:54,4095,307,325,Clark St & Winnemac Ave,295,Broadway & Argyle St,Subscriber,Male,1985
+21743661,2019-01-01 16:00:58,2019-01-01 16:06:07,6269,309,141,Clark St & Lincoln Ave,224,Halsted St & Willow St,Subscriber,Male,1985
+21743662,2019-01-01 16:01:15,2019-01-01 16:19:54,64,"1,119.00",337,Clark St & Chicago Ave,337,Clark St & Chicago Ave,Subscriber,,1982
+21743664,2019-01-01 16:01:34,2019-01-01 16:05:39,2775,245,344,Ravenswood Ave & Lawrence Ave,325,Clark St & Winnemac Ave,Subscriber,Male,1964
+21743665,2019-01-01 16:02:48,2019-01-01 16:03:49,110,61,129,Blue Island Ave & 18th St,129,Blue Island Ave & 18th St,Subscriber,Female,1985
+21743666,2019-01-01 16:03:36,2019-01-01 16:42:03,2242,"2,307.00",177,Theater on the Lake,459,Lakefront Trail & Bryn Mawr Ave,Customer,,
+21743667,2019-01-01 16:03:46,2019-01-01 17:24:23,509,"4,837.00",329,Lake Shore Dr & Diversey Pkwy,172,Rush St & Cedar St,Customer,,
+21743668,2019-01-01 16:03:51,2019-01-01 17:24:55,2240,"4,864.00",329,Lake Shore Dr & Diversey Pkwy,172,Rush St & Cedar St,Customer,,
+21743669,2019-01-01 16:04:06,2019-01-01 16:11:06,5031,420,294,Broadway & Berwyn Ave,459,Lakefront Trail & Bryn Mawr Ave,Subscriber,Male,1983
+21743670,2019-01-01 16:04:21,2019-01-01 16:12:03,87,462,129,Blue Island Ave & 18th St,124,Damen Ave & Cullerton St,Subscriber,Female,1985
+21743671,2019-01-01 16:04:40,2019-01-01 16:09:33,767,293,58,Marshfield Ave & Cortland St,223,Clifton Ave & Armitage Ave,Subscriber,Female,1984
+21743672,2019-01-01 16:05:05,2019-01-01 16:08:32,6252,207,331,Halsted St & Clybourn Ave (*),359,Larrabee St & Division St,Subscriber,Male,1994
+21743673,2019-01-01 16:05:20,2019-01-01 16:12:31,3728,431,47,State St & Kinzie St,172,Rush St & Cedar St,Subscriber,Male,1988
+21743675,2019-01-01 16:06:35,2019-01-01 16:10:30,4386,235,624,Dearborn St & Van Buren St (*),49,Dearborn St & Monroe St,Subscriber,Female,1990
+21743676,2019-01-01 16:06:46,2019-01-01 16:19:12,2609,746,142,McClurg Ct & Erie St,291,Wells St & Evergreen Ave,Subscriber,Female,1992
+21743677,2019-01-01 16:06:57,2019-01-01 16:13:40,1370,403,299,Halsted St & Roscoe St,332,Burling St (Halsted) & Diversey Pkwy (Temp),Subscriber,Male,1966
+21743678,2019-01-01 16:07:44,2019-01-01 16:09:42,3438,118,117,Wilton Ave & Belmont Ave,226,Racine Ave & Belmont Ave,Subscriber,Male,1989
+21743679,2019-01-01 16:09:04,2019-01-01 16:14:12,6119,308,133,Kingsbury St & Kinzie St,110,Dearborn St & Erie St,Subscriber,Male,1989
+21743682,2019-01-01 16:09:30,2019-01-01 16:13:50,1343,260,343,Racine Ave & Wrightwood Ave,67,Sheffield Ave & Fullerton Ave,Subscriber,Female,1958
+21743685,2019-01-01 16:10:35,2019-01-01 16:23:34,5005,779,284,Michigan Ave & Jackson Blvd,3,Shedd Aquarium,Customer,,
+21743687,2019-01-01 16:10:54,2019-01-04 15:34:30,3591,"257,016.00",284,Michigan Ave & Jackson Blvd,3,Shedd Aquarium,Customer,,
+21743689,2019-01-01 16:11:08,2019-01-01 16:24:37,5704,809,284,Michigan Ave & Jackson Blvd,3,Shedd Aquarium,Customer,,
+21743690,2019-01-01 16:11:17,2019-01-01 16:15:16,3389,239,24,Fairbanks Ct & Grand Ave,173,Mies van der Rohe Way & Chicago Ave,Subscriber,Male,1951
+21743691,2019-01-01 16:11:28,2019-01-01 16:23:42,1716,734,284,Michigan Ave & Jackson Blvd,3,Shedd Aquarium,Customer,,
+21743692,2019-01-01 16:11:33,2019-01-01 16:20:18,5427,525,289,Wells St & Concord Ln,324,Stockton Dr & Wrightwood Ave,Subscriber,Male,1994
+21743694,2019-01-01 16:12:06,2019-01-01 16:20:47,3978,521,115,Sheffield Ave & Wellington Ave,227,Southport Ave & Waveland Ave,Subscriber,Male,1987
+21743695,2019-01-01 16:12:19,2019-01-01 16:36:53,4202,"1,474.00",319,Greenview Ave & Diversey Pkwy,374,Western Ave & Walton St,Subscriber,Female,1983
+21743699,2019-01-01 16:13:45,2019-01-01 16:36:17,401,"1,352.00",332,Burling St (Halsted) & Diversey Pkwy (Temp),145,Mies van der Rohe Way & Chestnut St,Subscriber,Male,1990
+21743704,2019-01-01 16:14:58,2019-01-01 16:23:48,4813,530,284,Michigan Ave & Jackson Blvd,3,Shedd Aquarium,Customer,,
+21743706,2019-01-01 16:15:24,2019-01-01 16:31:37,3149,973,217,Racine Ave (May St) & Fulton St,376,Artesian Ave & Hubbard St,Subscriber,Male,1959
+21743708,2019-01-01 16:15:50,2019-01-01 16:30:58,3546,908,511,Albany Ave & Bloomingdale Ave,158,Milwaukee Ave & Wabansia Ave,Subscriber,Male,1985
+21743711,2019-01-01 16:16:04,2019-01-01 16:31:06,3710,902,511,Albany Ave & Bloomingdale Ave,158,Milwaukee Ave & Wabansia Ave,Subscriber,Female,1986
+21743713,2019-01-01 16:16:26,2019-01-01 16:20:14,1609,228,50,Clark St & Ida B Wells Dr,394,Clark St & 9th St (AMLI),Subscriber,,
+21743718,2019-01-01 16:17:22,2019-01-01 16:24:22,2013,420,430,MLK Jr Dr & 63rd St,390,Wentworth Ave & 63rd St,Subscriber,Male,1985
+21743721,2019-01-01 16:17:57,2019-01-01 16:24:35,1667,398,244,Ravenswood Ave & Irving Park Rd,230,Lincoln Ave & Roscoe St,Subscriber,Male,1985
+21743724,2019-01-01 16:19:39,2019-01-01 16:48:52,24,"1,753.00",303,Broadway & Cornelia Ave,212,Wells St & Hubbard St,Subscriber,Male,1991
+21743725,2019-01-01 16:19:53,2019-01-01 16:25:30,1666,337,194,Wabash Ave & Wacker Pl,133,Kingsbury St & Kinzie St,Subscriber,Male,1979
+21743726,2019-01-01 16:19:56,2019-01-01 16:30:01,715,605,180,Ritchie Ct & Banks St,24,Fairbanks Ct & Grand Ave,Subscriber,Male,1991
+21743727,2019-01-01 16:19:59,2019-01-01 16:30:01,1466,602,180,Ritchie Ct & Banks St,24,Fairbanks Ct & Grand Ave,Subscriber,Female,1992
+21743728,2019-01-01 16:20:02,2019-01-01 16:25:14,288,312,123,California Ave & Milwaukee Ave,290,Kedzie Ave & Palmer Ct,Subscriber,Male,1963
+21743732,2019-01-01 16:20:35,2019-01-01 16:26:29,1279,354,134,Peoria St & Jackson Blvd,414,Canal St & Taylor St,Subscriber,Male,1985
+21743733,2019-01-01 16:20:43,2019-01-01 16:27:12,4812,389,347,Ashland Ave & Grace St,228,Damen Ave & Melrose Ave,Subscriber,Male,1988
+21743736,2019-01-01 16:21:46,2019-01-01 16:33:31,5050,705,165,Clark St & Grace St,334,Lake Shore Dr & Belmont Ave,Subscriber,Male,1985
+21743737,2019-01-01 16:22:08,2019-01-01 16:31:54,2888,586,365,Halsted St & North Branch St,350,Ashland Ave & Chicago Ave,Subscriber,Male,1992
+21743738,2019-01-01 16:22:10,2019-01-01 16:27:13,5922,303,419,Lake Park Ave & 53rd St,267,Lake Park Ave & 47th St,Subscriber,,1968
+21743739,2019-01-01 16:22:19,2019-01-01 16:25:36,6252,197,359,Larrabee St & Division St,331,Halsted St & Clybourn Ave (*),Subscriber,Male,1994
+21743741,2019-01-01 16:22:40,2019-01-01 16:29:13,4899,393,347,Ashland Ave & Grace St,230,Lincoln Ave & Roscoe St,Subscriber,Male,1986
+21743743,2019-01-01 16:22:56,2019-01-01 16:53:01,2322,"1,805.00",134,Peoria St & Jackson Blvd,127,Lincoln Ave & Fullerton Ave,Subscriber,Female,1962
+21743745,2019-01-01 16:23:31,2019-01-01 16:26:43,6162,192,314,Ravenswood Ave & Berteau Ave,244,Ravenswood Ave & Irving Park Rd,Subscriber,Female,1958
+21743747,2019-01-01 16:24:04,2019-01-01 16:29:08,1343,304,67,Sheffield Ave & Fullerton Ave,343,Racine Ave & Wrightwood Ave,Subscriber,Female,1958
+21743749,2019-01-01 16:23:57,2019-01-01 16:46:31,2726,"1,354.00",273,Michigan Ave & 18th St,273,Michigan Ave & 18th St,Subscriber,Male,1981
+21743751,2019-01-01 16:24:48,2019-01-01 16:36:07,976,679,140,Dearborn Pkwy & Delaware Pl,289,Wells St & Concord Ln,Subscriber,Male,1993
+21743752,2019-01-01 16:24:56,2019-01-01 16:43:44,2290,"1,128.00",486,Oakley Ave & Irving Park Rd,325,Clark St & Winnemac Ave,Subscriber,Female,1959
+21743753,2019-01-01 16:25:33,2019-01-01 16:32:07,200,394,54,Ogden Ave & Chicago Ave,359,Larrabee St & Division St,Subscriber,Female,1993
+21743755,2019-01-01 16:26:28,2019-01-01 16:37:37,2728,669,319,Greenview Ave & Diversey Pkwy,331,Halsted St & Clybourn Ave (*),Subscriber,Male,1986
+21743756,2019-01-01 16:27:29,2019-01-01 16:38:39,5276,670,176,Clark St & Elm St,49,Dearborn St & Monroe St,Subscriber,Male,1982
+21743757,2019-01-01 16:28:33,2019-01-01 16:37:36,6162,543,244,Ravenswood Ave & Irving Park Rd,244,Ravenswood Ave & Irving Park Rd,Subscriber,Female,1958
+21743758,2019-01-01 16:29:00,2019-01-01 16:37:29,3714,509,394,Clark St & 9th St (AMLI),33,State St & Van Buren St,Subscriber,,
+21743759,2019-01-01 16:29:19,2019-01-01 16:33:52,3444,273,237,MLK Jr Dr & 29th St,272,Indiana Ave & 31st St,Subscriber,Male,1986
+21743760,2019-01-01 16:29:32,2019-01-01 16:30:54,4305,82,224,Halsted St & Willow St,93,Sheffield Ave & Willow St,Subscriber,Male,1991
+21743761,2019-01-01 16:29:34,2019-01-01 16:45:04,6288,930,198,Green St & Madison St,24,Fairbanks Ct & Grand Ave,Subscriber,Male,1982
+21743763,2019-01-01 16:29:51,2019-01-01 16:31:24,4885,93,349,Halsted St & Wrightwood Ave,127,Lincoln Ave & Fullerton Ave,Subscriber,Male,1990
+21743765,2019-01-01 16:30:09,2019-01-01 16:41:29,5265,680,195,Columbus Dr & Randolph St,255,Indiana Ave & Roosevelt Rd,Subscriber,Female,1980
+21743766,2019-01-01 16:30:23,2019-01-01 16:32:46,4976,143,349,Halsted St & Wrightwood Ave,340,Clark St & Wrightwood Ave,Subscriber,Male,1988
+21743767,2019-01-01 16:30:31,2019-01-01 16:58:48,6128,"1,697.00",322,Kimbark Ave & 53rd St,419,Lake Park Ave & 53rd St,Customer,,
+21743769,2019-01-01 16:31:46,2019-01-01 16:57:27,1709,"1,541.00",490,Troy St & Elston Ave,114,Sheffield Ave & Waveland Ave,Subscriber,Female,1996
+21743770,2019-01-01 16:33:15,2019-01-01 16:39:09,2873,354,374,Western Ave & Walton St,376,Artesian Ave & Hubbard St,Subscriber,Male,1967
+21743772,2019-01-01 16:33:22,2019-01-01 16:53:34,1749,"1,212.00",127,Lincoln Ave & Fullerton Ave,333,Ashland Ave & Blackhawk St,Subscriber,Male,1990
+21743774,2019-01-01 16:34:04,2019-01-01 16:41:15,2561,431,93,Sheffield Ave & Willow St,141,Clark St & Lincoln Ave,Subscriber,Male,1985
+21743775,2019-01-01 16:34:37,2019-01-01 16:44:32,306,595,115,Sheffield Ave & Wellington Ave,331,Halsted St & Clybourn Ave (*),Subscriber,Male,1992
+21743776,2019-01-01 16:34:41,2019-01-01 16:36:07,5173,86,620,Orleans St & Chestnut St (NEXT Apts),31,Franklin St & Chicago Ave,Subscriber,,1985
+21743777,2019-01-01 16:35:31,2019-01-01 16:39:51,6119,260,110,Dearborn St & Erie St,620,Orleans St & Chestnut St (NEXT Apts),Subscriber,Male,1995
+21743778,2019-01-01 16:36:32,2019-01-01 16:38:06,4305,94,93,Sheffield Ave & Willow St,224,Halsted St & Willow St,Subscriber,Male,1991
+21743779,2019-01-01 16:36:35,2019-01-01 16:41:56,1688,321,5,State St & Harrison St,414,Canal St & Taylor St,Subscriber,Male,1989
+21743780,2019-01-01 16:37:00,2019-01-01 16:56:25,4196,"1,165.00",454,Broadway & Granville Ave,655,Hoyne Ave & Balmoral Ave,Subscriber,Male,1966
+21743781,2019-01-01 16:37:17,2019-01-01 16:48:23,5783,666,87,Racine Ave & Fullerton Ave,230,Lincoln Ave & Roscoe St,Subscriber,Male,1990
+21743782,2019-01-01 16:37:25,2019-01-01 16:43:24,4091,359,304,Broadway & Waveland Ave,306,Sheridan Rd & Buena Ave,Subscriber,Male,1996
+21743783,2019-01-01 16:37:42,2019-01-01 16:42:17,787,275,502,California Ave & Altgeld St,259,California Ave & Francis Pl,Subscriber,Male,1991
+21743784,2019-01-01 16:37:53,2019-01-01 16:42:58,5099,305,327,Sheffield Ave & Webster Ave,20,Sheffield Ave & Kingsbury St,Subscriber,Male,1994
+21743785,2019-01-01 16:37:50,2019-01-01 16:46:52,1083,542,321,Wabash Ave & 9th St,341,Adler Planetarium,Subscriber,Female,1984
+21743786,2019-01-01 16:37:50,2019-01-01 16:47:46,2019,596,321,Wabash Ave & 9th St,341,Adler Planetarium,Subscriber,Male,1986
+21743787,2019-01-01 16:37:59,2019-01-01 17:10:49,3335,"1,970.00",181,LaSalle St & Illinois St,199,Wabash Ave & Grand Ave,Subscriber,Female,1979
+21743788,2019-01-01 16:38:07,2019-01-01 16:53:34,4732,927,144,Larrabee St & Webster Ave,333,Ashland Ave & Blackhawk St,Subscriber,Male,1992
+21743789,2019-01-01 16:38:17,2019-01-01 16:43:19,4662,302,50,Clark St & Ida B Wells Dr,49,Dearborn St & Monroe St,Subscriber,Male,1952
+21743790,2019-01-01 16:38:22,2019-01-01 17:00:34,2988,"1,332.00",131,Lincoln Ave & Belmont Ave,130,Damen Ave & Division St,Subscriber,Male,1989
+21743791,2019-01-01 16:38:40,2019-01-01 16:43:29,2537,289,325,Clark St & Winnemac Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1956
+21743792,2019-01-01 16:38:45,2019-01-01 16:49:00,4735,615,329,Lake Shore Dr & Diversey Pkwy,141,Clark St & Lincoln Ave,Subscriber,Male,1994
+21743793,2019-01-01 16:39:10,2019-01-01 16:42:25,3457,195,220,Clark St & Drummond Pl,313,Lakeview Ave & Fullerton Pkwy,Subscriber,Male,1988
+21743794,2019-01-01 16:39:10,2019-01-01 16:49:04,6162,594,244,Ravenswood Ave & Irving Park Rd,244,Ravenswood Ave & Irving Park Rd,Subscriber,Female,1958
+21743795,2019-01-01 16:39:14,2019-01-01 16:57:33,742,"1,099.00",131,Lincoln Ave & Belmont Ave,472,Lincoln Ave & Winona St,Subscriber,Male,1984
+21743796,2019-01-01 16:39:21,2019-01-01 16:47:24,6286,483,198,Green St & Madison St,212,Wells St & Hubbard St,Subscriber,Male,1988
+21743798,2019-01-01 16:40:09,2019-01-01 16:45:29,1057,320,20,Sheffield Ave & Kingsbury St,27,Larrabee St & North Ave,Subscriber,Male,1990
+21743800,2019-01-01 16:40:53,2019-01-01 16:45:07,976,254,289,Wells St & Concord Ln,236,Sedgwick St & Schiller St,Subscriber,Male,1993
+21743802,2019-01-01 16:41:54,2019-01-01 16:49:15,1698,441,37,Dearborn St & Adams St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1969
+21743804,2019-01-01 16:42:56,2019-01-01 16:49:01,2898,365,414,Canal St & Taylor St,638,Clinton St & Jackson Blvd (*),Subscriber,Male,1975
+21743805,2019-01-01 16:42:56,2019-01-01 16:48:41,5244,345,161,Rush St & Superior St,145,Mies van der Rohe Way & Chestnut St,Subscriber,,1982
+21743806,2019-01-01 16:43:20,2019-01-01 16:58:38,4814,918,56,Desplaines St & Kinzie St,41,Federal St & Polk St,Subscriber,Female,1983
+21743807,2019-01-01 16:43:27,2019-01-01 16:56:36,4912,789,302,Sheffield Ave & Wrightwood Ave,291,Wells St & Evergreen Ave,Customer,Male,1990
+21743808,2019-01-01 16:43:29,2019-01-01 16:47:12,4140,223,162,Damen Ave & Wellington Ave,250,Ashland Ave & Wellington Ave,Subscriber,Female,1982
+21743809,2019-01-01 16:43:47,2019-01-01 16:45:05,5173,78,31,Franklin St & Chicago Ave,620,Orleans St & Chestnut St (NEXT Apts),Subscriber,,1985
+21743810,2019-01-01 16:43:58,2019-01-01 16:46:36,5745,158,340,Clark St & Wrightwood Ave,349,Halsted St & Wrightwood Ave,Subscriber,Male,1988
+21743812,2019-01-01 16:45:19,2019-01-01 16:51:32,6444,373,220,Clark St & Drummond Pl,67,Sheffield Ave & Fullerton Ave,Subscriber,Male,1992
+21743813,2019-01-01 16:45:30,2019-01-01 16:52:22,5992,412,294,Broadway & Berwyn Ave,325,Clark St & Winnemac Ave,Subscriber,Male,1984
+21743814,2019-01-01 16:45:35,2019-01-01 16:50:15,6271,280,112,Green St & Randolph St,18,Wacker Dr & Washington St,Subscriber,Male,1989
+21743815,2019-01-01 16:46:03,2019-01-01 17:04:55,1938,"1,132.00",217,Racine Ave (May St) & Fulton St,26,McClurg Ct & Illinois St,Subscriber,Male,1989
+21743816,2019-01-01 16:46:54,2019-01-01 16:50:38,5254,224,21,Aberdeen St & Jackson Blvd,198,Green St & Madison St,Subscriber,Male,1993
+21743817,2019-01-01 16:47:06,2019-01-01 16:53:28,6346,382,339,Emerald Ave & 31st St,278,Wallace St & 35th St,Subscriber,Male,1982
+21743818,2019-01-01 16:48:10,2019-01-01 16:57:01,2087,531,85,Michigan Ave & Oak St,289,Wells St & Concord Ln,Subscriber,Male,1983
+21743819,2019-01-01 16:48:45,2019-01-01 16:59:09,1485,624,112,Green St & Randolph St,48,Larrabee St & Kingsbury St,Subscriber,Male,1991
+21743820,2019-01-01 16:49:08,2019-01-01 17:21:16,64,"1,928.00",337,Clark St & Chicago Ave,337,Clark St & Chicago Ave,Customer,,
+21743821,2019-01-01 16:49:10,2019-01-01 17:04:47,5847,937,346,Ada St & Washington Blvd,205,Paulina St & 18th St,Subscriber,Male,1989
+21743822,2019-01-01 16:49:50,2019-01-01 17:03:57,6355,847,131,Lincoln Ave & Belmont Ave,501,Richmond St & Diversey Ave,Subscriber,Male,1985
+21743823,2019-01-01 16:50:31,2019-01-01 16:59:34,6162,543,244,Ravenswood Ave & Irving Park Rd,244,Ravenswood Ave & Irving Park Rd,Subscriber,Female,1958
+21743824,2019-01-01 16:51:33,2019-01-01 16:58:04,4897,391,501,Richmond St & Diversey Ave,260,Kedzie Ave & Milwaukee Ave,Subscriber,Male,1983
+21743825,2019-01-01 16:54:08,2019-01-01 17:12:27,92,"1,099.00",504,Campbell Ave & Fullerton Ave,637,Wood St & Chicago Ave (*),Subscriber,Male,1972
+21743826,2019-01-01 16:54:20,2019-01-01 17:07:52,5188,812,37,Dearborn St & Adams St,90,Millennium Park,Customer,,
+21743827,2019-01-01 16:54:27,2019-01-01 17:04:51,5427,624,324,Stockton Dr & Wrightwood Ave,289,Wells St & Concord Ln,Subscriber,Male,1986
+21743828,2019-01-01 16:54:29,2019-01-01 17:10:31,2233,962,52,Michigan Ave & Lake St,107,Desplaines St & Jackson Blvd,Subscriber,Female,1996
+21743829,2019-01-01 16:54:39,2019-01-01 16:57:28,740,169,46,Wells St & Walton St,53,Wells St & Huron St,Subscriber,Female,1995
+21743830,2019-01-01 16:54:43,2019-01-01 17:04:37,6397,594,195,Columbus Dr & Randolph St,181,LaSalle St & Illinois St,Subscriber,Female,1989
+21743831,2019-01-01 16:55:34,2019-01-01 17:04:37,6372,543,195,Columbus Dr & Randolph St,181,LaSalle St & Illinois St,Subscriber,Male,1989
+21743832,2019-01-01 16:55:48,2019-01-01 17:09:51,4418,843,43,Michigan Ave & Washington St,181,LaSalle St & Illinois St,Customer,Male,1992
+21743833,2019-01-01 16:55:57,2019-01-01 17:10:09,3091,852,43,Michigan Ave & Washington St,181,LaSalle St & Illinois St,Customer,Male,1992
+21743834,2019-01-01 16:53:36,2019-01-01 17:02:22,6387,526,304,Broadway & Waveland Ave,340,Clark St & Wrightwood Ave,Subscriber,Male,1990
+21743835,2019-01-01 16:56:29,2019-01-01 17:03:02,2726,393,273,Michigan Ave & 18th St,321,Wabash Ave & 9th St,Subscriber,Male,1993
+21743837,2019-01-01 16:56:33,2019-01-01 17:00:05,5926,212,461,Broadway & Ridge Ave,460,Clark St & Bryn Mawr Ave,Subscriber,Male,1991
+21743839,2019-01-01 16:56:49,2019-01-01 17:25:59,5244,"1,750.00",145,Mies van der Rohe Way & Chestnut St,199,Wabash Ave & Grand Ave,Subscriber,,1982
+21743840,2019-01-01 16:57:34,2019-01-01 17:02:15,1279,281,414,Canal St & Taylor St,109,900 W Harrison St,Subscriber,Male,1985
+21743841,2019-01-01 16:58:09,2019-01-01 17:04:50,6256,401,303,Broadway & Cornelia Ave,156,Clark St & Wellington Ave,Subscriber,Male,1964
+21743844,2019-01-01 16:59:14,2019-01-01 17:11:02,5313,708,260,Kedzie Ave & Milwaukee Ave,258,Logan Blvd & Elston Ave,Subscriber,Male,1988
+21743845,2019-01-01 16:59:42,2019-01-01 17:05:01,7,319,180,Ritchie Ct & Banks St,289,Wells St & Concord Ln,Subscriber,Male,1991
+21743846,2019-01-01 16:59:42,2019-01-01 17:04:56,5529,314,454,Broadway & Granville Ave,461,Broadway & Ridge Ave,Subscriber,Female,1985
+21743847,2019-01-01 17:00:02,2019-01-01 17:52:17,3979,"3,135.00",106,State St & Pearson St,133,Kingsbury St & Kinzie St,Subscriber,,
+21743849,2019-01-01 17:00:39,2019-01-01 17:14:06,6162,807,244,Ravenswood Ave & Irving Park Rd,244,Ravenswood Ave & Irving Park Rd,Subscriber,Female,1958
+21743851,2019-01-01 17:01:13,2019-01-01 17:52:05,6128,"3,052.00",419,Lake Park Ave & 53rd St,418,Ellis Ave & 53rd St,Customer,,
+21743854,2019-01-01 17:02:38,2019-01-01 17:13:03,3582,625,303,Broadway & Cornelia Ave,229,Southport Ave & Roscoe St,Subscriber,Male,1990
+21743857,2019-01-01 17:03:09,2019-01-01 17:04:29,5910,80,97,Field Museum,97,Field Museum,Customer,,
+21743858,2019-01-01 17:03:29,2019-01-01 17:29:30,14,"1,561.00",97,Field Museum,35,Streeter Dr & Grand Ave,Customer,,
+21743861,2019-01-01 17:04:26,2019-01-01 17:20:31,5701,965,43,Michigan Ave & Washington St,172,Rush St & Cedar St,Subscriber,Male,1958
+21743862,2019-01-01 17:04:27,2019-01-01 17:13:44,2640,557,41,Federal St & Polk St,81,Daley Center Plaza,Subscriber,Male,1966
+21743863,2019-01-01 17:04:28,2019-01-01 17:12:30,200,482,359,Larrabee St & Division St,54,Ogden Ave & Chicago Ave,Subscriber,Female,1993
+21743864,2019-01-01 17:04:28,2019-01-01 17:09:22,70,294,107,Desplaines St & Jackson Blvd,283,LaSalle St & Jackson Blvd,Subscriber,Male,1969
+21743865,2019-01-01 17:05:16,2019-01-01 17:11:37,1502,381,77,Clinton St & Madison St,21,Aberdeen St & Jackson Blvd,Subscriber,Male,1992
+21743866,2019-01-01 17:06:00,2019-01-01 17:09:01,2330,181,241,Morgan St & Polk St,22,May St & Taylor St,Subscriber,Male,1983
+21743867,2019-01-01 17:06:12,2019-01-01 17:18:46,4903,754,258,Logan Blvd & Elston Ave,502,California Ave & Altgeld St,Subscriber,Male,1975
+21743868,2019-01-01 17:06:38,2019-01-01 17:19:02,610,744,299,Halsted St & Roscoe St,327,Sheffield Ave & Webster Ave,Subscriber,Male,1991
+21743869,2019-01-01 17:06:48,2019-01-01 17:21:08,2437,860,74,Kingsbury St & Erie St,52,Michigan Ave & Lake St,Subscriber,Female,1968
+21743870,2019-01-01 17:06:50,2019-01-01 17:12:44,5761,354,317,Wood St & Taylor St,644,Western Ave & Fillmore St (*),Subscriber,Female,1994
+21743871,2019-01-01 17:06:49,2019-01-01 17:16:17,2340,568,133,Kingsbury St & Kinzie St,182,Wells St & Elm St,Subscriber,Female,1962
+21743874,2019-01-01 17:07:48,2019-01-01 17:09:03,3401,75,323,Sheridan Rd & Lawrence Ave,253,Winthrop Ave & Lawrence Ave,Subscriber,Male,1987
+21743875,2019-01-01 17:07:54,2019-01-01 17:29:41,1087,"1,307.00",97,Field Museum,35,Streeter Dr & Grand Ave,Customer,,
+21743876,2019-01-01 17:08:16,2019-01-01 17:19:57,6144,701,427,Cottage Grove Ave & 63rd St,424,Museum of Science and Industry,Subscriber,Male,1993
+21743879,2019-01-01 17:08:48,2019-01-01 17:16:48,3775,480,110,Dearborn St & Erie St,172,Rush St & Cedar St,Subscriber,Female,1996
+21743880,2019-01-01 17:09:32,2019-01-01 17:15:23,5973,351,186,Ogden Ave & Race Ave,233,Sangamon St & Washington Blvd (*),Subscriber,Male,1990
+21743881,2019-01-01 17:10:11,2019-01-01 17:17:03,134,412,115,Sheffield Ave & Wellington Ave,127,Lincoln Ave & Fullerton Ave,Subscriber,Female,1985
+21743882,2019-01-01 17:11:00,2019-01-01 17:15:17,3978,257,227,Southport Ave & Waveland Ave,230,Lincoln Ave & Roscoe St,Subscriber,Male,1993
+21743883,2019-01-01 17:11:21,2019-01-01 18:18:35,3335,"4,034.00",199,Wabash Ave & Grand Ave,84,Milwaukee Ave & Grand Ave,Subscriber,Female,1979
+21743884,2019-01-01 17:12:15,2019-01-01 17:25:23,2211,788,342,Wolcott Ave & Polk St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1970
+21743885,2019-01-01 17:15:06,2019-01-01 17:19:27,6162,261,244,Ravenswood Ave & Irving Park Rd,314,Ravenswood Ave & Berteau Ave,Subscriber,Female,1958
+21743886,2019-01-01 17:15:10,2019-01-01 17:17:27,3401,137,253,Winthrop Ave & Lawrence Ave,293,Broadway & Wilson Ave,Subscriber,Male,1987
+21743887,2019-01-01 17:15:22,2019-01-01 17:18:52,4873,210,294,Broadway & Berwyn Ave,463,Clark St & Berwyn Ave,Subscriber,,1964
+21743888,2019-01-01 17:16:48,2019-01-01 17:25:22,5231,514,61,Wood St & Milwaukee Ave,116,Western Ave & Winnebago Ave,Subscriber,Male,1990
+21743889,2019-01-01 17:17:13,2019-01-01 17:23:45,2630,392,61,Wood St & Milwaukee Ave,159,Claremont Ave & Hirsch St,Subscriber,Male,1992
+21743890,2019-01-01 17:18:17,2019-01-01 17:23:34,4140,317,250,Ashland Ave & Wellington Ave,162,Damen Ave & Wellington Ave,Subscriber,Female,1982
+21743891,2019-01-01 17:18:25,2019-01-01 17:36:19,2561,"1,074.00",141,Clark St & Lincoln Ave,99,Lake Shore Dr & Ohio St,Subscriber,Male,1989
+21743892,2019-01-01 17:19:00,2019-01-01 17:28:58,300,598,100,Orleans St & Merchandise Mart Plaza,56,Desplaines St & Kinzie St,Subscriber,Male,1990
