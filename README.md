@@ -133,10 +133,12 @@ This analysis provides actionable insights for Cyclistic to improve customer acq
 
 ## Repository Structure
 
-- `data/` – raw and cleaned CSVs  
-- `scripts/` – analysis and visualization code  
-- `visuals/` – exported plots  
-- `README.md` – project story, findings, and recommendations
+cyclistic-case-study/
+├─ data/           # sample CSVs for reproducibility
+├─ scripts/        # R scripts for analysis and visualizations
+├─ visuals/        # screenshots of plots and tables
+└─ README.md       # project story, code, insights
+
 
 
 
