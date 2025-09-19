@@ -20,7 +20,6 @@ By combining the two datasets, cleaning the data, and creating visualizations, w
 df1 <- read.csv("Divvy_Trips_2019_Q1.csv")
 df2 <- read.csv("Divvy_Trips_2020_Q1.csv")
 df <- bind_rows(df1, df2)
-
 # Standardize rider types
 df$member_casual <- recode(df$usertype, Subscriber = "member", Customer = "casual")
 ```
@@ -28,13 +27,12 @@ df$member_casual <- recode(df$usertype, Subscriber = "member", Customer = "casua
 ---
 ## Visual Analysis
 ### Ride Frequency Heatmap by Hour and Day
-![Ride Frequency Heatmap by Hour and Day](visuals/HeatMap.png)
+![Ride Frequency Heatmap by Hour and Day](visuals/HeatMap.jpg)
 ```r
 # Create heatmap data
 rides_by_hour_day <- df %>%
   group_by(weekday, hour, member_casual) %>%
   tally(name = "rides")
-
 # Generate heatmap
 ggplot(rides_by_hour_day, aes(x=hour, y=weekday, fill=rides)) +
   geom_tile(color="white") +
@@ -42,32 +40,30 @@ ggplot(rides_by_hour_day, aes(x=hour, y=weekday, fill=rides)) +
 ```
 [See full script here.](scripts/visualization.R)
 ### Rides by Day of Week
-![Rides by Day of Week](visuals/RidesByWeek.png)
+![Rides by Day of Week](visuals/RidesByWeek.jpg)
 ```r
 # Rides by day analysis
 by_day <- df %>%
   group_by(weekday, member_casual) %>%
   tally()
-
 ggplot(by_day, aes(x=weekday, y=n, fill=member_casual)) +
   geom_col(position='dodge')
 ```
 [See full script here.](scripts/visualization.R)
 ### Rides Over Time per Month
-![Rides per Month](visuals/PerMonth.png)
+![Rides per Month](visuals/PerMonth.jpg)
 ```r
 # Monthly trend analysis
 by_month <- df %>%
   mutate(month = format(date, "%Y-%m")) %>%
   group_by(month, member_casual) %>%
   tally()
-
 ggplot(by_month, aes(x=month, y=n, color=member_casual, group=member_casual)) +
   geom_line(size=1.2)
 ```
 [See full script here.](scripts/visualization.R)
 ### Mean and SD of Ride Length by User Type
-![Mean and SD of Ride Length by User Type](visuals/MeanSDMemberType.png)
+![Mean and SD of Ride Length by User Type](visuals/MeanSDMemberType.jpg)
 ```r
 # Calculate summary statistics
 summary_tbl <- df %>%
@@ -77,7 +73,7 @@ summary_tbl <- df %>%
 ```
 [See full script here.](scripts/analysis.R)
 ### Ride Length Distribution by User Type
-![Ride Length Distribution by User Type](visuals/BoxPlot2.png)
+![Ride Length Distribution by User Type](visuals/BoxPlot2.jpg)
 ```r
 # Box plot for ride length distribution
 ggplot(df, aes(x=member_casual, y=ride_length, fill=member_casual)) +
